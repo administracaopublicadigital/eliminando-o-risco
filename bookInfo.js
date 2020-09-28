@@ -1,6 +1,6 @@
 module.exports = {
-  title: "My Book",
-  author: "Jane Doe",
+  title: "Eliminando o Risco da Tecnologia no Governo",
+  author: "Pedro Teixeira",
   subject: "Good Book, best book ever",
   keywords: ["things", "stuff"],
   // relative to the generate-book directory
