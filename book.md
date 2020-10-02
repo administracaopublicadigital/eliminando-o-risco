@@ -144,3 +144,23 @@ A SP deve apresentar uma Declaração de Objetivos em vez de uma Declaração de
 Para garantir que os fornecedores entregam um produto que vá de encontro às especificações técnicas necessárias, é importante que a SP inclua um Plano de Vigilância de Avaliação da Qualidade (PVAQ) apropriado para métodos de desenvolvimento ágil, exigindo que o software seja inspecionado no final de cada sprint para garantir que ele é testado, seguro, acessível, documentado e implementado. Atender a este requisito requer demonstrações regulares do software real em funcionamento, e não memorandos ou descrições do que o sistema deve fazer no futuro.
 
 Historicamente, tem havido pressão para usar apenas contratos de preço fixo, na suposição de que isso reduz o risco. No entanto, se você puder medir constantemente a qualidade do software, um contrato de tempo e materiais ("time and materials") - com um teto máximo para o gasto total - permite mais flexibilidade para a equipa de desenvolvimento de software. Um contrato de tempo e materiais também permite cláusulas de rescisão muito mais fáceis se a direção do trabalho mudar ou a equipa do fornecedor não estiver a produzir software de qualidade. Se o trabalho da equipa de um fornecedor for inadequado ou se suas capacidades não forem inadequadas, nenhum trabalho adicional precisará de ser atribuído a esse fornecedor (efetivamente rescindindo o contrato) e o fornecedor poderá ser substituído.
+
+
+#### Lista de verificação
+
+- O projeto tem um proprietário do produto dedicado e autorizado que é um funcionário da instituição - não um contratado e não um funcionário da agência de TI do estado - cujo trabalho é prioritizar o trabalho para a equipe de desenvolvimento
+- Um oficial de contratação de agência abraçou este projeto e está entusiasmado com novas formas de aquisição de software
+- A SP será exclusivamente sobre a aquisição de serviços de desenvolvimento, não sobre a aquisição de algo tangível
+- A SP exigirá uma equipe multifuncional de designers, pesquisadores e programadores
+- A SP não terá mais de 20 páginas de texto
+- Foi criado e adicionado ao SP um backlog de pelo menos uma dúzia de histórias de utilizador
+- Será usado im contrato de tempo e materiais (com um limite máximo)
+- Será usado o veículo de aquisição mais simples disponível que forneça acesso aos fornecedores-alvo
+
+
+#### Questões-chave
+
+- O dono do produto está autorizado a tomar decisões autorizadas rapidamente em nome da instituição?
+- O dono do produto está preparado para passar a maioria das suas horas de trabalho cumprindo os requisitos dessa nova função?
+- A liderança da instituição está preparada para que as decisões de produto sejam conduzidas pelas necessidades dos utilizadores identificadas, com base em conversas diretas com estes utilizadores, em vez das preferências pessoais da liderança?
+- A SP estabelece requisitos claros sobre a entrega regular de código que funcione, documentação, teste e entrega a propriedade de todos os produtos de trabalho ao estado?
