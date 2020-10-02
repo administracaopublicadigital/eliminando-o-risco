@@ -181,6 +181,13 @@ Pode muito bem fazer sentido usar SCP ou SaaS como o núcleo de um novo sistema 
 
 #### Lista de verificação
 
-- O orçamento não obriga ao uso de COTS, SaaS ou software personalizado, mas permite que a agência proponha uma combinação daqueles conforme achar necessário.
-- As alegações dos fornecedores de que seu produto COTS ou SaaS funcionará imediatamente, sem modificação ou personalização onerosa, são investigadas de forma independente conversando com outros clientes que usaram esses produtos e passaram pelo processo de personalização e implantação.
+- O orçamento não obriga ao uso de SCP, SaaS ou software personalizado, mas permite que a agência proponha uma combinação daqueles conforme achar necessário.
+- As alegações dos fornecedores de que seu produto SCP ou SaaS funcionará imediatamente, sem modificação ou personalização onerosa, são investigadas de forma independente conversando com outros clientes que usaram esses produtos e passaram pelo processo de personalização e implantação.
+
+
+#### Questões-chave
+
+- uma vez que o produto foi personalizado para atender às necessidades da instituição, como serão as atualizações de software SCP feitas? Quanta personalização adicional será necessária para integrar essas modificações e quem vai pagar por essas atualizações?
+- O que acontece se o fornecedor de SaaS fechar um dia sem avisar?
+- O estado terá acesso fácil e gratuito aos seus dados, modelos de dados e APIs?
 
