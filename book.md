@@ -125,3 +125,10 @@ O conhecimento técnico é acessível e abundante, mas saber como administrar um
 - O projeto tem um proprietário do produto dedicado e autorizado, que é funcionário do departamento - não é um contratado e não é funcionário da agência de TI do estado.
 - As partes interessadas reconhecem que a abordagem existente (desenvolvimento em cascata) falha na maioria das vezes e que mudar para o desenvolvimento ágil e aquisição modular é, de fato, significativamente menos arriscado.
 - As partes interessadas consideram os fornecedores externos como peças substituíveis para cumprir uma meta, em vez de como os "proprietários" de um projeto ou seu resultado.
+
+#### Questões-chave
+
+- Existem funcionários do governo identificados e treinados (não contratados) que servirão como donos de produtos dedicados e com poderes para definir a direção, priorizar e supervisionar o trabalho da equipa de desenvolvimento?
+- Há uma cadeia de apoio para esta nova abordagem dentro do departamento e das suas chefias superiores, TI central, escritórios jurídicos e de compras, bem como o legislativo? Alguma dessas partes interessadas é capaz de bloquear a adoção desta nova abordagem? Em caso afirmativo, qual é o caminho para escalar os problemas, garantindo o alinhamento e evitando que esses bloqueadores internos coloquem o projeto em risco?
+- Como o departamento está a assumir a responsabilidade por liderar o projeto e assumir os resultados, em vez de tentar terceirizar o risco para um fornecedor através de um processo de contratação?
+
