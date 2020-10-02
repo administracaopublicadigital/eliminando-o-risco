@@ -177,3 +177,10 @@ Antes de contratar essas ferramentas, fale primeiro com outras ebtidades que usa
 Em vez de exigir qualquer solução na fase de orçamento, dê às agências o espaço para determinar se devem comprar ou construir várias partes do sistema. Se a alocação de orçamento exige SCP, então a instituição provavelmente terminará aprisionada numa versão altamente modificada de um produto SCP, barrada de todas as atualizações futuras por essas modificações. Da mesma forma, a obrigatoriedade de SaaS provavelmente forçará a agência a ajustar os seus requisitos como um sapato apertado, enquanto gasta uma quantia significativa de dinheiro adicional em um "integrador de software" para conectá-lo ao sistema existente, levando ao mesmo tipo de aprisionamento indesejável.
 
 Pode muito bem fazer sentido usar SCP ou SaaS como o núcleo de um novo sistema importante. Mas a instituição precisa de examinar isso com atenção, reconhecendo que não é provável que consigam uma solução SCP ou SaaS totalmente pronta para a utilização especializada que a instituição necessita.
+
+
+#### Lista de verificação
+
+- O orçamento não obriga ao uso de COTS, SaaS ou software personalizado, mas permite que a agência proponha uma combinação daqueles conforme achar necessário.
+- As alegações dos fornecedores de que seu produto COTS ou SaaS funcionará imediatamente, sem modificação ou personalização onerosa, são investigadas de forma independente conversando com outros clientes que usaram esses produtos e passaram pelo processo de personalização e implantação.
+
