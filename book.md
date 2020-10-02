@@ -241,6 +241,14 @@ Para projetos maiores, você precisará de contratar uma equipe de desenvolvimen
 - Se não houver funcionários de orçamento (???) com experiência relevante, a legislatura (???) tem um contrato com um fornecedor sem conflito de interesses - um sem outros contratos com o estado e sem vínculos ou parcerias com quaisquer produtos SCP
 - A instituição identificou um funcionário do governo específico que fornecerá liderança técnica para o projeto, juntamente com provas de sua experiência no desenvolvimento de software personalizado utilizando metodologias ágeis
 
+#### Questões-chave
+
+- Quando um fornecedor entrega o código no final de cada sprint, que funcionário _específico_ do governo inspeciona o código para garantir a qualidade?
+- Se uma agência apresenta um custo para concluir um projeto de software específico, que funcionário de orçamento (???) está equipado para saber se esse é um preço adequado? Qual funcionário do comitê de orçamento legislativo _específico_ está equipado para saber se esse é um preço adequado?
+- Quando a aquisição for concluída, quem fará a manutenção do software? A instituição emprega pessoas que sabem como mantê-la? Eles serão incluídos no processo de desenvolvimento para que possam aprender sobre como ele é construído e ajudar a garantir que seja algo que eles sejam capazes de suportar?
+
+
+
 RFP -> SP
 equipes -> equipas
 COTS -> SCP
