@@ -248,6 +248,49 @@ Para projetos maiores, você precisará de contratar uma equipe de desenvolvimen
 - Quando a aquisição for concluída, quem fará a manutenção do software? A instituição emprega pessoas que sabem como mantê-la? Eles serão incluídos no processo de desenvolvimento para que possam aprender sobre como ele é construído e ajudar a garantir que seja algo que eles sejam capazes de suportar?
 
 
+### Minimize o custo da mudança
+
+O governo existirá por mais tempo do que qualquer software. E isso significa que, um dia, o seu novo e empolgante sistema de informação poderá, algum dia, tornar-se no seu antigo sistema de informação difícil de usar.
+
+Por melhor que seja o software hoje, eventualmente você precisará de mudar para um novo sistema - seja no todo ou em parte. E adquirir software como um monólito completo garante que ele gradualmente se tornará incapaz de atender às necessidades de uma instituição.
+
+Mudanças tecnológicas, mudanças nas políticas governamentais, mudanças nos regulamentos, mudanças nas leis, mudanças nos requisitos de subsídios comunitários e mudanças nas prioridades da liderança - qualquer projeto que seja planejado em grande detalhe no início não será capaz de se adaptar a essas mudanças e correrá um risco significativo de falha, ultrapassagens significativas nos custos e prazos ou "pedidos de alteração" caros.
+
+Portanto, em vez de adquirir uma peça gigante de software proprietário, insista em que os seus fornecedores adotem práticas como o uso de software de código aberto e arquitetura orientada a serviços. Dessa forma, você pode otimizar para reduzir o custo de atualização e alteração do sistema desde o início.
+
+
+#### Lista de verificação
+
+- Os sistemas, sejam nativos da __cloud__ ou movidos para a __cloud__, usarão arquitetura orientada a serviços (SOA) que é independente de fornecedor e produto
+- Para garantir a portabilidade dos dados, os arquivos serão armazenados em formatos abertos não proprietários, suportados por vários fornecedores
+- As APIs usarão esquemas abertos
+- Para evitar o aprisionamento do produto, será usado software de código aberto em vez de software comercial sempre que possível
+- O governo será o proprietário de todos os produtos do trabalho do fornecedor
+- Se estiver usando componentes SCP, o fornecedor delineará um caminho de saída para um concorrente - tanto contratual quanto tecnologicamente - com uma maneira económica de exportar todos os dados armazenados
+
+#### Questões-chave
+
+- Qual é o plano para reduzir o tempo e o custo de futuras atualizações do sistema devido a mudanças de tecnologia, política ou fornecedor?
+- Quanto custará para mudar o sistema para refletir a tecnologia necessária ou as mudanças de política?
+- As APIs estão abertas e podem ser usadas por outros fornecedores?
+- Os formatos de dados são padronizados, abertos e utilizáveis por outros fornecedores?
+- Manter um sistema de software atualizado exigirá um trabalho regular e contínuo - qual é o plano para conseguir isso?
+
+
+### Avalie o sucesso com base em resultados iterativos, não em marcos do projeto
+
+O valor não deve vir no final de um projeto - deve ser fornecido aos utilizadores finais no prazo máximo de seis meses após a adjudicação do contrato, e constantemente a partir daí. No final do _primeiro_ sprint, o código funcional deve ser entregue à agência para sua revisão, e isso deve repetir-se com cada sprint subsequente. Os utilizadores finais devem avaliar o trabalho no final de cada sprint, independentemente de o trabalho já ter sido implementado para uso diário.
+
+Não meça o progresso em "pontos da história", linhas de código escritas, horas de trabalho por pessoa, etc. A única medida de sucesso que importa é o valor entregue aos utilizadores finais. Isso é melhor avaliado participando nas revisões de sprint bi-semanais e conversando com o o proprietário do produto.
+
+
+#### Lista de verificação
+
+- A equipa do fornecedor usará metodologias ágeis
+- O fornecedor será obrigado a colocar software funcional num ambiente da propriedade do governo no final de cada sprint
+- Rotineiramente, a equipe do projeto irá entrevistar e testar seu trabalho com utilizadores finais, tanto para informar o trabalho planeado como para determinar se o trabalho já realizado está correto
+- A SP não fará menção a um cronograma detalhado do projeto, e não haverá menção a gráficos de Gantt ou contratos de validação e verificação independente
+- Um membro da equipa legislativa será designado para fornecer supervisão do projeto e coordenará com a liderança do projeto para monitorizar o progresso, comparecendo periodicamente às revisões de cada sprint
 
 RFP -> SP
 equipes -> equipas
