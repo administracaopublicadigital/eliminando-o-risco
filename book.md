@@ -164,3 +164,16 @@ Historicamente, tem havido pressão para usar apenas contratos de preço fixo, n
 - O dono do produto está preparado para passar a maioria das suas horas de trabalho cumprindo os requisitos dessa nova função?
 - A liderança da instituição está preparada para que as decisões de produto sejam conduzidas pelas necessidades dos utilizadores identificadas, com base em conversas diretas com estes utilizadores, em vez das preferências pessoais da liderança?
 - A SP estabelece requisitos claros sobre a entrega regular de código que funcione, documentação, teste e entrega a propriedade de todos os produtos de trabalho ao estado?
+
+
+### Cuidado com a armadilha do software comercial personalizado
+
+O software comercial de prateleira (SCP) e o Software as a Service (SaaS) podem ser ótimas maneiras de adquirir rapidamente um novo software ou infraestrutura sem ter que criá-lo do zero. Por exemplo, faz todo o sentido comprar um processador de texto SCP em vez de construir seu próprio processador de texto personalizado.
+
+Mas, para aquisições importantes de tecnologia especializada de missão crítica, seja extremamente cauteloso com as alegações de que SCP ou SaaS funcionarão "fora da caixa". Os fornecedores costumam lançar seus "SCP personalizáveis" e SaaS como uma solução mágica, prometendo que respeitará os seus requisitos regulatórios e de processo específicos. E pode - mas provavelmente somente após extensas modificações.
+
+Antes de contratar essas ferramentas, fale primeiro com outras ebtidades que usaram esses produtos personalizados. Muito provavelmente, você aprenderá que o que está sendo vendido como uma solução pronta a usar leva muito mais tempo e dinheiro para personalizar do que esperava.
+
+Em vez de exigir qualquer solução na fase de orçamento, dê às agências o espaço para determinar se devem comprar ou construir várias partes do sistema. Se a alocação de orçamento exige SCP, então a instituição provavelmente terminará aprisionada numa versão altamente modificada de um produto SCP, barrada de todas as atualizações futuras por essas modificações. Da mesma forma, a obrigatoriedade de SaaS provavelmente forçará a agência a ajustar os seus requisitos como um sapato apertado, enquanto gasta uma quantia significativa de dinheiro adicional em um "integrador de software" para conectá-lo ao sistema existente, levando ao mesmo tipo de aprisionamento indesejável.
+
+Pode muito bem fazer sentido usar SCP ou SaaS como o núcleo de um novo sistema importante. Mas a instituição precisa de examinar isso com atenção, reconhecendo que não é provável que consigam uma solução SCP ou SaaS totalmente pronta para a utilização especializada que a instituição necessita.
