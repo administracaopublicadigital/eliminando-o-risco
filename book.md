@@ -191,3 +191,17 @@ Pode muito bem fazer sentido usar SCP ou SaaS como o núcleo de um novo sistema 
 - O que acontece se o fornecedor de SaaS fechar um dia sem avisar?
 - O estado terá acesso fácil e gratuito aos seus dados, modelos de dados e APIs?
 
+
+### Requira demonstrações, não memorandos
+
+Historicamente, o progresso em projetos de desenvolvimento de software era medido comparando o trabalho que foi feito com o cronograma de trabalho que foi estabelecido no início. Isso é feito produzindo artefatos como gráficos de Gantt e listas de tarefas concluídas. Mas isso não funciona - o desenvolvimento ágil de software tem como premissa a ideia de que isso não funciona. As equipas de desenvolvimento de software modernas nunca ouviram falar de "CMMI" ou "ISO-9000" e não licitarão trabalhos que incluam esses requisitos.
+
+Uma filosofia melhor é _demos, não memorandos._ Em vez de medir o progresso olhando para artefatos feitos para o propósito, olhe para o trabalho real que está sendo feito. Junte-se às revisões que são realizadas no final de cada sprint, onde o trabalho realizado naquele sprint é demonstrado para a equipe do projeto e os utilizadores finais convidados. Experimente o site. Instale a aplicação.
+
+Uma parte importante para garantir que o progresso não seja ilusório é que o contrato inclua um Plano de Vigilância de Garantia de Qualidade (PVGQ) que exige, no final de cada sprint, que todo o trabalho atenda a padrões específicos. O PVGQ descreve o método pelo qual o governo determinará se o trabalho do fornecedor é de qualidade suficiente para ser aceite no final de cada sprint, permitindo que o fornecedor execute os mesmos testes para garantir que não haverá surpresas.
+
+O PVGC não exige a produção de nenhum artefato explicitamente com o propósito de monitorar o trabalho - a maneira de monitorar o trabalho é _ver se ele realmente funciona._ Esta é uma maneira muito diferente de acompanhar o progresso de um projeto de tecnologia. Ele tem a vantagem adicional de ser um teste funcional mais objetivo, observável do que exigir interpretações subjetivas ou legais sobre se o trabalho satisfaz uma longa série de requisitos de sistema.
+
+equipes -> equipas
+COTS -> SCP
+QASP -> PVGQ
