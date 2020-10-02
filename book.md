@@ -102,3 +102,19 @@ Ao combinar o design centrado no utilizador, a agilidade, a propriedade do produ
 Essa abordagem exigirá coordenação e aceitação dos responsáveis pelas aquisições e contratações. Este pessoal costuma estar acostumado com a abordagem tradicional de terceirizar projetos de TI: uma grande aquisição baseada em longos documentos de RFP, solicitando dos fornecedores propostas longas, certificações e qualificações desatualizadas. Geralmente, os fornecedores que usam métodos ágeis e centrados no utilizador não têm ideia do que seja "CMMI" ou "ISO-9000" - tais padrões já não são mais considerados melhores práticas para a criação de sistemas de software flexíveis e económicos. Esta é uma barreira de entrada para muitos dos fornecedores que poderiam ser contratados pelo governo mas que não desejam gastar todos os recursos necessários para se qualificar e escrever uma proposta.
 
 Os processos modernos de desenvolvimento de software são baseados no design centrado no utilizador, desenvolvimento ágil de software, propriedade do produto, DevOps, construção com peças fracamente acopladas e contratação modular. Ao compreender esses conceitos básicos, você está em uma ótima posição para entender como fazer um orçamento para software de forma mais eficaz e para entender o restante deste manual.
+
+
+
+## Orçamentar e supervisionar projetos de tecnologia
+
+### Pense sobre o risco de uma nova maneira
+
+Nas últimas décadas, as agências governamentais deixaram de usar funcionários internos, contando com fornecedores externos para construir sua ferramentas de tecnologia digital. As decisões para fazer isso foram baseadas em trocas compensatórias que pareciam opções de menor risco - muitas vezes impulsionadas por capacidade limitada e promessas de ferramentas mais baratas "disponíveis no mercado" oferecidas por contratantes do governo.
+
+No entanto, aprendemos com exemplos de vários projetos que, embora o governo possa facilmente terceirizar o trabalho de criação de novos sistemas digitais, ele não pode terceirizar o risco de falha. Projetos que correm mal refletem-se também nos departamentos do governo, não só em empreiteiros ou fornecedores de software.
+
+O governo é, em última análise, responsável pela sua missão, e por consequência, as entidades governamentais precisam de ter controle e responsabilidade pelos projetos que suportam essa missão. O problema que uma convite a orçamento de TI visa resolver não é um problema técnico; é um problema relacionado ao cumprimento da missão do governo, e a tecnologia é simplesmente um meio para esse fim.
+
+Isso não significa que os departamentos precisem de realizar todo o trabalho internamente; significa que os departamentos precisam de definir expectativas claras sobre os resultados humanos e padrões técnicos relacionados com a segurança de dados, uso, interoperabilidade, monitorização e avaliação.
+
+O conhecimento técnico é acessível e abundante, mas saber como administrar uma agência estatal é uma habilidade rara e valiosa. O governo deve abraçar e assumir a sua responsabilidade e risco de falha, reconhecendo que os fornecedores de tecnologia são contratados apenas para ajudar e devem poder ser facilmente substituíveis se não cumprirem.
