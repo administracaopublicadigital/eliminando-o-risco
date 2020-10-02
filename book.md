@@ -202,6 +202,21 @@ Uma parte importante para garantir que o progresso não seja ilusório é que o 
 
 O PVGC não exige a produção de nenhum artefato explicitamente com o propósito de monitorar o trabalho - a maneira de monitorar o trabalho é _ver se ele realmente funciona._ Esta é uma maneira muito diferente de acompanhar o progresso de um projeto de tecnologia. Ele tem a vantagem adicional de ser um teste funcional mais objetivo, observável do que exigir interpretações subjetivas ou legais sobre se o trabalho satisfaz uma longa série de requisitos de sistema.
 
+
+#### Lista de verificação
+
+- Um funcionário público autorizado e dedicado servirá como o proprietário do produto
+- Não haverá requisitos de planeamento ou relatório que vão contra a metodologia ágil (ou seja, não há datas para as tarefas específicas serem concluídas e nenhuma especificação de funcionalidade exata que será exigida - seja na SP, no plano de aquisição ou legislação)
+- Haverá um desenvolvedor de software empregado pelo governo que garantirá a conformidade com o PVGQ no final de cada sprint
+- As pessoas que supervisionam, acima do nível do proprietário do produto governamental, estão dispostas a receber principalmente "relatórios" na forma de demonstrações de software em funcionamento, combinados com uma revisão das histórias de utilziadores que foram concluídas e aquelas que permanecem por completar
+- Há uma pessoa identificada dentro da instituição que está preparada para fornecer explicações de progresso para cada nível de chefia, porque, geralmente, artefatos de medição de progresso num projeto ágil não são familiares para pessoas que estão acostumadas a projetos em cascata.
+
+#### Questões-chave
+
+- É viável que a instituição viável forneça um apoio integral para uma abordagem tão radicalmente diferente de medir o progresso? Existe alguém com o poder de fincar os pés e exigir um gráfico de Gantt, inviabilizando assim a metodologia ágil?
+
+RFP -> SP
 equipes -> equipas
 COTS -> SCP
 QASP -> PVGQ
+instituição -> cliente ??
