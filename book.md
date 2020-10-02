@@ -292,6 +292,48 @@ Não meça o progresso em "pontos da história", linhas de código escritas, hor
 - A SP não fará menção a um cronograma detalhado do projeto, e não haverá menção a gráficos de Gantt ou contratos de validação e verificação independente
 - Um membro da equipa legislativa será designado para fornecer supervisão do projeto e coordenará com a liderança do projeto para monitorizar o progresso, comparecendo periodicamente às revisões de cada sprint
 
+
+#### Questões-chave
+
+- A agência solicitante pode providenciar valor aos utilizadores finais em seis meses? Qual é, especificamente, esse valor?
+- A agência está preparada para o fornecedor entrevistar e testar continuamente seu trabalho com utilizadores finais reais do software - talvez incluindo funcionários da agência?
+
+
+### Limitar gastos totais
+
+Quanto maior a quantia de dinheiro gasta em um projeto de software, maiores as chances de falha.
+
+
+#### Lista de controle
+
+- A agência solicitante entende que não está recebendo uma pequena porcentagem dos recursos de que acredita precisar - em vez disso, está recebendo um processo inteiramente novo para adquirir software, bem como financiamento adequado sob esse modelo
+
+
+### Limitar tamanhos de contrato
+
+Usar um único fornecedor por um longo período de tempo ou para um grande número de equipes pode ser mais confortável, mas inevitavelmente leva ao aprisionamento do fornecedor. Dividir os projetos em vários pequenos contratos incentiva os fornecedores a construir um ecossistema de software sustentável, em vez de um monólito, e torna cada contrato pequeno o suficiente para que as chances de sucesso aumentem acentuadamente.
+
+Deverá exigir que não sejam gastos mais de X euros (???) num único contrato anualmente, e que nenhum contrato dure mais de três anos, incluindo períodos de opção. Dessa forma, você não terá mais do que duas equipes de desenvolvimento de um único fornecedor. Se o projeto precisar de mais equipes de desenvolvimento, obtenha-as de outro fornecedor e faça com que trabalhem separadamente. Limite a SP também, mantendo-a abaixo de 20 páginas; não gaste mais do que 60 dias escrevendo-a.
+
+Além de evitar o aprisionamento, há outro benefício em usar contratos menores: eles têm menos probabilidade de serem contestados, porque o valor em dólares não justifica o problema e os custos legais. Se você é respeitoso e transparente com os fornecedores e não exige centenas de páginas de propostas, eles provavelmente vão querer fazer negócios com suas agências no futuro.
+
+À medida que o número de pessoas que trabalham num projeto aumenta, também aumenta a quantidade de tempo que todas essas pessoas gastam coordenando umas com as outras. A solução para isso é fazer com que trabalhem em paralelo, o que é possível ao construir com peças fracamente acopladas. Ter mais de uma equipe de fornecedores trabalhando no seu projeto também fornece opções mais competitivas se você precisar de mudar de fornecedor.
+
+
+#### Lista de controle
+
+- Se o projeto vai exigir vários contratos, o âmbito do primeiro contrato foi identificado, e há uma ideia geral da composição de outros futuros contratos
+- Se houver mais de uma equipe de desenvolvimento, será empregada uma arquitetura orientada a serviços (SOA)
+- Quando possível, os contratos serão dimensionados dentro do limite de aquisição simplificado para que possam ser concedidos de forma rápida e fácil
+- O primeiro projeto identificado tem complexidade técnica relativamente baixa, baixo risco político e alto valor para o utilizador final, de modo a que as equipes possam começar a trabalhar desta forma enquanto experimentam e aprendem num ambiente de risco relativamente baixo
+
+#### Questões-chave
+
+- Os responsáveis contratantes relevantes leram este manual?
+- Os oficiais contratantes entendem que não estão sendo solicitados a fazer todo o trabalho que vai para um contrato gigante? Eles entendem que contratos mais pequenos são muito mais fáceis de conceder e que, com as metodologias ágeis, eles também serão muito mais fáceis de gerir?
+
+
+
 RFP -> SP
 equipes -> equipas
 COTS -> SCP
