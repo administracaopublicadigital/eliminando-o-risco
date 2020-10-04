@@ -333,6 +333,17 @@ Além de evitar o aprisionamento, há outro benefício em usar contratos menores
 - Os oficiais contratantes entendem que não estão sendo solicitados a fazer todo o trabalho que vai para um contrato gigante? Eles entendem que contratos mais pequenos são muito mais fáceis de conceder e que, com as metodologias ágeis, eles também serão muito mais fáceis de gerir?
 
 
+### Financeie sistemas, não monólitos
+
+Não substitua o antigo sistema desatualizado por um novo sistema desatualizado. Insista em sistemas fracamente acoplado (???)s que são construídos de forma incremental. Dessa forma, eles nunca precisarão ser completamente substituídos - será apenas necessário substituir componentes individuais conforme a necessidade.
+
+
+#### Lista de vetificação
+
+- Cada contrato será escrito para entregar valor aos utilizadores finais - eles não servirão para "manter servidores" ou "configurar uma base de dados", mas para "criar um website de solicitação de autorizações" ou "simplificar o processo de admissão"
+- Não haverá lugar para um "arquiteto do sistema", porque a arquitetura surgirá iterativamente ao longo do processo ágil
+- Se o projeto for grande o suficiente para ter várias equipes scrum (???) a trabalhar simultaneamente, não há a expectativa de que todos os membros de todas as equipes estejam em reuniões juntos
+- A SP especificará o uso de arquitetura orientada a serviços para cada componente
 
 RFP -> SP
 equipes -> equipas
