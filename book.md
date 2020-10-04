@@ -345,6 +345,27 @@ Não substitua o antigo sistema desatualizado por um novo sistema desatualizado.
 - Se o projeto for grande o suficiente para ter várias equipes scrum (???) a trabalhar simultaneamente, não há a expectativa de que todos os membros de todas as equipes estejam em reuniões juntos
 - A SP especificará o uso de arquitetura orientada a serviços para cada componente
 
+
+#### Questões-chave
+
+- Existe um único ponto de falha que pode derrubar todo o sistema? (Em caso afirmativo, provavelmente é monólito, não um sistema.)
+- Se o contrato de um fornecedor precisar ser rescindido por fraco desempenho, os outros fornecedores conseguirão continuar a trabalhar sem interrupção?
+
+
+### Expanda seu grupo de fornecedores
+
+[REFAZER ESTA SECÇÃO TODA]
+
+É pouco provável que seus atuais fornecedores utilizem as práticas de desenvolvimento de software modernas descritas neste manual - eles foram contratados pelas suas práticas tradicionais. Para encontrar fornecedores que satisfaçam as suas novas necessidades, você provavelmente precisará de identificar e atrair novas empresas que usam práticas modernas de desenvolvimento de software.
+
+Se for importante obter propostas de fornecedores locais, saiba que há boas chances de que haja algumas empresas pequenas qualificadas que podem fornecer programas de desenvolvimento ágil. No entanto, se você deseja reduzir o preço dos lances, é importante considerar trabalhar com equipas de fornecedores remotos ou distribuídos (em vez de no local).
+
+Como pode encontrar essas pequenas empresas qualificadas? Há várias cidades e estados que criaram um pool de fornecedores de software ágil. Por exemplo, [o Departamento de Tecnologia da Califórnia tem um pool de fornecedores] (https://github.com/CDTProcurement/adpq) que adiciona novas empresas em uma base contínua. Procure e aproveite esses pools de fornecedores e inclua algumas dessas empresas em futuros processos de RFP. Além disso, pergunte a colegas em outras agências estaduais para ver se eles podem recomendar algum fornecedor a ser incluído. Por fim, tente pensar como um desenvolvedor de software procurando emprego e verifique os sites que são conhecidos por anunciar oportunidades de emprego e networking profissional para identificar fornecedores ágeis em seu estado. Todo esse processo leva apenas algumas horas.
+
+Embora a equipe de compras fique tentada a procurar fornecedores que já construíram um sistema quase idêntico, isso é desnecessário e limita o conjunto de fornecedores a apenas algumas grandes empresas internacionais. Em vez disso, eles devem ampliar seu âmbito e procurar fornecedores que tenham construido algo análogo. Um fornecedor que criou um site para reservar carros de aluguel pode criar um site para solicitar licenças de acampamento em áreas remotas. Um desenvolvedor líder que construiu uma base-de-dados para rastrear as posições dos cometas pode construir uma base-de-dados para rastrear veículos. Ao buscar conhecimento relevante desta forma, a equipe de compras certamente encontrará muitos fornecedores que podem fazer o trabalho.
+
+
+
 RFP -> SP
 equipes -> equipas
 COTS -> SCP
