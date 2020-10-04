@@ -391,6 +391,14 @@ O software de uma instituição provavelmente será útil, no todo ou em parte, 
 Se o software for publicado abertamente, os funcionários dos fornecedores ficarão ansiosos para trabalhar nele - torna-se um caso raro de trabalho que eles podem adicionar ao seu currículo para empregos futuros ou partilhar com amigos, o que ajuda a garantir que você receba os seus melhores esforços. Além disso, SPs adicionais emitidos para o projeto podem apontar os fornecedores para o código que já foi escrito, permitindo-lhes ver exatamente no que trabalharão ou com o qual interagirão. O departamento do governo que financia o trabalho pode estar ansioso para encontrar maneiras de partilhar o seu software com outras instituições que eles também estejam a financiar.
 
 
+#### Lista de verificação
+
+- A SP exigirá que o código-fonte do software seja escrito e mantido em público numa plataforma de codificação social (por exemplo, [GitHub](http://github.com/) ou [GitLab](https://gitlab.com/ )), desde o primeiro dia.
+- A SP exigirá que o software seja explicitamente dedicado ao domínio público ou publicado sob uma [licença de código aberto](https://opensource.org/licenses)
+- A SP usará as melhores práticas de segurança, exigindo que o software seja estritamente separado dos dados e segredos (por exemplo, senhas), com testes automatizados para garantir que a separação seja mantida
+- A SP exigirá que o software seja documentado suficientemente bem para que um desenvolvedor sem conhecimento prévio do projeto possa usá-lo para executar sua própria cópia do software
+
+
 RFP -> SP
 equipes -> equipas
 COTS -> SCP
