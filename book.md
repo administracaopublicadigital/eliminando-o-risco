@@ -376,6 +376,15 @@ Embora a equipe de compras fique tentada a procurar fornecedores que já constru
 - As equipes de fornecedores e o proprietário do produto governamental terão permissão para usar um serviço de videochamada baseado em desktop, uma ferramenta de chat em tempo real e um sistema público de controle de versão baseado em Git e outras ferramentas comumente usadas pelas equipes de desenvolvimento ágil
 
 
+#### Questões-chave
+
+- Há algum benefício - político ou outro - em conceder contratos a fornecedores locais, ou mesmo requisitos para fazê-lo? Isso pode limitar o grau em que você pode expandir seu grupo de fornecedores?
+- Economizar muito dinheiro por cada equipe scrum é suficiente para superar quaisquer objeções às equipes remotas?
+- Foi feita uma pesquisa de mercado leve para saber quais fornecedores serão alvos da SP, em vez de apenas emitir um pedido de informação e esperar que resulte?
+
+
+
+
 RFP -> SP
 equipes -> equipas
 COTS -> SCP
