@@ -384,6 +384,12 @@ Embora a equipe de compras fique tentada a procurar fornecedores que já constru
 
 
 
+### Compartilhe seu software
+
+O software de uma instituição provavelmente será útil, no todo ou em parte, para outras instituições do país.
+
+Se o software for publicado abertamente, os funcionários dos fornecedores ficarão ansiosos para trabalhar nele - torna-se um caso raro de trabalho que eles podem adicionar ao seu currículo para empregos futuros ou partilhar com amigos, o que ajuda a garantir que você receba os seus melhores esforços. Além disso, SPs adicionais emitidos para o projeto podem apontar os fornecedores para o código que já foi escrito, permitindo-lhes ver exatamente no que trabalharão ou com o qual interagirão. O departamento do governo que financia o trabalho pode estar ansioso para encontrar maneiras de partilhar o seu software com outras instituições que eles também estejam a financiar.
+
 
 RFP -> SP
 equipes -> equipas
