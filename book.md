@@ -365,6 +365,16 @@ Como pode encontrar essas pequenas empresas qualificadas? Há várias cidades e 
 Embora a equipe de compras fique tentada a procurar fornecedores que já construíram um sistema quase idêntico, isso é desnecessário e limita o conjunto de fornecedores a apenas algumas grandes empresas internacionais. Em vez disso, eles devem ampliar seu âmbito e procurar fornecedores que tenham construido algo análogo. Um fornecedor que criou um site para reservar carros de aluguel pode criar um site para solicitar licenças de acampamento em áreas remotas. Um desenvolvedor líder que construiu uma base-de-dados para rastrear as posições dos cometas pode construir uma base-de-dados para rastrear veículos. Ao buscar conhecimento relevante desta forma, a equipe de compras certamente encontrará muitos fornecedores que podem fazer o trabalho.
 
 
+#### Lista de controle
+
+- A SP será simplificada (não mais do que 20 páginas) e compreensível por desenvolvedores de software que normalmente não trabalham com o governo
+- O plano de aquisição inclui chegar a pequenos fornecedores para incentivá-los a licitar
+- A SP não ficará oculta por detrás de um website de compras que exige registro, mas será publicada abertamente na web para que a comunidade de fornecedores possa partilhá-la
+- A SP exigirá que os fornecedores nomeiem seu pessoal-chave em suas propostas - não mais do que três pessoas - como o desenvolvedor líder ou o designer líder
+- O plano de aquisição inclui entrevistar os finalistas sobre a abordagem proposta, questionar o pessoal-chave nomeado, _não_ a equipe de vendas do fornecedor
+- Os funcionários dos fornecedores não serão obrigados a trabalhar no local em uma instalação do governo
+- As equipes de fornecedores e o proprietário do produto governamental terão permissão para usar um serviço de videochamada baseado em desktop, uma ferramenta de chat em tempo real e um sistema público de controle de versão baseado em Git e outras ferramentas comumente usadas pelas equipes de desenvolvimento ágil
+
 
 RFP -> SP
 equipes -> equipas
