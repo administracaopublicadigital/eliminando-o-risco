@@ -434,6 +434,15 @@ Em última análise, isso pode fornecer às agências uma fonte previsível de f
 - O responsável pelo financiamento do trabalho está aberto a uma abordagem operacional para o financiamento?
 
 
+### Faça perguntas técnicas às agências
+
+As solicitações de orçamento para software customizado geralmente apresentam pessoas não técnicas fazendo propostas técnicas para outras pessoas não técnicas. Este processo não se presta a fazer perguntas-chave, como muitas das encontradas ao longo deste manual. É importante fazer todas essas perguntas técnicas difíceis e insistir em obter as respostas certas ([consulte o Apêndice A para exemplos de perguntas e respostas](#apêndice-a-perguntas-a-fazer)).
+
+Não é gentileza financiar um projeto que vai fracassar. Se a agência não sabe exatamente o que quer comprar, não vai conseguir obtê-lo.
+
+
+
+
 RFP -> SP
 equipes -> equipas
 COTS -> SCP
