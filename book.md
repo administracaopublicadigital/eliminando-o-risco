@@ -451,6 +451,100 @@ Não é gentileza financiar um projeto que vai fracassar. Se a agência não sab
 - O que você está fazendo para evitar o pagamento de custos de alteração caros no futuro?
 
 
+## Apêndice A: Perguntas a serem feitas
+
+Quando estiver considerando uma solicitação de orçamento para um projeto de software personalizado, será difícil consultar todo o manual para encontrar as perguntas certas a serem feitas. Aqui estão algumas das perguntas abertas básicas que você pode fazer para determinar se um projeto está configurado para o sucesso.
+
+### Quais são os objetivos do projeto? Quais resultados são priorizados?
+
+Resposta errada: qualquer coisa de natureza técnica, em vez de melhorar a experiência do utilizador.
+
+Resposta certa: uma ou mais necessidades específicas do utilizador são nomeadas.
+
+### Qual é a necessidade do utilizador que este projeto irá satisfazer?
+
+Resposta errada: qualquer coisa que não identifique as necessidades claras dos utilizadores finais identificadas por meio da pesquisa junto a utilizadores.
+
+Resposta certa: a agência determinou necessidades específicas com base em entrevistas com utilizadores finais e pode citar várias dessas necessidades especificamente.
+
+### Se o fornecedor selecionado não tiver um desempenho adequado, quão difícil será rescindir o contrato? Quanto tempo vai demorar para substituí-los por outro fornecedor? Quanto você acha que vai custar?
+
+Resposta errada: "Estaríamos muito relutantes em rescindir o contrato. Levaria meses ou anos para substituí-los por um novo fornecedor. Um tempo significativo da equipe seria necessário para fazer isso, e nosso projeto atrasaria muitos meses. Uma vez tendo um sistema, teremos que começar tudo de novo se decidirmos mudar de fornecedor. "
+
+Resposta certa: "Será um contrato de tempo e materiais, então podemos parar de atribuir trabalho ao fornecedor a qualquer momento, e isso seria o fim funcional do contrato. Poderíamos reeditar a RFP e ter um novo fornecedor integrado em seis semanas. Exigiria uma pequena quantidade de tempo da equipe e atrasaria o projeto apenas nessas seis semanas. "
+
+### A SP incluirá requisitos de como o sistema irá operar? Em caso afirmativo, quantos requisitos estão incluídos?
+
+Resposta errada: "Passamos o ano passado revendo os nossos requisitos de negócios e escrevemos centenas de requisitos para incluir na SP, para garantir que obteremos exatamente o que precisamos."
+
+Resposta certa: "Estamos mais focados nos resultados que desejamos do novo sistema. Desenvolvemos uma acumulação de histórias de utilizadores para ajudar a orientar o trabalho da equipe, em vez de produzir uma lista detalhada de requisitos técnicos."
+
+### Quanto tempo você espera que a SP demore?
+
+Resposta errada: "Desenvolvemos várias centenas de páginas de requisitos de sistema junto com mais 50 páginas de termos e condições padrão."
+
+Resposta certa: "Menos de 20 páginas, e esperamos manter isso abaixo do limite de compras simplificado do estado, para tornar mais fácil, mais barato e rápido para novos fornecedores licitarem no projeto."
+
+
+### Você prevê a emissão de um contrato de preço fixo ou de tempo e materiais?
+
+Resposta errada: "Preço fixo, porque é a melhor maneira de controlar os custos do fornecedor."
+
+Resposta certa: "Tempo e materiais, porque é a melhor maneira de manter a flexibilidade de que precisamos para responder às necessidades do utilizador, lidar com desafios técnicos imprevistos e garantir que se os fornecedores que não estiverem a entregar o que precisamos, possam ser alterados sem colocar o projeto em risco."
+
+### Qual valor será entregue aos utilizadores em seis meses?
+
+Resposta errada: "Nenhum - ainda não estará pronto. Pretendemos mostrá-lo aos utilizadores quando tudo estiver concluído."
+
+Resposta certa: exemplos específicos são mencionados.
+
+### Quem será o dono do produto?
+
+Resposta errada: "O que é um 'dono do produto'?"
+
+Resposta certa: uma pessoa específica é nomeada ou ela está treinando uma equipe interna para assumir essa função.
+
+### Qual processo de desenvolvimento de software será usado?
+
+Resposta errada: "Queda-de-água (Waterfall)" ou qualquer resposta que indique falta de compreensão.
+
+Resposta certa: "Agile", "Extreme Programming" (XP) ou "Scrum" são todas respostas aceitáveis.
+
+### Na equipa que preparou esta solicitação, quem tem experiência no desenvolvimento de software?
+
+Resposta errada: "Ninguém".
+
+Resposta certa: uma pessoa específica é nomeada.
+
+### Com que frequência o trabalho será colocado em produção?
+
+Resposta errada: "Quando estiver pronto."
+
+Resposta certa: "No final de cada sprint."
+
+### O projeto irá automatizar os testes? Integração? Entrega? Testes de segurança?
+
+Resposta errada: "Estamos investigando isso."
+
+Resposta certa: "Sim, desde o primeiro dia."
+
+
+### Quanto custarão os pedidos de alteração?
+
+Resposta errada: Qualquer resposta que preveja pedidos de alteração de qualquer tipo.
+
+Resposta certa: "Esperamos que o sistema mude constantemente em resposta às novas necessidades dos utilizadores, novas tecnologias e novas políticas. É por isso que estamos usando um contrato de tempo e materiais e uma abordagem de desenvolvimento ágil para reduzir o custo de resposta a essas mudanças. "
+
+### Como você saberá se o projeto está no caminho certo e se os empreiteiros estão cumprindo o prometido?
+
+Resposta errada: "Estamos contratando um especialista independente de verificação e validação para nos fornecer relatórios mensais sobre o estado do projeto."
+
+Resposta certa: "Os fornecedores fornecerão demonstrações frequentes de software funcional que refletem nossas prioridades, atendem aos padrões técnicos do QASP e fornecem valor aos utilizadores finais. Se esses padrões não forem atendidos, o valor para os utilizadores finais não será mostrado em seis meses, eles serão encerrados. "
+
+### Quem será o proprietário do software?
+Resposta errada: "O vendedor".
+
+Resposta certa: "O estado" ou "será entregue ao domínio público".
 
 RFP -> SP
 equipes -> equipas
