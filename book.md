@@ -427,6 +427,13 @@ Em última análise, isso pode fornecer às agências uma fonte previsível de f
 - Se a solicitação de uma agência apresentar um alto risco de falha, você alocará uma fracção do valor no primeiro ano, aumentando o financiamento conforme o projeto apresenta valor
 
 
+#### Questões-chave
+
+- O financiamento solicitado será gasto dentro de um único período do orçamento?
+- Que valor poderá ser entregue aos utilizadores finais por uma fracçaõ da solicitação?
+- O responsável pelo financiamento do trabalho está aberto a uma abordagem operacional para o financiamento?
+
+
 RFP -> SP
 equipes -> equipas
 COTS -> SCP
