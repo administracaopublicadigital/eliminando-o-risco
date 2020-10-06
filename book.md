@@ -406,9 +406,24 @@ Se o software for publicado abertamente, os funcionários dos fornecedores ficar
 - O escritório de consultoria jurídica da agência (ou seu equivalente) fará objeções à publicação de software no domínio público ou sob uma [licença de código aberto aprovada pela OSI](https://opensource.org/licenses)?
 
 
+
+### Orçamento para software como despesa operacional
+
+Ao contrário de pontes ou outros projetos de infraestrutura física, o software personalizado nunca está "pronto", por isso é importante planear que ele seja modificado continuamente. Dessa forma, ele pode atender às necessidades de hoje, não de ontem.
+
+Para sistemas pequenos, isso pode exigir a adição de um ou menos colaboradores a tempo inteiro à equipe de programadores da agência. Para sistemas grandes e importantes, isso pode exigir a aquisição de uma equipe para desenvolver e manter o software continuamente.
+
+A manutenção de software às vezes é orçamentada como se fosse uma atividade diferente da construção inicial de software, mas isso é um erro. Manter o software deve significar simplesmente continuar a modificá-lo em resposta às necessidades do utilizador identificadas, que mudam continuamente junto com as leis, regulamentos, políticas, melhores práticas e tecnologia. Isso requer os mesmos conjuntos de habilidades, metodologia e tarefas como construir um sistema em primeiro lugar. Uma proposta para a transição do desenvolvimento de software para uma fase de "operações e manutenção" ("O&M") deve ser vista como uma bandeira vermelha.
+
+Em última análise, isso pode fornecer às agências uma fonte previsível de financiamento para projetos de software - substituindo despesas de capital imprevisíveis - ao mesmo tempo que fornece ao poder legislativo um custo anual previsível para todos os projetos de software da agência (???).
+
+
+
+
 RFP -> SP
 equipes -> equipas
 COTS -> SCP
 QASP -> PVGQ
 instituição -> cliente ??
 usuário -> utilizador
+agência
