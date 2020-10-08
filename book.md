@@ -414,18 +414,18 @@ Em última análise, isso pode fornecer às agências uma fonte previsível de f
 
 #### Lista de verificação
 
-- A agência reconhece que o software deve ser melhorado continuamente enquanto estiver em uso, porque "manutenção" é funcionalmente o mesmo que construir software em primeiro lugar
-- A agência planeia adquirir serviços de desenvolvimento ágil
-- Você conversou com a agência solicitante para determinar se ela prefere receber financiamento ao longo dos anos, como um fluxo previsível de financiamento operacional, em vez de um montante fixo
-- Esta abordagem foi coordenada com todos os departamentos e agências envolvidos - esta é provavelmente uma mudança radical que exigirá confiança e cooperação entre todas as partes
-- Se a solicitação de uma agência apresentar um alto risco de falha, você alocará uma fracção do valor no primeiro ano, aumentando o financiamento conforme o projeto apresenta valor
+- A agência reconhece que o software deve ser melhorado continuamente enquanto estiver em uso, porque "manutenção" é funcionalmente o mesmo que construir software em primeiro lugar;
+- A agência planeia adquirir serviços de desenvolvimento ágil;
+- Você conversou com a agência solicitante para determinar se ela prefere receber financiamento ao longo dos anos, como um fluxo previsível de financiamento operacional, em vez de um montante fixo;
+- Esta abordagem foi coordenada com todos os departamentos e agências envolvidos - esta é provavelmente uma mudança radical que exigirá confiança e cooperação entre todas as partes;
+- Se a solicitação de uma agência apresentar um alto risco de falha, você alocará uma fracção do valor no primeiro ano, aumentando o financiamento conforme o projeto apresenta valor.
 
 
 #### Questões-chave
 
 - O financiamento solicitado será gasto dentro de um único período do orçamento?
-- Que valor poderá ser entregue aos utilizadores finais por uma fracçaõ da solicitação?
-- O responsável pelo financiamento do trabalho está aberto a uma abordagem operacional para o financiamento?
+- Que valor poderá ser entregue aos utilizadores finais por uma fracçaõ do valor solicitado?
+- Os responsáveis pelo financiamento do trabalho estão abertos a uma abordagem operacional para o financiamento?
 
 
 ### Faça perguntas técnicas às agências
