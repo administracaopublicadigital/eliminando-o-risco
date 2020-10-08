@@ -277,18 +277,18 @@ Portanto, em vez de adquirir uma peça gigante de software proprietário, insist
 
 ### Avalie o sucesso com base em resultados iterativos, não em marcos do projeto
 
-O valor não deve vir no final de um projeto - deve ser fornecido aos utilizadores finais no prazo máximo de seis meses após a adjudicação do contrato, e constantemente a partir daí. No final do _primeiro_ sprint, o código funcional deve ser entregue à agência para sua revisão, e isso deve repetir-se com cadO pedido de proposta subsequente. Os utilizadores finais devem avaliar o trabalho no final de cadO pedido de proposta, independentemente de o trabalho já ter sido implementado para uso diário.
+O valor não deve vir no final de um projeto - deve ser fornecido aos utilizadores finais no prazo máximo de seis meses após a adjudicação do contrato, e constantemente a partir daí. No final do _primeiro_ sprint, o código funcional deve ser entregue à agência para sua revisão, e isso deve repetir-se com cada pedido de proposta subsequente. Os utilizadores finais devem avaliar o trabalho no final de cada pedido de proposta, independentemente de o trabalho já ter sido implementado para uso diário.
 
-Não meça o progresso em "pontos da história", linhas de código escritas, horas de trabalho por pessoa, etc. A única medida de sucesso que importa é o valor entregue aos utilizadores finais. Isso é melhor avaliado participando nas revisões de sprint bi-semanais e conversando com o o dono do produto.
+Não meça o progresso em "pontos da histórias", linhas de código escritas, horas de trabalho por pessoa, etc. A única medida de sucesso que importa é o valor entregue aos utilizadores finais. Isso é melhor avaliado participando nas revisões de sprint bi-semanais e conversando com o o dono do produto.
 
 
 #### Lista de verificação
 
-- A equipa do fornecedor usará metodologias ágeis
-- O fornecedor será obrigado a colocar software funcional num ambiente da propriedade do governo no final de cadO pedido de proposta
-- Rotineiramente, a equipa do projeto irá entrevistar e testar seu trabalho com utilizadores finais, tanto para informar o trabalho planeado como para determinar se o trabalho já realizado está correto
-- O pedido de proposta não fará menção a um cronograma detalhado do projeto, e não haverá menção a cronogramas ou contratos de validação e verificação independente
-- Um membro da equipa legislativa será designado para fornecer supervisão do projeto e coordenará com a liderança do projeto para monitorizar o progresso, comparecendo periodicamente às revisões de cadO pedido de proposta
+- A equipa do fornecedor usará metodologias ágeis;
+- O fornecedor será obrigado a colocar software funcional num ambiente da propriedade do governo no final de cada pedido de proposta;
+- Rotineiramente, a equipa do projeto irá entrevistar e testar seu trabalho com utilizadores finais, tanto para informar o trabalho planeado como para determinar se o trabalho já realizado está correto;
+- O pedido de proposta não fará menção a um cronograma detalhado do projeto, e não haverá menção a cronogramas ou contratos de validação e verificação independente;
+- Um membro da equipa legislativa será designado para fornecer supervisão do projeto e coordenará com a liderança do projeto para monitorizar o progresso, comparecendo periodicamente às revisões de cada pedido de proposta;
 
 
 #### Questões-chave
@@ -304,26 +304,26 @@ Quanto maior a quantia de dinheiro gasta em um projeto de software, maiores as c
 
 #### Lista de controle
 
-- A agência solicitante entende que não está recebendo uma pequena porcentagem dos recursos de que acredita precisar - em vez disso, está recebendo um processo inteiramente novo para adquirir software, bem como financiamento adequado sob esse modelo
+- A agência solicitante entende que não está recebendo uma pequena percentagem dos recursos de que acredita precisar - em vez disso, está recebendo um processo inteiramente novo para adquirir software, bem como financiamento adequado sob esse modelo.
 
 
 ### Limitar tamanhos de contrato
 
-Usar um único fornecedor por um longo período de tempo ou para um grande número de equipas pode ser mais confortável, mas inevitavelmente leva ao aprisionamento do fornecedor. Dividir os projetos em vários pequenos contratos incentiva os fornecedores a construir um ecossistema de software sustentável, em vez de um monólito, e torna cada contrato pequeno o suficiente para que as chances de sucesso aumentem acentuadamente.
+Usar um único fornecedor por um longo período de tempo ou para um grande número de equipas pode ser mais confortável, mas inevitavelmente leva ao aprisionamento ao fornecedor. Dividir os projetos em vários pequenos contratos incentiva os fornecedores a construir um ecossistema de software sustentável, em vez de um monólito, e torna cada contrato pequeno o suficiente para que as probabilidades de sucesso aumentem significativamente.
 
-Deverá exigir que não sejam gastos mais de X euros (???) num único contrato anualmente, e que nenhum contrato dure mais de três anos, incluindo períodos de opção. Dessa forma, você não terá mais do que duas equipas de desenvolvimento de um único fornecedor. Se o projeto precisar de mais equipas de desenvolvimento, obtenha-as de outro fornecedor e faça com que trabalhem separadamente. Limite O pedido de proposta também, mantendo-a abaixo de 20 páginas; não gaste mais do que 60 dias escrevendo-a.
+Deverá exigir que não sejam gastos mais do que um valor máximo num único contrato anualmente, e que nenhum contrato dure mais do que X anos, incluindo períodos de opção. Dessa forma, você não terá mais do que duas equipas de desenvolvimento de um único fornecedor. Se o projeto precisar de mais equipas de desenvolvimento, obtenha-as de outro fornecedor e faça com que trabalhem separadamente. Limite O pedido de proposta também, mantendo-a abaixo de 20 páginas; não gaste mais do que 60 dias escrevendo-a.
 
-Além de evitar o aprisionamento, há outro benefício em usar contratos menores: eles têm menos probabilidade de serem contestados, porque o valor em dólares não justifica o problema e os custos legais. Se você é respeitoso e transparente com os fornecedores e não exige centenas de páginas de propostas, eles provavelmente vão querer fazer negócios com suas agências no futuro.
+Além de evitar o aprisionamento, há outro benefício em usar contratos menores: eles têm menos probabilidade de serem contestados, porque o valor em dólares não justifica o problema e os custos legais. Se você é respeitoso e transparente com os fornecedores e não exige centenas de páginas de propostas, eles provavelmente vão querer trabalhar para consigo no futuro.
 
-À medida que o número de pessoas que trabalham num projeto aumenta, também aumenta a quantidade de tempo que todas essas pessoas gastam coordenando umas com as outras. A solução para isso é fazer com que trabalhem em paralelo, o que é possível ao construir com peças independentes. Ter mais de uma equipa de fornecedores trabalhando no seu projeto também fornece opções mais competitivas se você precisar de mudar de fornecedor.
+À medida que o número de pessoas que trabalham num projeto aumenta, também aumenta a quantidade de tempo que todas essas pessoas gastam coordenando umas com as outras. A solução para isso é fazer com que trabalhem em paralelo, o que é possível ao construir com peças independentes. Ter mais do que uma equipa de fornecedores trabalhando no seu projeto também fornece opções mais competitivas se você precisar de mudar de fornecedor.
 
 
 #### Lista de controle
 
-- Se o projeto vai exigir vários contratos, o âmbito do primeiro contrato foi identificado, e há uma ideia geral da composição de outros futuros contratos
-- Se houver mais de uma equipa de desenvolvimento, será empregada uma arquitetura orientada a serviços (SOA)
-- Quando possível, os contratos serão dimensionados dentro do limite de aquisição simplificado para que possam ser concedidos de forma rápida e fácil
-- O primeiro projeto identificado tem complexidade técnica relativamente baixa, baixo risco político e alto valor para o utilizador final, de modo a que as equipas possam começar a trabalhar desta forma enquanto experimentam e aprendem num ambiente de risco relativamente baixo
+- Se o projeto vai exigir vários contratos, o âmbito do primeiro contrato foi identificado e há uma ideia geral da composição de outros futuros contratos;
+- Se houver mais de uma equipa de desenvolvimento, será empregada uma arquitetura orientada a serviços (SOA);
+- Quando possível, os contratos serão dimensionados dentro do limite de aquisição simplificado para que possam ser concedidos de forma rápida e fácil;
+- O primeiro projeto identificado tem complexidade técnica relativamente baixa, baixo risco político e alto valor para o utilizador final, de modo a que as equipas possam começar a trabalhar desta forma enquanto experimentam e aprendem num ambiente de risco relativamente baixo.
 
 #### Questões-chave
 
