@@ -1,8 +1,8 @@
 # Introdução
 
-Apenas uma pequena percentagem dos grandes projetos de software do governo são bem-sucedidos. De uma forma geral, os projetos estaduais de tecnologias de informação costumam correr mal porque o estado não possui conhecimentos básicos sobre o desenvolvimento de software moderno e dependende de processos de aquisição desatualizados. Todos os anos, o governo gasta muito dinheiro em projetos para manter e modernizar os sistemas de informação usados, mas os esforços para modernizar esses sistemas legados fracassam a uma taxa alarmante e com grande custo para o nosso orçamento.
+Apenas uma pequena percentagem dos grandes projetos de software do governo são bem-sucedidos. De uma forma geral, os projetos estaduais de tecnologias de informação costumam correr mal porque o estado não possui conhecimentos básicos sobre o desenvolvimento de software moderno e dependende de processos de aquisição desatualizados. Todos os anos, o governo gasta muito dinheiro em projetos para manter e modernizar os sistemas de informação usados, mas os esforços para modernizar esses sistemas antiquados fracassam a uma taxa alarmante e com grande custo para o nosso orçamento.
 
-A nossa administração pública depende cada vez mais de software e hardware modernos para implementar programas e fornecer serviços essenciais ao público, e o sucesso de qualquer iniciativa depende do sucesso da infraestrutura de software subjacente. Todas as entidades governamentais enfrentam desafios semelhantes, enfrentando restrições de orçamento e de pessoal enquanto lutam para modernizar os sistemas de tecnologia legados que estão desatualizados e são inflexíveis, caros e ineficazes. Funcionários e serviços da administração pública muitas vezes contam com os mesmos processos antigos que conduziram aos problemas em primeiro lugar.
+A nossa administração pública depende cada vez mais de software e hardware modernos para implementar programas e fornecer serviços essenciais ao público, e o sucesso de qualquer iniciativa depende do sucesso da infraestrutura de software subjacente. Todas as entidades governamentais enfrentam desafios semelhantes, enfrentando restrições de orçamento e de pessoal enquanto lutam para modernizar os sistemas de tecnologia antiquados que estão desatualizados e são inflexíveis, caros e ineficazes. Funcionários e serviços da administração pública muitas vezes contam com os mesmos processos antigos que conduziram aos problemas em primeiro lugar.
 
 O público merece um governo que forneça a mesma tecnologia de topo que consegue obter no mercado comercial. A confiança no governo depende disso.
 
@@ -10,15 +10,35 @@ Este manual foi elaborado para executivos, especialistas em orçamento, legislad
 
 Este manual também fornece as ferramentas de que precisa para começar a lidar com problemas relacionados, tais como:
 
-- A necessidade de simultaneamante usar, manter e modernizar sistemas legados;
+- A necessidade de simultaneamante usar, manter e modernizar sistemas antiquados;
 - Organizações isoladas e culturas avessas ao risco;
 - Longos ciclos de orçamento que nem sempre correspondem às práticas modernas de design de software;
 - Ameaças à segurança;
 - Contratação, pessoal e outras restrições.
 
-Este documento foi escrito especificamente para a aquisição de software feito à medida, mas é importante reconhecer que o software comercial genérico (SCG) é frequentemente customizado e que o Software como Serviço (_Software as a Service_ ou _SaaS_) frequentemente requer customização. Assim que qualquer personalização for feita, a maioria dos conselhos neste manual aplicam-se também a essas ofertas comerciais. (Consulte "Cuidado com a armadilha de software comercial personalizado" para obter detalhes.)
+Este documento foi escrito especificamente para a aquisição de software feito à medida, mas é importante reconhecer que o software comercial genérico (SCG) é frequentemente personalizado e que o Software como Serviço (_Software as a Service_ ou _SaaS_) frequentemente requer personalização. Assim que qualquer personalização for feita, a maioria dos conselhos neste manual aplicam-se também a essas ofertas comerciais. (Consulte "Cuidado com a armadilha de software comercial personalizado" para obter detalhes.)
 
 Como funcionários governamentais, devemos ser bons administradores do dinheiro público, exigindo ferramentas digitais sustentáveis, económicas e fáceis de usar pelo público e funcionários da administração pública. Este manual ajudá-lo-á a fazer exatamente isso.
+
+## Sobre os autores
+
+> Este documento foi traduzido e adaptado do original "De-risking
+Government Technology - State Field Guide" com a autorização dos autores. Abaixo segue uma breve descrição dos autores originais deste documento:
+
+Trabalhamos para a 18F, parte da quipa de Serviços de Transformação de Tecnologia
+da Administração de Serviços Gerais (GSA) nos Estados Unidos da América. Coletivamente,
+nós três temos muitos anos de experiência em compras para o governo, desenvolvimento de software e cargos eletivos a nível estadual.
+
+No trabalho financiado pelo [GSA 10x](https://10x.gsa.gov), passamos um ano explorando como reduzir o custo das concessões federais de tecnologia aos estados, enquanto
+melhorando simultaneamente os resultados. Subvenções federais fornecem 31%
+dos orçamentos estaduais, e como um grande investidor em grandes projetos de sistemas de software estadual, o governo federal está profundamente interessado em garantir
+um bom retorno sobre esse investimento. Para conseguir isso, reunimos
+com legisladores estaduais, equipas fiscais legislativas, funcionários do orçamento estadual, contratantes e consultores de política governamental. Este manual
+foi originado do processo de aprender e ensinar centenas de pessoas em dezenas
+dos estados. Estamos gratos às muitas pessoas que contribuíram com seus
+tempo e conhecimento ao longo desse processo.
+
+Robin Carnahan, Randy Hart e Waldo Jaquith
 
 # Princípios Básicos
 
@@ -430,7 +450,7 @@ Em última análise, isso pode fornecer às agências uma fonte previsível de f
 
 ### Faça perguntas técnicas às agências
 
-As solicitações de orçamento para software customizado geralmente apresentam pessoas não técnicas fazendo propostas técnicas para outras pessoas não técnicas. Este processo não se presta a fazer perguntas-chave, como muitas das encontradas ao longo deste manual. É importante fazer todas essas perguntas técnicas difíceis e insistir em obter as respostas certas ([consulte o Apêndice A para exemplos de perguntas e respostas](#apêndice-a-perguntas-a-fazer)).
+As solicitações de orçamento para software personalizado geralmente apresentam pessoas não técnicas fazendo propostas técnicas para outras pessoas não técnicas. Este processo não se presta a fazer perguntas-chave, como muitas das encontradas ao longo deste manual. É importante fazer todas essas perguntas técnicas difíceis e insistir em obter as respostas certas ([consulte o Apêndice A para exemplos de perguntas e respostas](#apêndice-a-perguntas-a-fazer)).
 
 Não é gentileza financiar um projeto que vai fracassar. Se a agência não sabe exatamente o que quer comprar, não vai conseguir obtê-lo.
 
