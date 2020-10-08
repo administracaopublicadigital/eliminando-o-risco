@@ -85,9 +85,9 @@ Há uma grande probabiliadde de que a maioria do software que você usa todos os
 
 ### Construindo com peças independentes
 
-Projetos de software grandes e complexos tendem a entrar em colapso sob o peso da sua administração. Nenhum programador pode compreender todo o sistema para o qual está contribuindo, e cada novo membro adicionado a uma equipe de projeto aumenta a complexidade das interações da equipa inteira, obrigando a novas funções de supervisão tais como "arquitetos de software", com quem os programadores devem conferir antes de fazer qualquer trabalho. Os colaboradores precisam de coordenar-se entre si cuidadosamente para evitar conflito e sobreposição entre os seus esforços. À medida que uma equipe cresce, eles são forçados a gastar cada vez mais tempo na gestão do projeto, assim diminuindo o tempo que passam a realizar o trabalho propriamente dito.
+Projetos de software grandes e complexos tendem a entrar em colapso sob o peso da sua administração. Nenhum programador pode compreender todo o sistema para o qual está contribuindo, e cada novo membro adicionado a uma equipa de projeto aumenta a complexidade das interações da equipa inteira, obrigando a novas funções de supervisão tais como "arquitetos de software", com quem os programadores devem conferir antes de fazer qualquer trabalho. Os colaboradores precisam de coordenar-se entre si cuidadosamente para evitar conflito e sobreposição entre os seus esforços. À medida que uma equipa cresce, eles são forçados a gastar cada vez mais tempo na gestão do projeto, assim diminuindo o tempo que passam a realizar o trabalho propriamente dito.
 
-De forma a evitar esse destino, é mais inteligente dividir grandes projetos num punhado de pequenos projetos de software quase independentes. Neste modelo, cada componente comunica com outros componentes por meio de padrões simples e modulares, de forma a que qualquer peça possa ser trocada a qualquer momento. Em vez de construir um monólito que todos lamentarão dentro de alguns anos, você constrói um pequeno ecossistema, no qual cada peça pode ser atualizada e modificada facilmente, conforme a necessidade. Cada componente é mantido por uma única equipe ágil, que documenta a interface de programação (API) do componente - as regras gramaticais que outros componentes podem usar para se comunicar com ele. A necessidade de coordenação entre equipes é mínima, porque elas podem simplesmente seguir a documentação da API de outros componentes com os quais precisam interagir.
+De forma a evitar esse destino, é mais inteligente dividir grandes projetos num punhado de pequenos projetos de software quase independentes. Neste modelo, cada componente comunica com outros componentes por meio de padrões simples e modulares, de forma a que qualquer peça possa ser trocada a qualquer momento. Em vez de construir um monólito que todos lamentarão dentro de alguns anos, você constrói um pequeno ecossistema, no qual cada peça pode ser atualizada e modificada facilmente, conforme a necessidade. Cada componente é mantido por uma única equipa ágil, que documenta a interface de programação (API) do componente - as regras gramaticais que outros componentes podem usar para se comunicar com ele. A necessidade de coordenação entre equipas é mínima, porque elas podem simplesmente seguir a documentação da API de outros componentes com os quais precisam interagir.
 
 Quando cada componente usa APIs abstratas (pense nelas como padrões comuns para usar essa tecnologia), isso é conhecido como "[arquitetura orientada a serviços](https://en.wikipedia.org/wiki/Service_oriented_architecture)" (SOA) . Este é o mesmo conceito de "peças intercambiáveis" que tornou possível a revolução industrial. Os acoplamentos padronizados são o conceito subjacente à computação em nuvem, tomadas elétricas, USB, Legos, comboios e inúmeros outros produtos e práticas modernas.
 
@@ -133,23 +133,23 @@ O conhecimento técnico é acessível e abundante, mas saber como administrar um
 
 ### Adquira serviços, não software
 
-Não pense em adquirir software personalizado como comprar uma _coisa._ Em vez disso, pense nisso como comprar um _serviço:_ o serviço de uma equipe de desenvolvedores e designers realizando o trabalho priorizado pelo dono do produto. Este reenquadramento leva a uma abordagem completamente diferente - uma abordagem muito mais simples - para o convite e para o contrato, e é uma distinção importante para os oficiais contratantes.
+Não pense em adquirir software personalizado como comprar uma _coisa._ Em vez disso, pense nisso como comprar um _serviço:_ o serviço de uma equipa de programadores e designers realizando o trabalho priorizado pelo dono do produto. Este reenquadramento leva a uma abordagem completamente diferente - uma abordagem muito mais simples - para o convite e para o contrato, e é uma distinção importante para os oficiais contratantes.
 
-A sua Solicitação de Proposta (SP) deve descrever o objetivo geral do trabalho e deve incluir uma primeira tentativa de backlog do produto - uma lista do trabalho que será feito - reunida pelo dono do produto. Deve ser semelhante a uma lista de histórias de utilizadores - tarefas a serem realizadas para atender às necessidades dos utilizadores finais - que o trabalho provavelmente atenderá, claramente rotulada como indicativa dos tipos de trabalho que provavelmente estarão envolvidos, em vez de um âmbito de trabalho fixo. A SP também deve reconhecer que haverá mudanças constantes no trabalho com base na mudança de prioridades e na investigação contínua; a mudança é esperada e é fácil mudar o software quando ele é construído utilizando princípios de desenvolvimento de software modernos.
+O seu Pedido de Proposta (PP) deve descrever o objetivo geral do trabalho e deve incluir uma primeira tentativa de backlog do produto - uma lista do trabalho que será feito - reunida pelo dono do produto. Deve ser semelhante a uma lista de histórias de utilizadores - tarefas a serem realizadas para atender às necessidades dos utilizadores finais - que o trabalho provavelmente satisfará, claramente rotulada como indicativa dos tipos de trabalho que provavelmente estarão envolvidos, em vez de um âmbito de trabalho fixo. O PP também deve reconhecer que haverá mudanças constantes no trabalho com base na mudança de prioridades e na investigação contínua; a mudança é esperada e é fácil mudar o software quando ele é construído utilizando princípios de desenvolvimento de software modernos.
 
-A SP deve apresentar uma Declaração de Objetivos em vez de uma Declaração de Trabalho - ou seja, em vez das especificações de um produto que o fornecedor deve produzir, a SP deve declarar os objetivos do projeto. Usar uma declaração de objetivos (DO) em vez de um declaração de trabalho (DT) elimina "pedidos de alteração" dos fornecedores, porque o âmbito do trabalho é tudo o que a equipe deve fazer. (Se um fornecedor ostensivamente "ágil" menciona "pedidos de alteração", isso deve ser considerado como um sinal de alerta.)
+O PP deve apresentar uma Declaração de Objetivos em vez de uma Declaração de Trabalho - ou seja, em vez das especificações de um produto que o fornecedor deve produzir, o PP deve declarar os objetivos do projeto. Usar uma declaração de objetivos (DO) em vez de um declaração de trabalho (DT) elimina "pedidos de alteração" dos fornecedores, porque o âmbito do trabalho é tudo o que a equipa deve fazer. (Se um fornecedor ostensivamente "ágil" menciona "pedidos de alteração", isso deve ser considerado como um sinal de alerta.)
 
-Para garantir que os fornecedores entregam um produto que vá de encontro às especificações técnicas necessárias, é importante que a SP inclua um Plano de Vigilância de Avaliação da Qualidade (PVAQ) apropriado para métodos de desenvolvimento ágil, exigindo que o software seja inspecionado no final de cada sprint para garantir que ele é testado, seguro, acessível, documentado e implementado. Atender a este requisito requer demonstrações regulares do software real em funcionamento, e não memorandos ou descrições do que o sistema deve fazer no futuro.
+Para garantir que os fornecedores entregam um produto que vá de encontro às especificações técnicas necessárias, é importante que o PP inclua um Plano de Vigilância de Avaliação da Qualidade (PVAQ) apropriado para métodos de desenvolvimento ágil, exigindo que o software seja inspecionado no final de cada sprint para garantir que ele é testado, seguro, acessível, documentado e implementado. Atender a este requisito requer a realização regular de demonstrações do software real em funcionamento, e não memorandos ou descrições do que o sistema deve fazer no futuro.
 
-Historicamente, tem havido pressão para usar apenas contratos de preço fixo, na suposição de que isso reduz o risco. No entanto, se você puder medir constantemente a qualidade do software, um contrato de tempo e materiais ("time and materials") - com um teto máximo para o gasto total - permite mais flexibilidade para a equipa de desenvolvimento de software. Um contrato de tempo e materiais também permite cláusulas de rescisão muito mais fáceis se a direção do trabalho mudar ou a equipa do fornecedor não estiver a produzir software de qualidade. Se o trabalho da equipa de um fornecedor for inadequado ou se suas capacidades não forem inadequadas, nenhum trabalho adicional precisará de ser atribuído a esse fornecedor (efetivamente rescindindo o contrato) e o fornecedor poderá ser substituído.
+Historicamente, tem havido pressão para usar apenas contratos de preço fixo, na suposição de que isso reduz o risco. No entanto, se você puder medir constantemente a qualidade do software, um contrato de tempo e materiais ("time and materials") - com um teto máximo para o gasto total - permite mais flexibilidade para a equipa de desenvolvimento de software. Um contrato de tempo e materiais também permite cláusulas de rescisão muito mais fáceis se a direção do trabalho mudar ou a equipa do fornecedor não estiver a produzir software de qualidade. Se o trabalho da equipa de um fornecedor for inadequado ou se suas capacidades não forem as adequadas, nenhum trabalho adicional precisará de ser atribuído a esse fornecedor (efetivamente rescindindo o contrato) e o fornecedor poderá ser substituído.
 
 
 #### Lista de verificação
 
-- O projeto tem um dono do produto dedicado e autorizado que é um funcionário da instituição - não um contratado e não um funcionário da agência de TI do estado - cujo trabalho é priorizar o trabalho para a equipe de desenvolvimento
+- O projeto tem um dono do produto dedicado e autorizado que é um funcionário da instituição - não um contratado e não um funcionário da agência de TI do estado - cujo trabalho é priorizar o trabalho para a equipa de desenvolvimento
 - Um oficial de contratação de agência abraçou este projeto e está entusiasmado com novas formas de aquisição de software
 - A SP será exclusivamente sobre a aquisição de serviços de desenvolvimento, não sobre a aquisição de algo tangível
-- A SP exigirá uma equipe multifuncional de designers, investigadores e programadores
+- A SP exigirá uma equipa multifuncional de designers, investigadores e programadores
 - A SP não terá mais de 20 páginas de texto
 - Foi criado e adicionado ao SP um backlog de pelo menos uma dúzia de histórias de utilizador
 - Será usado im contrato de tempo e materiais (com um limite máximo)
@@ -194,7 +194,7 @@ Pode muito bem fazer sentido usar SCG ou SaaS como o núcleo de um novo sistema 
 
 Historicamente, o progresso em projetos de desenvolvimento de software era medido comparando o trabalho que foi feito com o cronograma de trabalho que foi estabelecido no início. Isso é feito produzindo artefatos como gráficos de Gantt e listas de tarefas concluídas. Mas isso não funciona - o desenvolvimento ágil de software tem como premissa a ideia de que isso não funciona. As equipas de desenvolvimento de software modernas nunca ouviram falar de "CMMI" ou "ISO-9000" e não licitarão trabalhos que incluam esses requisitos.
 
-Uma filosofia melhor é _demos, não memorandos._ Em vez de medir o progresso olhando para artefatos feitos para o propósito, olhe para o trabalho real que está sendo feito. Junte-se às revisões que são realizadas no final de cada sprint, onde o trabalho realizado naquele sprint é demonstrado para a equipe do projeto e os utilizadores finais convidados. Experimente o site. Instale a aplicação.
+Uma filosofia melhor é _demos, não memorandos._ Em vez de medir o progresso olhando para artefatos feitos para o propósito, olhe para o trabalho real que está sendo feito. Junte-se às revisões que são realizadas no final de cada sprint, onde o trabalho realizado naquele sprint é demonstrado para a equipa do projeto e os utilizadores finais convidados. Experimente o site. Instale a aplicação.
 
 Uma parte importante para garantir que o progresso não seja ilusório é que o contrato inclua um Plano de Vigilância de Garantia de Qualidade (PVGQ) que exige, no final de cada sprint, que todo o trabalho atenda a padrões específicos. O PVGQ descreve o método pelo qual o governo determinará se o trabalho do fornecedor é de qualidade suficiente para ser aceite no final de cada sprint, permitindo que o fornecedor execute os mesmos testes para garantir que não haverá surpresas.
 
@@ -230,7 +230,7 @@ Da mesma forma, as instituições devem empregar diretamente programadores sufic
 
 Embora o software nunca esteja "pronto" - você sempre precisará se adaptar às mudanças de tecnologia, política, regulamentos, leis e necessidades do utilizador - chegará um ponto em que você precisará de muito menos programadires para continuar esse trabalho. Nesse ponto, torna-se especialmente importante ter vários funcionários da agência que entendam totalmente o software e que sejam capazes de mantê-lo.
 
-Para projetos maiores, você precisará de contratar uma equipe de desenvolvimento indefinidamente, sob a supervisão de um proprietário de produto do governo. Nos projectos em cascata, isso chama-se "Operações e Manutenção", mas sob a metodologia ágil, O&M é simplesmente uma investigação de utilizadores (???), design, desenvolvimento de software contínuos, etc.
+Para projetos maiores, você precisará de contratar uma equipa de desenvolvimento indefinidamente, sob a supervisão de um proprietário de produto do governo. Nos projectos em cascata, isso chama-se "Operações e Manutenção", mas sob a metodologia ágil, O&M é simplesmente uma investigação de utilizadores (???), design, desenvolvimento de software contínuos, etc.
 
 
 #### Lista de verificação
@@ -286,7 +286,7 @@ Não meça o progresso em "pontos da história", linhas de código escritas, hor
 
 - A equipa do fornecedor usará metodologias ágeis
 - O fornecedor será obrigado a colocar software funcional num ambiente da propriedade do governo no final de cada sprint
-- Rotineiramente, a equipe do projeto irá entrevistar e testar seu trabalho com utilizadores finais, tanto para informar o trabalho planeado como para determinar se o trabalho já realizado está correto
+- Rotineiramente, a equipa do projeto irá entrevistar e testar seu trabalho com utilizadores finais, tanto para informar o trabalho planeado como para determinar se o trabalho já realizado está correto
 - A SP não fará menção a um cronograma detalhado do projeto, e não haverá menção a gráficos de Gantt ou contratos de validação e verificação independente
 - Um membro da equipa legislativa será designado para fornecer supervisão do projeto e coordenará com a liderança do projeto para monitorizar o progresso, comparecendo periodicamente às revisões de cada sprint
 
@@ -309,21 +309,21 @@ Quanto maior a quantia de dinheiro gasta em um projeto de software, maiores as c
 
 ### Limitar tamanhos de contrato
 
-Usar um único fornecedor por um longo período de tempo ou para um grande número de equipes pode ser mais confortável, mas inevitavelmente leva ao aprisionamento do fornecedor. Dividir os projetos em vários pequenos contratos incentiva os fornecedores a construir um ecossistema de software sustentável, em vez de um monólito, e torna cada contrato pequeno o suficiente para que as chances de sucesso aumentem acentuadamente.
+Usar um único fornecedor por um longo período de tempo ou para um grande número de equipas pode ser mais confortável, mas inevitavelmente leva ao aprisionamento do fornecedor. Dividir os projetos em vários pequenos contratos incentiva os fornecedores a construir um ecossistema de software sustentável, em vez de um monólito, e torna cada contrato pequeno o suficiente para que as chances de sucesso aumentem acentuadamente.
 
-Deverá exigir que não sejam gastos mais de X euros (???) num único contrato anualmente, e que nenhum contrato dure mais de três anos, incluindo períodos de opção. Dessa forma, você não terá mais do que duas equipes de desenvolvimento de um único fornecedor. Se o projeto precisar de mais equipes de desenvolvimento, obtenha-as de outro fornecedor e faça com que trabalhem separadamente. Limite a SP também, mantendo-a abaixo de 20 páginas; não gaste mais do que 60 dias escrevendo-a.
+Deverá exigir que não sejam gastos mais de X euros (???) num único contrato anualmente, e que nenhum contrato dure mais de três anos, incluindo períodos de opção. Dessa forma, você não terá mais do que duas equipas de desenvolvimento de um único fornecedor. Se o projeto precisar de mais equipas de desenvolvimento, obtenha-as de outro fornecedor e faça com que trabalhem separadamente. Limite a SP também, mantendo-a abaixo de 20 páginas; não gaste mais do que 60 dias escrevendo-a.
 
 Além de evitar o aprisionamento, há outro benefício em usar contratos menores: eles têm menos probabilidade de serem contestados, porque o valor em dólares não justifica o problema e os custos legais. Se você é respeitoso e transparente com os fornecedores e não exige centenas de páginas de propostas, eles provavelmente vão querer fazer negócios com suas agências no futuro.
 
-À medida que o número de pessoas que trabalham num projeto aumenta, também aumenta a quantidade de tempo que todas essas pessoas gastam coordenando umas com as outras. A solução para isso é fazer com que trabalhem em paralelo, o que é possível ao construir com peças independentes. Ter mais de uma equipe de fornecedores trabalhando no seu projeto também fornece opções mais competitivas se você precisar de mudar de fornecedor.
+À medida que o número de pessoas que trabalham num projeto aumenta, também aumenta a quantidade de tempo que todas essas pessoas gastam coordenando umas com as outras. A solução para isso é fazer com que trabalhem em paralelo, o que é possível ao construir com peças independentes. Ter mais de uma equipa de fornecedores trabalhando no seu projeto também fornece opções mais competitivas se você precisar de mudar de fornecedor.
 
 
 #### Lista de controle
 
 - Se o projeto vai exigir vários contratos, o âmbito do primeiro contrato foi identificado, e há uma ideia geral da composição de outros futuros contratos
-- Se houver mais de uma equipe de desenvolvimento, será empregada uma arquitetura orientada a serviços (SOA)
+- Se houver mais de uma equipa de desenvolvimento, será empregada uma arquitetura orientada a serviços (SOA)
 - Quando possível, os contratos serão dimensionados dentro do limite de aquisição simplificado para que possam ser concedidos de forma rápida e fácil
-- O primeiro projeto identificado tem complexidade técnica relativamente baixa, baixo risco político e alto valor para o utilizador final, de modo a que as equipes possam começar a trabalhar desta forma enquanto experimentam e aprendem num ambiente de risco relativamente baixo
+- O primeiro projeto identificado tem complexidade técnica relativamente baixa, baixo risco político e alto valor para o utilizador final, de modo a que as equipas possam começar a trabalhar desta forma enquanto experimentam e aprendem num ambiente de risco relativamente baixo
 
 #### Questões-chave
 
@@ -340,7 +340,7 @@ Não substitua o antigo sistema desatualizado por um novo sistema desatualizado.
 
 - Cada contrato será escrito para entregar valor aos utilizadores finais - eles não servirão para "manter servidores" ou "configurar uma base de dados", mas para "criar um website de solicitação de autorizações" ou "simplificar o processo de admissão"
 - Não haverá lugar para um "arquiteto do sistema", porque a arquitetura surgirá iterativamente ao longo do processo ágil
-- Se o projeto for grande o suficiente para ter várias equipes scrum (???) a trabalhar simultaneamente, não há a expectativa de que todos os membros de todas as equipes estejam em reuniões juntos
+- Se o projeto for grande o suficiente para ter várias equipas scrum (???) a trabalhar simultaneamente, não há a expectativa de que todos os membros de todas as equipas estejam em reuniões juntos
 - A SP especificará o uso de arquitetura orientada a serviços para cada componente
 
 
@@ -360,7 +360,7 @@ Se for importante obter propostas de fornecedores locais, saiba que há boas cha
 
 Como pode encontrar essas pequenas empresas qualificadas? Há várias cidades e estados que criaram um pool de fornecedores de software ágil. Por exemplo, [o Departamento de Tecnologia da Califórnia tem um pool de fornecedores] (https://github.com/CDTProcurement/adpq) que adiciona novas empresas em uma base contínua. Procure e aproveite esses pools de fornecedores e inclua algumas dessas empresas em futuros processos de RFP. Além disso, pergunte a colegas em outras agências estaduais para ver se eles podem recomendar algum fornecedor a ser incluído. Por fim, tente pensar como um desenvolvedor de software procurando emprego e verifique os sites que são conhecidos por anunciar oportunidades de emprego e networking profissional para identificar fornecedores ágeis em seu estado. Todo esse processo leva apenas algumas horas.
 
-Embora a equipe de compras fique tentada a procurar fornecedores que já construíram um sistema quase idêntico, isso é desnecessário e limita o conjunto de fornecedores a apenas algumas grandes empresas internacionais. Em vez disso, eles devem ampliar seu âmbito e procurar fornecedores que tenham construido algo análogo. Um fornecedor que criou um site para reservar carros de aluguel pode criar um site para solicitar licenças de acampamento em áreas remotas. Um desenvolvedor líder que construiu uma base-de-dados para rastrear as posições dos cometas pode construir uma base-de-dados para rastrear veículos. Ao buscar conhecimento relevante desta forma, a equipe de compras certamente encontrará muitos fornecedores que podem fazer o trabalho.
+Embora a equipa de compras fique tentada a procurar fornecedores que já construíram um sistema quase idêntico, isso é desnecessário e limita o conjunto de fornecedores a apenas algumas grandes empresas internacionais. Em vez disso, eles devem ampliar seu âmbito e procurar fornecedores que tenham construido algo análogo. Um fornecedor que criou um site para reservar carros de aluguel pode criar um site para solicitar licenças de acampamento em áreas remotas. Um desenvolvedor líder que construiu uma base-de-dados para rastrear as posições dos cometas pode construir uma base-de-dados para rastrear veículos. Ao buscar conhecimento relevante desta forma, a equipa de compras certamente encontrará muitos fornecedores que podem fazer o trabalho.
 
 
 #### Lista de controle
@@ -369,15 +369,15 @@ Embora a equipe de compras fique tentada a procurar fornecedores que já constru
 - O plano de aquisição inclui chegar a pequenos fornecedores para incentivá-los a licitar
 - A SP não ficará oculta por detrás de um website de compras que exige registro, mas será publicada abertamente na web para que a comunidade de fornecedores possa partilhá-la
 - A SP exigirá que os fornecedores nomeiem seu pessoal-chave em suas propostas - não mais do que três pessoas - como o desenvolvedor líder ou o designer líder
-- O plano de aquisição inclui entrevistar os finalistas sobre a abordagem proposta, questionar o pessoal-chave nomeado, _não_ a equipe de vendas do fornecedor
+- O plano de aquisição inclui entrevistar os finalistas sobre a abordagem proposta, questionar o pessoal-chave nomeado, _não_ a equipa de vendas do fornecedor
 - Os funcionários dos fornecedores não serão obrigados a trabalhar no local em uma instalação do governo
-- As equipes de fornecedores e o dono do produto governamental terão permissão para usar um serviço de videochamada baseado em desktop, uma ferramenta de chat em tempo real e um sistema público de controle de versão baseado em Git e outras ferramentas comumente usadas pelas equipes de desenvolvimento ágil
+- As equipas de fornecedores e o dono do produto governamental terão permissão para usar um serviço de videochamada baseado em desktop, uma ferramenta de chat em tempo real e um sistema público de controle de versão baseado em Git e outras ferramentas comumente usadas pelas equipas de desenvolvimento ágil
 
 
 #### Questões-chave
 
 - Há algum benefício - político ou outro - em conceder contratos a fornecedores locais, ou mesmo requisitos para fazê-lo? Isso pode limitar o grau em que você pode expandir seu grupo de fornecedores?
-- Economizar muito dinheiro por cada equipe scrum é suficiente para superar quaisquer objeções às equipes remotas?
+- Economizar muito dinheiro por cada equipa scrum é suficiente para superar quaisquer objeções às equipas remotas?
 - Foi feita uma investigação de mercado leve para saber quais fornecedores serão alvos da SP, em vez de apenas emitir um pedido de informação e esperar que resulte?
 
 
@@ -409,7 +409,7 @@ Se o software for publicado abertamente, os funcionários dos fornecedores ficar
 
 Ao contrário de pontes ou outros projetos de infraestrutura física, o software personalizado nunca está "pronto", por isso é importante planear que ele seja modificado continuamente. Dessa forma, ele pode atender às necessidades de hoje, não de ontem.
 
-Para sistemas pequenos, isso pode exigir a adição de um ou menos colaboradores a tempo inteiro à equipe de programadores da agência. Para sistemas grandes e importantes, isso pode exigir a aquisição de uma equipe para desenvolver e manter o software continuamente.
+Para sistemas pequenos, isso pode exigir a adição de um ou menos colaboradores a tempo inteiro à equipa de programadores da agência. Para sistemas grandes e importantes, isso pode exigir a aquisição de uma equipa para desenvolver e manter o software continuamente.
 
 A manutenção de software às vezes é orçamentada como se fosse uma atividade diferente da construção inicial de software, mas isso é um erro. Manter o software deve significar simplesmente continuar a modificá-lo em resposta às necessidades do utilizador identificadas, que mudam continuamente junto com as leis, regulamentos, políticas, melhores práticas e tecnologia. Isso requer os mesmos conjuntos de habilidades, metodologia e tarefas como construir um sistema em primeiro lugar. Uma proposta para a transição do desenvolvimento de software para uma fase de "operações e manutenção" ("O&M") deve ser vista como uma bandeira vermelha.
 
@@ -467,15 +467,15 @@ Resposta certa: a agência determinou necessidades específicas com base em entr
 
 ### Se o fornecedor selecionado não tiver um desempenho adequado, quão difícil será rescindir o contrato? Quanto tempo vai demorar para substituí-los por outro fornecedor? Quanto você acha que vai custar?
 
-Resposta errada: "Estaríamos muito relutantes em rescindir o contrato. Levaria meses ou anos para substituí-los por um novo fornecedor. Um tempo significativo da equipe seria necessário para fazer isso, e nosso projeto atrasaria muitos meses. Uma vez tendo um sistema, teremos que começar tudo de novo se decidirmos mudar de fornecedor. "
+Resposta errada: "Estaríamos muito relutantes em rescindir o contrato. Levaria meses ou anos para substituí-los por um novo fornecedor. Um tempo significativo da equipa seria necessário para fazer isso, e nosso projeto atrasaria muitos meses. Uma vez tendo um sistema, teremos que começar tudo de novo se decidirmos mudar de fornecedor. "
 
-Resposta certa: "Será um contrato de tempo e materiais, então podemos parar de atribuir trabalho ao fornecedor a qualquer momento, e isso seria o fim funcional do contrato. Poderíamos reeditar a RFP e ter um novo fornecedor integrado em seis semanas. Exigiria uma pequena quantidade de tempo da equipe e atrasaria o projeto apenas nessas seis semanas. "
+Resposta certa: "Será um contrato de tempo e materiais, então podemos parar de atribuir trabalho ao fornecedor a qualquer momento, e isso seria o fim funcional do contrato. Poderíamos reeditar a RFP e ter um novo fornecedor integrado em seis semanas. Exigiria uma pequena quantidade de tempo da equipa e atrasaria o projeto apenas nessas seis semanas. "
 
 ### A SP incluirá requisitos de como o sistema irá operar? Em caso afirmativo, quantos requisitos estão incluídos?
 
 Resposta errada: "Passamos o ano passado revendo os nossos requisitos de negócios e escrevemos centenas de requisitos para incluir na SP, para garantir que obteremos exatamente o que precisamos."
 
-Resposta certa: "Estamos mais focados nos resultados que desejamos do novo sistema. Desenvolvemos uma acumulação de histórias de utilizadores para ajudar a orientar o trabalho da equipe, em vez de produzir uma lista detalhada de requisitos técnicos."
+Resposta certa: "Estamos mais focados nos resultados que desejamos do novo sistema. Desenvolvemos uma acumulação de histórias de utilizadores para ajudar a orientar o trabalho da equipa, em vez de produzir uma lista detalhada de requisitos técnicos."
 
 ### Quanto tempo você espera que a SP demore?
 
@@ -500,7 +500,7 @@ Resposta certa: exemplos específicos são mencionados.
 
 Resposta errada: "O que é um 'dono do produto'?"
 
-Resposta certa: uma pessoa específica é nomeada ou ela está treinando uma equipe interna para assumir essa função.
+Resposta certa: uma pessoa específica é nomeada ou ela está treinando uma equipa interna para assumir essa função.
 
 ### Qual processo de desenvolvimento de software será usado?
 
@@ -545,7 +545,7 @@ Resposta errada: "O vendedor".
 Resposta certa: "O estado" ou "será entregue ao domínio público".
 
 RFP -> SP
-equipes -> equipas
+equipas -> equipas
 COTS -> SCG
 QASP -> PVGQ
 instituição -> cliente ??
