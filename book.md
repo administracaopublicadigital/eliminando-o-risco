@@ -50,9 +50,9 @@ A equipa trabalha num grupo selecionado destas "histórias de utilizador" por du
 
 No início, o software que produzido pode não parecer muito (e pode até mesmo ser substituído por algo mais tarde), mas irá informar gradual e sistematicamente a abordagem técnica do projeto e ajudar a equipa a integrar o projeto de forma sensata no sistema pré-existente.
 
-Software funcional é entregue no final de cada sprint, sem exceção - totalmente testado, totalmente documentado, pronto para ser usado. Dessa forma, o valor é entregue constantemente, até que o software seja bom o suficiente para ser implementado para uso amplo. A equipa continua a trabalhar até cumprir todas as metas ou ficar sem dinheiro, o que ocorrer primeiro.
+Software funcional é entregue no final de cadO pedido de proposta, sem exceção - totalmente testado, totalmente documentado, pronto para ser usado. Dessa forma, o valor é entregue constantemente, até que o software seja bom o suficiente para ser implementado para uso amplo. A equipa continua a trabalhar até cumprir todas as metas ou ficar sem dinheiro, o que ocorrer primeiro.
 
-O fornecedor é pago pelo tempo de seus funcionários, não por um sistema de software. Tudo criado pelo fornecedor - software, documentação, investigação, projetos, _tudo_ - é propriedade do governo, entregue ao governo no final de cada sprint. Mudanças tecnológicas, mudanças nas políticas governamentais, mudanças nas regulamentações, mudanças nas leis e mudanças nas prioridades da liderança - qualquer projeto planeado em grande detalhe no início não será capaz de se adaptar a essas mudanças e correrá um risco significativo de falha, derrapes de custo e prazo significativos ou "pedidos de mudança" caros.
+O fornecedor é pago pelo tempo de seus funcionários, não por um sistema de software. Tudo criado pelo fornecedor - software, documentação, investigação, projetos, _tudo_ - é propriedade do governo, entregue ao governo no final de cadO pedido de proposta. Mudanças tecnológicas, mudanças nas políticas governamentais, mudanças nas regulamentações, mudanças nas leis e mudanças nas prioridades da liderança - qualquer projeto planeado em grande detalhe no início não será capaz de se adaptar a essas mudanças e correrá um risco significativo de falha, derrapes de custo e prazo significativos ou "pedidos de mudança" caros.
 
 Ao combinar a agilidade com o design centrado no utilizador, uma equipa de desenvolvimento pode iterar constantemente para resolver as necessidades dos utilizadores finais de maneiras que seriam impossíveis de aprender antecipadamente.
 
@@ -139,21 +139,21 @@ O seu Pedido de Proposta (PP) deve descrever o objetivo geral do trabalho e deve
 
 O PP deve apresentar uma Declaração de Objetivos em vez de uma Declaração de Trabalho - ou seja, em vez das especificações de um produto que o fornecedor deve produzir, o PP deve declarar os objetivos do projeto. Usar uma declaração de objetivos (DO) em vez de um declaração de trabalho (DT) elimina "pedidos de alteração" dos fornecedores, porque o âmbito do trabalho é tudo o que a equipa deve fazer. (Se um fornecedor ostensivamente "ágil" menciona "pedidos de alteração", isso deve ser considerado como um sinal de alerta.)
 
-Para garantir que os fornecedores entregam um produto que vá de encontro às especificações técnicas necessárias, é importante que o PP inclua um Plano de Vigilância de Avaliação da Qualidade (PVAQ) apropriado para métodos de desenvolvimento ágil, exigindo que o software seja inspecionado no final de cada sprint para garantir que ele é testado, seguro, acessível, documentado e implementado. Atender a este requisito requer a realização regular de demonstrações do software real em funcionamento, e não memorandos ou descrições do que o sistema deve fazer no futuro.
+Para garantir que os fornecedores entregam um produto que vá de encontro às especificações técnicas necessárias, é importante que o PP inclua um Plano de Vigilância de Avaliação da Qualidade (PVAQ) apropriado para métodos de desenvolvimento ágil, exigindo que o software seja inspecionado no final de cadO pedido de proposta para garantir que ele é testado, seguro, acessível, documentado e implementado. Atender a este requisito requer a realização regular de demonstrações do software real em funcionamento, e não memorandos ou descrições do que o sistema deve fazer no futuro.
 
 Historicamente, tem havido pressão para usar apenas contratos de preço fixo, na suposição de que isso reduz o risco. No entanto, se você puder medir constantemente a qualidade do software, um contrato de tempo e materiais ("time and materials") - com um teto máximo para o gasto total - permite mais flexibilidade para a equipa de desenvolvimento de software. Um contrato de tempo e materiais também permite cláusulas de rescisão muito mais fáceis se a direção do trabalho mudar ou a equipa do fornecedor não estiver a produzir software de qualidade. Se o trabalho da equipa de um fornecedor for inadequado ou se suas capacidades não forem as adequadas, nenhum trabalho adicional precisará de ser atribuído a esse fornecedor (efetivamente rescindindo o contrato) e o fornecedor poderá ser substituído.
 
 
 #### Lista de verificação
 
-- O projeto tem um dono do produto dedicado e autorizado que é um funcionário da instituição - não um contratado e não um funcionário da agência de TI do estado - cujo trabalho é priorizar o trabalho para a equipa de desenvolvimento
-- Um oficial de contratação de agência abraçou este projeto e está entusiasmado com novas formas de aquisição de software
-- A SP será exclusivamente sobre a aquisição de serviços de desenvolvimento, não sobre a aquisição de algo tangível
-- A SP exigirá uma equipa multifuncional de designers, investigadores e programadores
-- A SP não terá mais de 20 páginas de texto
-- Foi criado e adicionado ao SP um backlog de pelo menos uma dúzia de histórias de utilizador
-- Será usado im contrato de tempo e materiais (com um limite máximo)
-- Será usado o veículo de aquisição mais simples disponível que forneça acesso aos fornecedores-alvo
+- O projeto tem um dono do produto dedicado e autorizado que é um funcionário da instituição - não um contratado e não um funcionário da agência de TI do estado - cujo trabalho é priorizar o trabalho para a equipa de desenvolvimento;
+- Um oficial de contratação de agência abraçou este projeto e está entusiasmado com novas formas de aquisição de software;
+- O pedido de proposra será exclusivamente sobre a aquisição de serviços de desenvolvimento, não sobre a aquisição de algo tangível;
+- O pedido de proposra exigirá uma equipa multifuncional de designers, investigadores e programadores;
+- O pedido de proposra não terá mais de 20 páginas de texto;
+- Foi criado e adicionado ao pedido de proposta um backlog de pelo menos uma dúzia de histórias de utilizador;
+- Será utilizado um contrato de tempo e materiais (com um limite máximo);
+- Será utilizado a forma de aquisição mais simples disponível que forneça acesso aos fornecedores-alvo.
 
 
 #### Questões-chave
@@ -161,7 +161,7 @@ Historicamente, tem havido pressão para usar apenas contratos de preço fixo, n
 - O dono do produto está autorizado a tomar decisões autorizadas rapidamente em nome da instituição?
 - O dono do produto está preparado para passar a maioria das suas horas de trabalho cumprindo os requisitos dessa nova função?
 - A liderança da instituição está preparada para que as decisões de produto sejam conduzidas pelas necessidades dos utilizadores identificadas, com base em conversas diretas com estes utilizadores, em vez das preferências pessoais da liderança?
-- A SP estabelece requisitos claros sobre a entrega regular de código que funcione, documentação, teste e entrega a propriedade de todos os produtos de trabalho ao estado?
+- O pedido de proposta estabelece requisitos claros sobre a entrega regular de código que funcione, documentação, teste e entrega a propriedade de todos os produtos de trabalho ao estado?
 
 
 ### Cuidado com a armadilha do software comercial personalizado
@@ -194,9 +194,9 @@ Pode muito bem fazer sentido usar SCG ou SaaS como o núcleo de um novo sistema 
 
 Historicamente, o progresso em projetos de desenvolvimento de software era medido comparando o trabalho que foi feito com o cronograma de trabalho que foi estabelecido no início. Isso é feito produzindo artefatos como gráficos de Gantt e listas de tarefas concluídas. Mas isso não funciona - o desenvolvimento ágil de software tem como premissa a ideia de que isso não funciona. As equipas de desenvolvimento de software modernas nunca ouviram falar de "CMMI" ou "ISO-9000" e não licitarão trabalhos que incluam esses requisitos.
 
-Uma filosofia melhor é _demos, não memorandos._ Em vez de medir o progresso olhando para artefatos feitos para o propósito, olhe para o trabalho real que está sendo feito. Junte-se às revisões que são realizadas no final de cada sprint, onde o trabalho realizado naquele sprint é demonstrado para a equipa do projeto e os utilizadores finais convidados. Experimente o site. Instale a aplicação.
+Uma filosofia melhor é _demos, não memorandos._ Em vez de medir o progresso olhando para artefatos feitos para o propósito, olhe para o trabalho real que está sendo feito. Junte-se às revisões que são realizadas no final de cadO pedido de proposta, onde o trabalho realizado naquele sprint é demonstrado para a equipa do projeto e os utilizadores finais convidados. Experimente o site. Instale a aplicação.
 
-Uma parte importante para garantir que o progresso não seja ilusório é que o contrato inclua um Plano de Vigilância de Garantia de Qualidade (PVGQ) que exige, no final de cada sprint, que todo o trabalho atenda a padrões específicos. O PVGQ descreve o método pelo qual o governo determinará se o trabalho do fornecedor é de qualidade suficiente para ser aceite no final de cada sprint, permitindo que o fornecedor execute os mesmos testes para garantir que não haverá surpresas.
+Uma parte importante para garantir que o progresso não seja ilusório é que o contrato inclua um Plano de Vigilância de Garantia de Qualidade (PVGQ) que exige, no final de cadO pedido de proposta, que todo o trabalho atenda a padrões específicos. O PVGQ descreve o método pelo qual o governo determinará se o trabalho do fornecedor é de qualidade suficiente para ser aceite no final de cadO pedido de proposta, permitindo que o fornecedor execute os mesmos testes para garantir que não haverá surpresas.
 
 O PVGC não exige a produção de nenhum artefato explicitamente com o propósito de monitorar o trabalho - a maneira de monitorar o trabalho é _ver se ele realmente funciona._ Esta é uma maneira muito diferente de acompanhar o progresso de um projeto de tecnologia. Ele tem a vantagem adicional de ser um teste funcional mais objetivo, observável do que exigir interpretações subjetivas ou legais sobre se o trabalho satisfaz uma longa série de requisitos de sistema.
 
@@ -204,8 +204,8 @@ O PVGC não exige a produção de nenhum artefato explicitamente com o propósit
 #### Lista de verificação
 
 - Um funcionário público autorizado e dedicado servirá como o dono do produto
-- Não haverá requisitos de planeamento ou relatório que vão contra a metodologia ágil (ou seja, não há datas para as tarefas específicas serem concluídas e nenhuma especificação de funcionalidade exata que será exigida - seja na SP, no plano de aquisição ou legislação)
-- Haverá um desenvolvedor de software empregado pelo governo que garantirá a conformidade com o PVGQ no final de cada sprint
+- Não haverá requisitos de planeamento ou relatório que vão contra a metodologia ágil (ou seja, não há datas para as tarefas específicas serem concluídas e nenhuma especificação de funcionalidade exata que será exigida - seja nO pedido de proposta, no plano de aquisição ou legislação)
+- Haverá um desenvolvedor de software empregado pelo governo que garantirá a conformidade com o PVGQ no final de cadO pedido de proposta
 - As pessoas que supervisionam, acima do nível do dono do produto governamental, estão dispostas a receber principalmente "relatórios" na forma de demonstrações de software em funcionamento, combinados com uma revisão das histórias de utilziadores que foram concluídas e aquelas que permanecem por completar
 - Há uma pessoa identificada dentro da instituição que está preparada para fornecer explicações de progresso para cada nível de chefia, porque, geralmente, artefatos de medição de progresso num projeto ágil não são familiares para pessoas que estão acostumadas a projetos em cascata.
 
@@ -241,7 +241,7 @@ Para projetos maiores, você precisará de contratar uma equipa de desenvolvimen
 
 #### Questões-chave
 
-- Quando um fornecedor entrega o código no final de cada sprint, que funcionário _específico_ do governo inspeciona o código para garantir a qualidade?
+- Quando um fornecedor entrega o código no final de cadO pedido de proposta, que funcionário _específico_ do governo inspeciona o código para garantir a qualidade?
 - Se uma agência apresenta um custo para concluir um projeto de software específico, que funcionário de orçamento (???) está equipado para saber se esse é um preço adequado? Qual funcionário do comitê de orçamento legislativo _específico_ está equipado para saber se esse é um preço adequado?
 - Quando a aquisição for concluída, quem fará a manutenção do software? A instituição emprega pessoas que sabem como mantê-la? Eles serão incluídos no processo de desenvolvimento para que possam aprender sobre como ele é construído e ajudar a garantir que seja algo que eles sejam capazes de suportar?
 
@@ -277,7 +277,7 @@ Portanto, em vez de adquirir uma peça gigante de software proprietário, insist
 
 ### Avalie o sucesso com base em resultados iterativos, não em marcos do projeto
 
-O valor não deve vir no final de um projeto - deve ser fornecido aos utilizadores finais no prazo máximo de seis meses após a adjudicação do contrato, e constantemente a partir daí. No final do _primeiro_ sprint, o código funcional deve ser entregue à agência para sua revisão, e isso deve repetir-se com cada sprint subsequente. Os utilizadores finais devem avaliar o trabalho no final de cada sprint, independentemente de o trabalho já ter sido implementado para uso diário.
+O valor não deve vir no final de um projeto - deve ser fornecido aos utilizadores finais no prazo máximo de seis meses após a adjudicação do contrato, e constantemente a partir daí. No final do _primeiro_ sprint, o código funcional deve ser entregue à agência para sua revisão, e isso deve repetir-se com cadO pedido de proposta subsequente. Os utilizadores finais devem avaliar o trabalho no final de cadO pedido de proposta, independentemente de o trabalho já ter sido implementado para uso diário.
 
 Não meça o progresso em "pontos da história", linhas de código escritas, horas de trabalho por pessoa, etc. A única medida de sucesso que importa é o valor entregue aos utilizadores finais. Isso é melhor avaliado participando nas revisões de sprint bi-semanais e conversando com o o dono do produto.
 
@@ -285,10 +285,10 @@ Não meça o progresso em "pontos da história", linhas de código escritas, hor
 #### Lista de verificação
 
 - A equipa do fornecedor usará metodologias ágeis
-- O fornecedor será obrigado a colocar software funcional num ambiente da propriedade do governo no final de cada sprint
+- O fornecedor será obrigado a colocar software funcional num ambiente da propriedade do governo no final de cadO pedido de proposta
 - Rotineiramente, a equipa do projeto irá entrevistar e testar seu trabalho com utilizadores finais, tanto para informar o trabalho planeado como para determinar se o trabalho já realizado está correto
-- A SP não fará menção a um cronograma detalhado do projeto, e não haverá menção a gráficos de Gantt ou contratos de validação e verificação independente
-- Um membro da equipa legislativa será designado para fornecer supervisão do projeto e coordenará com a liderança do projeto para monitorizar o progresso, comparecendo periodicamente às revisões de cada sprint
+- O pedido de proposta não fará menção a um cronograma detalhado do projeto, e não haverá menção a gráficos de Gantt ou contratos de validação e verificação independente
+- Um membro da equipa legislativa será designado para fornecer supervisão do projeto e coordenará com a liderança do projeto para monitorizar o progresso, comparecendo periodicamente às revisões de cadO pedido de proposta
 
 
 #### Questões-chave
@@ -311,7 +311,7 @@ Quanto maior a quantia de dinheiro gasta em um projeto de software, maiores as c
 
 Usar um único fornecedor por um longo período de tempo ou para um grande número de equipas pode ser mais confortável, mas inevitavelmente leva ao aprisionamento do fornecedor. Dividir os projetos em vários pequenos contratos incentiva os fornecedores a construir um ecossistema de software sustentável, em vez de um monólito, e torna cada contrato pequeno o suficiente para que as chances de sucesso aumentem acentuadamente.
 
-Deverá exigir que não sejam gastos mais de X euros (???) num único contrato anualmente, e que nenhum contrato dure mais de três anos, incluindo períodos de opção. Dessa forma, você não terá mais do que duas equipas de desenvolvimento de um único fornecedor. Se o projeto precisar de mais equipas de desenvolvimento, obtenha-as de outro fornecedor e faça com que trabalhem separadamente. Limite a SP também, mantendo-a abaixo de 20 páginas; não gaste mais do que 60 dias escrevendo-a.
+Deverá exigir que não sejam gastos mais de X euros (???) num único contrato anualmente, e que nenhum contrato dure mais de três anos, incluindo períodos de opção. Dessa forma, você não terá mais do que duas equipas de desenvolvimento de um único fornecedor. Se o projeto precisar de mais equipas de desenvolvimento, obtenha-as de outro fornecedor e faça com que trabalhem separadamente. Limite O pedido de proposta também, mantendo-a abaixo de 20 páginas; não gaste mais do que 60 dias escrevendo-a.
 
 Além de evitar o aprisionamento, há outro benefício em usar contratos menores: eles têm menos probabilidade de serem contestados, porque o valor em dólares não justifica o problema e os custos legais. Se você é respeitoso e transparente com os fornecedores e não exige centenas de páginas de propostas, eles provavelmente vão querer fazer negócios com suas agências no futuro.
 
@@ -341,7 +341,7 @@ Não substitua o antigo sistema desatualizado por um novo sistema desatualizado.
 - Cada contrato será escrito para entregar valor aos utilizadores finais - eles não servirão para "manter servidores" ou "configurar uma base de dados", mas para "criar um website de solicitação de autorizações" ou "simplificar o processo de admissão"
 - Não haverá lugar para um "arquiteto do sistema", porque a arquitetura surgirá iterativamente ao longo do processo ágil
 - Se o projeto for grande o suficiente para ter várias equipas scrum (???) a trabalhar simultaneamente, não há a expectativa de que todos os membros de todas as equipas estejam em reuniões juntos
-- A SP especificará o uso de arquitetura orientada a serviços para cada componente
+- O pedido de proposta especificará o uso de arquitetura orientada a serviços para cada componente
 
 
 #### Questões-chave
@@ -365,10 +365,10 @@ Embora a equipa de compras fique tentada a procurar fornecedores que já constru
 
 #### Lista de controle
 
-- A SP será simplificada (não mais do que 20 páginas) e compreensível por desenvolvedores de software que normalmente não trabalham com o governo
+- O pedido de proposta será simplificada (não mais do que 20 páginas) e compreensível por desenvolvedores de software que normalmente não trabalham com o governo
 - O plano de aquisição inclui chegar a pequenos fornecedores para incentivá-los a licitar
-- A SP não ficará oculta por detrás de um website de compras que exige registro, mas será publicada abertamente na web para que a comunidade de fornecedores possa partilhá-la
-- A SP exigirá que os fornecedores nomeiem seu pessoal-chave em suas propostas - não mais do que três pessoas - como o desenvolvedor líder ou o designer líder
+- O pedido de proposta não ficará oculta por detrás de um website de compras que exige registro, mas será publicada abertamente na web para que a comunidade de fornecedores possa partilhá-la
+- O pedido de proposta exigirá que os fornecedores nomeiem seu pessoal-chave em suas propostas - não mais do que três pessoas - como o desenvolvedor líder ou o designer líder
 - O plano de aquisição inclui entrevistar os finalistas sobre a abordagem proposta, questionar o pessoal-chave nomeado, _não_ a equipa de vendas do fornecedor
 - Os funcionários dos fornecedores não serão obrigados a trabalhar no local em uma instalação do governo
 - As equipas de fornecedores e o dono do produto governamental terão permissão para usar um serviço de videochamada baseado em desktop, uma ferramenta de chat em tempo real e um sistema público de controle de versão baseado em Git e outras ferramentas comumente usadas pelas equipas de desenvolvimento ágil
@@ -378,7 +378,7 @@ Embora a equipa de compras fique tentada a procurar fornecedores que já constru
 
 - Há algum benefício - político ou outro - em conceder contratos a fornecedores locais, ou mesmo requisitos para fazê-lo? Isso pode limitar o grau em que você pode expandir seu grupo de fornecedores?
 - Economizar muito dinheiro por cada equipa scrum é suficiente para superar quaisquer objeções às equipas remotas?
-- Foi feita uma investigação de mercado leve para saber quais fornecedores serão alvos da SP, em vez de apenas emitir um pedido de informação e esperar que resulte?
+- Foi feita uma investigação de mercado leve para saber quais fornecedores serão alvos dO pedido de proposta, em vez de apenas emitir um pedido de informação e esperar que resulte?
 
 
 
@@ -391,10 +391,10 @@ Se o software for publicado abertamente, os funcionários dos fornecedores ficar
 
 #### Lista de verificação
 
-- A SP exigirá que o código-fonte do software seja escrito e mantido em público numa plataforma de codificação social (por exemplo, [GitHub](http://github.com/) ou [GitLab](https://gitlab.com/ )), desde o primeiro dia.
-- A SP exigirá que o software seja explicitamente dedicado ao domínio público ou publicado sob uma [licença de código aberto](https://opensource.org/licenses)
-- A SP usará as melhores práticas de segurança, exigindo que o software seja estritamente separado dos dados e segredos (por exemplo, senhas), com testes automatizados para garantir que a separação seja mantida
-- A SP exigirá que o software seja documentado suficientemente bem para que um desenvolvedor sem conhecimento prévio do projeto possa usá-lo para executar sua própria cópia do software
+- O pedido de proposta exigirá que o código-fonte do software seja escrito e mantido em público numa plataforma de codificação social (por exemplo, [GitHub](http://github.com/) ou [GitLab](https://gitlab.com/ )), desde o primeiro dia.
+- O pedido de proposta exigirá que o software seja explicitamente dedicado ao domínio público ou publicado sob uma [licença de código aberto](https://opensource.org/licenses)
+- O pedido de proposta usará as melhores práticas de segurança, exigindo que o software seja estritamente separado dos dados e segredos (por exemplo, senhas), com testes automatizados para garantir que a separação seja mantida
+- O pedido de proposta exigirá que o software seja documentado suficientemente bem para que um desenvolvedor sem conhecimento prévio do projeto possa usá-lo para executar sua própria cópia do software
 
 
 #### Questões-chave
@@ -471,13 +471,13 @@ Resposta errada: "Estaríamos muito relutantes em rescindir o contrato. Levaria 
 
 Resposta certa: "Será um contrato de tempo e materiais, então podemos parar de atribuir trabalho ao fornecedor a qualquer momento, e isso seria o fim funcional do contrato. Poderíamos reeditar a RFP e ter um novo fornecedor integrado em seis semanas. Exigiria uma pequena quantidade de tempo da equipa e atrasaria o projeto apenas nessas seis semanas. "
 
-### A SP incluirá requisitos de como o sistema irá operar? Em caso afirmativo, quantos requisitos estão incluídos?
+### O pedido de proposta incluirá requisitos de como o sistema irá operar? Em caso afirmativo, quantos requisitos estão incluídos?
 
-Resposta errada: "Passamos o ano passado revendo os nossos requisitos de negócios e escrevemos centenas de requisitos para incluir na SP, para garantir que obteremos exatamente o que precisamos."
+Resposta errada: "Passamos o ano passado revendo os nossos requisitos de negócios e escrevemos centenas de requisitos para incluir nO pedido de proposta, para garantir que obteremos exatamente o que precisamos."
 
 Resposta certa: "Estamos mais focados nos resultados que desejamos do novo sistema. Desenvolvemos uma acumulação de histórias de utilizadores para ajudar a orientar o trabalho da equipa, em vez de produzir uma lista detalhada de requisitos técnicos."
 
-### Quanto tempo você espera que a SP demore?
+### Quanto tempo você espera que O pedido de proposta demore?
 
 Resposta errada: "Desenvolvemos várias centenas de páginas de requisitos de sistema junto com mais 50 páginas de termos e condições padrão."
 
@@ -518,7 +518,7 @@ Resposta certa: uma pessoa específica é nomeada.
 
 Resposta errada: "Quando estiver pronto."
 
-Resposta certa: "No final de cada sprint."
+Resposta certa: "No final de cadO pedido de proposta."
 
 ### O projeto irá automatizar os testes? Integração? Entrega? Testes de segurança?
 
