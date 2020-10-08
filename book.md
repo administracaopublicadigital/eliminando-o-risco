@@ -307,7 +307,7 @@ Não meça o progresso em "pontos da histórias", linhas de código escritas, ho
 
 - A equipa do fornecedor usará metodologias ágeis;
 - O fornecedor será obrigado a colocar software funcional num ambiente da propriedade do governo no final de cada pedido de proposta;
-- Rotineiramente, a equipa do projeto irá entrevistar e testar seu trabalho com utilizadores finais, tanto para informar o trabalho planeado como para determinar se o trabalho já realizado está correto;
+- Rotineiramente, a equipa do projeto irá entrevistar e testar o seu trabalho com utilizadores finais, tanto para informar o trabalho planeado como para determinar se o trabalho já realizado está correto;
 - O pedido de proposta não fará menção a um cronograma detalhado do projeto, e não haverá menção a cronogramas ou contratos de validação e verificação independente;
 - Um membro da equipa legislativa será designado para fornecer supervisão do projeto e coordenará com a liderança do projeto para monitorizar o progresso, comparecendo periodicamente às revisões de cada pedido de proposta;
 
@@ -315,7 +315,7 @@ Não meça o progresso em "pontos da histórias", linhas de código escritas, ho
 #### Questões-chave
 
 - A agência solicitante pode providenciar valor aos utilizadores finais em seis meses? Qual é, especificamente, esse valor?
-- A agência está preparada para o fornecedor entrevistar e testar continuamente seu trabalho com utilizadores finais reais do software - talvez incluindo funcionários da agência?
+- A agência está preparada para o fornecedor entrevistar e testar continuamente o seu trabalho com utilizadores finais reais - talvez incluindo funcionários da agência?
 
 
 ### Limitar gastos totais
@@ -332,11 +332,11 @@ Quanto maior a quantia de dinheiro gasta em um projeto de software, maiores as c
 
 Usar um único fornecedor por um longo período de tempo ou para um grande número de equipas pode ser mais confortável, mas inevitavelmente leva ao aprisionamento ao fornecedor. Dividir os projetos em vários pequenos contratos incentiva os fornecedores a construir um ecossistema de software sustentável, em vez de um monólito, e torna cada contrato pequeno o suficiente para que as probabilidades de sucesso aumentem significativamente.
 
-Deverá exigir que não sejam gastos mais do que um valor máximo num único contrato anualmente, e que nenhum contrato dure mais do que X anos, incluindo períodos de opção. Dessa forma, você não terá mais do que duas equipas de desenvolvimento de um único fornecedor. Se o projeto precisar de mais equipas de desenvolvimento, obtenha-as de outro fornecedor e faça com que trabalhem separadamente. Limite O pedido de proposta também, mantendo-a abaixo de 20 páginas; não gaste mais do que 60 dias escrevendo-a.
+Deverá exigir que não sejam gastos mais do que um valor máximo num único contrato anualmente, e que nenhum contrato dure mais do que um ou dois anos, incluindo períodos de opção. Dessa forma, você não terá mais do que duas equipas de desenvolvimento de um único fornecedor. Se o projeto precisar de mais equipas de desenvolvimento, obtenha-as de outro fornecedor e faça com que trabalhem separadamente. Limite o pedido de proposta também, mantendo-a abaixo de 20 páginas; não gaste mais do que 60 dias a escrevê-lo.
 
-Além de evitar o aprisionamento, há outro benefício em usar contratos menores: eles têm menos probabilidade de serem contestados, porque o valor em dólares não justifica o problema e os custos legais. Se você é respeitoso e transparente com os fornecedores e não exige centenas de páginas de propostas, eles provavelmente vão querer trabalhar para consigo no futuro.
+Além de evitar o aprisionamento, há outro benefício em usar contratos menores: eles têm menos probabilidade de serem contestados, porque o valor não justifica o problema e os custos legais. Se você é respeitoso e transparente com os fornecedores e não exige centenas de páginas de propostas, eles provavelmente vão querer trabalhar para si no futuro.
 
-À medida que o número de pessoas que trabalham num projeto aumenta, também aumenta a quantidade de tempo que todas essas pessoas gastam coordenando umas com as outras. A solução para isso é fazer com que trabalhem em paralelo, o que é possível ao construir com peças independentes. Ter mais do que uma equipa de fornecedores trabalhando no seu projeto também fornece opções mais competitivas se você precisar de mudar de fornecedor.
+À medida que o número de pessoas que trabalham num projeto aumenta, também aumenta a quantidade de tempo que todas essas pessoas gastam coordenando umas com as outras. A solução para isso é fazer com que trabalhem em paralelo, o que é possível ao construir com peças desacopladas. Ter mais do que uma equipa de fornecedores trabalhando no seu projeto também fornece opções mais competitivas no caso de precisar de mudar de fornecedor.
 
 
 #### Lista de controle
@@ -352,9 +352,9 @@ Além de evitar o aprisionamento, há outro benefício em usar contratos menores
 - Os oficiais contratantes entendem que não estão sendo solicitados a fazer todo o trabalho que vai para um contrato gigante? Eles entendem que contratos mais pequenos são muito mais fáceis de conceder e que, com as metodologias ágeis, eles também serão muito mais fáceis de gerir?
 
 
-### Financeie sistemas, não monólitos
+### Financie sistemas, não monólitos
 
-Não substitua o antigo sistema desatualizado por um novo sistema desatualizado. Insista em sistemas fracamente acoplados ou independentes que são construídos de forma incremental. Dessa forma, eles nunca precisarão ser completamente substituídos - será apenas necessário substituir componentes individuais conforme a necessidade.
+Não substitua o antigo sistema desatualizado por um novo sistema desatualizado. Insista em sistemas desacoplados ou independentes que são construídos de forma incremental. Dessa forma, eles nunca precisarão ser completamente substituídos - será apenas necessário substituir componentes individuais conforme a necessidade.
 
 
 #### Lista de verificação
@@ -367,8 +367,8 @@ Não substitua o antigo sistema desatualizado por um novo sistema desatualizado.
 
 #### Questões-chave
 
-- Existe um único ponto de falha que pode derrubar todo o sistema? (Em caso afirmativo, provavelmente trata-se de um monólito, não um sistema.)
-- Se o contrato de um fornecedor precisar ser rescindido por fraco desempenho, os outros fornecedores conseguirão continuar a trabalhar sem interrupção?
+- Existe um único ponto de falha que pode derrubar todo o sistema? (Em caso afirmativo, provavelmente trata-se de um monólito, não de um sistema.)
+- Se o contrato de um fornecedor precisar de ser rescindido por fraco desempenho, os outros fornecedores conseguirão continuar a trabalhar sem interrupção?
 
 
 ### Expanda o seu grupo de fornecedores
