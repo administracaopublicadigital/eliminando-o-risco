@@ -192,7 +192,7 @@ Mas, para aquisições importantes de tecnologia especializada crítica, seja ex
 
 Antes de contratar essas ferramentas, fale primeiro com outras entidades que usaram esses produtos personalizados. Muito provavelmente, você aprenderá que o que está sendo vendido como uma solução pronta a usar leva muito mais tempo e dinheiro para personalizar do que esperava.
 
-Em vez de exigir qualquer solução na fase de orçamento, dê às agências o espaço para determinar se devem comprar ou construir várias partes do sistema. Se a alocação de orçamento exige SCG, então a instituição provavelmente terminará aprisionada numa versão altamente modificada de um produto SCG, barrada de todas as atualizações futuras por causa dessas modificações. Da mesma forma, a obrigatoriedade em usar software-como-serviço (SaaS) provavelmente forçará a agência a ajustar os seus requisitos como um sapato apertado, enquanto gasta uma quantia significativa de dinheiro adicional em um "integrador de software" para conectá-lo ao sistema existente, levando ao mesmo tipo de aprisionamento indesejável.
+Em vez de exigir qualquer solução na fase de orçamento, dê às agências o espaço para determinar se devem comprar ou construir várias partes do sistema. Se a alocação de orçamento exige SCG, então a instituição provavelmente terminará aprisionada numa versão altamente modificada de um produto SCG, barrada de todas as atualizações futuras por causa dessas modificações. Da mesma forma, a obrigatoriedade em usar software-como-serviço (SaaS) provavelmente forçará a agência a ajustar os seus requisitos como um sapato apertado, enquanto gasta uma quantia significativa de dinheiro adicional num "integrador de software" para ligá-lo ao sistema existente, levando ao mesmo tipo de aprisionamento indesejável.
 
 Pode muito bem fazer sentido usar SCG ou SaaS como o núcleo de um novo sistema importante. Mas a instituição precisa de examinar isso com atenção, reconhecendo que não é provável que consigam uma solução SCG ou SaaS totalmente pronta para a utilização especializada que a instituição necessita.
 
@@ -205,7 +205,7 @@ Pode muito bem fazer sentido usar SCG ou SaaS como o núcleo de um novo sistema 
 
 #### Questões-chave
 
-- uma vez que o produto foi personalizado para atender às necessidades da instituição, como serão as atualizações de software SCG feitas? Quanta personalização adicional será necessária para integrar essas modificações e quem vai pagar por essas atualizações?
+- Uma vez que o produto foi personalizado para atender às necessidades da instituição, como serão as atualizações de software SCG feitas? Quanta personalização adicional será necessária para integrar essas modificações e quem vai pagar por essas atualizações?
 - O que acontece se o fornecedor de SaaS fechar um dia sem avisar?
 - O estado terá acesso fácil e gratuito aos seus dados, modelos de dados e APIs?
 
