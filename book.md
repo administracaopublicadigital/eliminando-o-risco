@@ -120,7 +120,7 @@ Ao combinar o design centrado no utilizador, a agilidade, a propriedade do produ
 
 Esta abordagem exigirá coordenação e aceitação dos responsáveis pelas aquisições e contratações. Estes funcionários geralmente estão acostumados à abordagem tradicional de terceirizar projetos de TI: uma grande aquisição baseada em longos documentos de pedidos de proposta, solicitando dos fornecedores propostas longas, certificações e qualificações desatualizadas. Geralmente, os fornecedores que usam métodos ágeis e centrados no utilizador não têm ideia do que seja "CMMI" ou "ISO-9000" - tais padrões já não são considerados melhores práticas para a criação de sistemas de software flexíveis e económicos. Esta é uma barreira de entrada para muitos dos fornecedores que poderiam ser contratados pelo governo mas que não desejam gastar todos os recursos necessários para se qualificar e escrever uma proposta.
 
-Os processos modernos de desenvolvimento de software são baseados no design centrado no utilizador, desenvolvimento ágil de software, propriedade do produto, DevOps, construção com peças desacopladas e contratação modular. Ao compreender esses conceitos básicos, você está em uma ótima posição para entender como fazer orçamentar um projeto de desenvolvimento de software da forma mais eficaz e para entender o restante deste manual.
+Os processos modernos de desenvolvimento de software são baseados no design centrado no utilizador, desenvolvimento ágil de software, propriedade do produto, DevOps, construção com peças desacopladas e contratação modular. Ao compreender esses conceitos básicos, você está em uma ótima posição para entender como orçamentar um projeto de desenvolvimento de software da forma mais eficaz e para entender o restante deste manual.
 
 
 ## Orçamentar e supervisionar projetos de tecnologia
@@ -129,13 +129,13 @@ Os processos modernos de desenvolvimento de software são baseados no design cen
 
 Nas últimas décadas, as agências governamentais deixaram de usar funcionários internos, contando com fornecedores externos para construir as suas ferramentas de tecnologia digital. As decisões para fazer isso foram baseadas em trocas compensatórias que pareciam opções de menor risco - muitas vezes impulsionadas por uma capacidade limitada no governo e promessas de ferramentas mais baratas "disponíveis no mercado" oferecidas por contratantes.
 
-No entanto, aprendemos com exemplos de vários projetos que, embora o governo possa facilmente terceirizar o trabalho de criação de novos sistemas digitais, ele não pode terceirizar o risco de falha. Projetos que correm mal refletem-se também no governo, não só em empreiteiros ou fornecedores de software.
+No entanto, aprendemos com exemplos de vários projetos que, embora o governo possa facilmente externalizar o trabalho de criação de novos sistemas digitais, ele não pode externalizar o risco de falha. Projetos que correm mal refletem-se também no governo, não só em empreiteiros ou fornecedores de software.
 
 O governo é, em última análise, responsável pela sua missão, e por consequência, as entidades governamentais precisam de ter controle e responsabilidade pelos projetos que suportam essa missão. O problema que um convite a orçamento de TI visa resolver não é um problema técnico; é um problema relacionado com o cumprimento da missão do governo, e a tecnologia é simplesmente um meio para esse fim.
 
 Isso não significa que os departamentos precisem de realizar todo o trabalho internamente; significa que os departamentos precisam de definir expectativas claras sobre os resultados humanos e padrões técnicos relacionados com a segurança de dados, uso, interoperabilidade, monitorização e avaliação.
 
-O conhecimento técnico é acessível e abundante, mas saber como administrar uma serviço ou agência estatal é uma habilidade rara e valiosa. O governo deve abraçar e assumir a sua responsabilidade e risco de falha, reconhecendo que os fornecedores de tecnologia são contratados apenas para ajudar e devem poder ser facilmente substituíveis se não tiverem um bom desempenho.
+O conhecimento técnico é acessível e abundante, mas saber como administrar um serviço ou agência estatal é uma habilidade rara e valiosa. O governo deve abraçar e assumir a sua responsabilidade e o risco de falha, reconhecendo que os fornecedores de tecnologia são contratados apenas para ajudar e devem poder ser facilmente substituíveis se não tiverem o desempenho esperado.
 
 
 #### Lista de verificação
@@ -148,7 +148,7 @@ O conhecimento técnico é acessível e abundante, mas saber como administrar um
 
 - Existem funcionários do governo identificados e treinados (não contratados) que servirão como donos de produtos dedicados e com poderes para definir a direção, priorizar e supervisionar o trabalho da equipa de desenvolvimento?
 - Há uma cadeia de apoio para esta nova abordagem dentro do departamento e das suas chefias superiores, TI central, escritórios jurídicos e de compras, bem como o legislativo? Alguma dessas partes interessadas é capaz de bloquear a adoção desta nova abordagem? Em caso afirmativo, qual é o caminho para escalar os problemas, garantindo o alinhamento e evitando que esses bloqueadores internos coloquem o projeto em risco?
-- Como é que o departamento / serviço está a assumir a responsabilidade por liderar o projeto e assumir os seus resultados, em vez de tentar terceirizar o risco para um fornecedor através de um processo de contratação?
+- Como é que o departamento / serviço está a assumir a responsabilidade por liderar o projeto e assumir os seus resultados, em vez de tentar externalizar o risco para um fornecedor através de um processo de contratação?
 
 
 ### Adquira serviços, não software
