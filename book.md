@@ -382,20 +382,20 @@ Embora a equipa de compras fique tentada a procurar fornecedores que já constru
 
 O software de uma instituição provavelmente será útil, no todo ou em parte, para outras instituições do país.
 
-Se o software for publicado abertamente, os funcionários dos fornecedores ficarão ansiosos para trabalhar nele - torna-se um caso raro de trabalho que eles podem adicionar ao seu currículo para empregos futuros ou partilhar com amigos, o que ajuda a garantir que você receba os seus melhores esforços. Além disso, SPs adicionais emitidos para o projeto podem apontar os fornecedores para o código que já foi escrito, permitindo-lhes ver exatamente no que trabalharão ou com o qual interagirão. O departamento do governo que financia o trabalho pode estar ansioso para encontrar maneiras de partilhar o seu software com outras instituições que eles também estejam a financiar.
+Se o software for publicado abertamente, os funcionários dos fornecedores ficarão ansiosos para trabalhar nele - torna-se um caso raro de trabalho que eles podem adicionar ao seu currículo para empregos futuros ou partilhar com amigos, o que ajuda a garantir que você receba os seus melhores esforços. Além disso, futuros pedidos de proposta adicionais emitidos para o projeto podem apontar os fornecedores para o código que já foi escrito, permitindo-lhes ver exatamente no que trabalharão ou com o qual interagirão. O departamento do governo que financia o trabalho pode estar ansioso para encontrar maneiras de partilhar o seu software com outras instituições que eles também estejam a financiar.
 
 
 #### Lista de verificação
 
-- O pedido de proposta exigirá que o código-fonte do software seja escrito e mantido em público numa plataforma de codificação social (por exemplo, [GitHub](http://github.com/) ou [GitLab](https://gitlab.com/ )), desde o primeiro dia.
+- O pedido de proposta exigirá que o código-fonte do software seja escrito e mantido em público numa plataforma de codificação social (por exemplo, [GitHub](zhttp://github.com/) ou [GitLab](https://gitlab.com/ )), desde o primeiro dia.
 - O pedido de proposta exigirá que o software seja explicitamente dedicado ao domínio público ou publicado sob uma [licença de código aberto](https://opensource.org/licenses)
-- O pedido de proposta usará as melhores práticas de segurança, exigindo que o software seja estritamente separado dos dados e segredos (por exemplo, senhas), com testes automatizados para garantir que a separação seja mantida
-- O pedido de proposta exigirá que o software seja documentado suficientemente bem para que um desenvolvedor sem conhecimento prévio do projeto possa usá-lo para executar sua própria cópia do software
+- O pedido de proposta usará as melhores práticas de segurança, exigindo que o software seja estritamente separado dos dados e segredos, com testes automatizados para garantir que a separação seja mantida;
+- O pedido de proposta exigirá que o software seja documentado suficientemente bem para que um desenvolvedor sem conhecimento prévio do projeto possa usá-lo para executar sua própria cópia do software.
 
 
 #### Questões-chave
 
-- Os responsáveis pela ciber-segurança do estado ou da instituição ficarão irritados com a perspectiva de publicar software de código aberto e assim bloquear a implantação do software?
+- Os responsáveis pela ciber-segurança do estado ou da instituição ficarão preocupados com a perspectiva de publicar software de código aberto e assim bloquear a implantação do software?
 - Existem outras agências no estado que possam beneficiar deste software? Eles podem ser consultados antes e durante o processo de desenvolvimento?
 - O escritório de consultoria jurídica da agência (ou seu equivalente) fará objeções à publicação de software no domínio público ou sob uma [licença de código aberto aprovada pela OSI](https://opensource.org/licenses)?
 
