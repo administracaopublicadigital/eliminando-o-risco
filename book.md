@@ -373,7 +373,7 @@ Não substitua o antigo sistema desatualizado por um novo sistema desatualizado.
 
 ### Expanda o seu grupo de fornecedores
 
-É pouco provável que seus atuais fornecedores utilizem as práticas de desenvolvimento de software modernas descritas neste manual - eles foram contratados pelas suas práticas tradicionais. Para encontrar fornecedores que satisfaçam as suas novas necessidades, você provavelmente precisará de identificar e atrair novas empresas que usem práticas modernas de desenvolvimento de software.
+É pouco provável que seus atuais fornecedores utilizem as práticas de desenvolvimento de software modernas descritas neste manual - afinal eles foram contratados pelas suas práticas tradicionais. Para encontrar fornecedores que satisfaçam as suas novas necessidades, você provavelmente precisará de identificar e atrair novas empresas que usem práticas modernas de desenvolvimento de software.
 
 Se for importante obter propostas de fornecedores locais, saiba que há uma alta probabilidade de que haja algumas empresas pequenas qualificadas que podem fornecer programas de desenvolvimento ágil. No entanto, se você deseja reduzir o preço dos serviços, é importante considerar trabalhar com equipas de fornecedores remotos ou distribuídos (em vez de no local).
 
