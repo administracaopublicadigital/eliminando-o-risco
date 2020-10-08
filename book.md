@@ -1,22 +1,22 @@
 # Introdução
 
-Apenas uma pequena percentagem dos grandes projetos de software do governo são bem-sucedidos. Os projetos estaduais de tecnologias de informação, em particular, costumam correr mal porque o estado não possui conhecimentos básicos sobre o desenvolvimento de software moderno e dependende de processos de aquisição desatualizados. Todos os anos, o governo gasta muito dinheiro em projetos para manter e modernizar os sistemas de TI usados, mas os esforços para modernizar esses sistemas legados fracassam a uma taxa alarmante e com grande custo para o nosso orçamento.
+Apenas uma pequena percentagem dos grandes projetos de software do governo são bem-sucedidos. De uma forma geral, os projetos estaduais de tecnologias de informação costumam correr mal porque o estado não possui conhecimentos básicos sobre o desenvolvimento de software moderno e dependende de processos de aquisição desatualizados. Todos os anos, o governo gasta muito dinheiro em projetos para manter e modernizar os sistemas de informação usados, mas os esforços para modernizar esses sistemas legados fracassam a uma taxa alarmante e com grande custo para o nosso orçamento.
 
-A nossa administração pública depende cada vez mais de software e hardware modernos para implementar programas e fornecer serviços essenciais ao público, e o sucesso de qualquer iniciativa depende do sucesso da infraestrutura de software subjacente. Todas as entidades governamentais enfrentam desafios semelhantes, enfrentando restrições de orçamento e de pessoal enquanto lutam para modernizar os sistemas de tecnologia legados que estão desatualizados e são inflexíveis, caros e ineficazes. Funcionários da administração pública muitas vezes contam com os mesmos processos antigos que levaram aos problemas em primeiro lugar.
+A nossa administração pública depende cada vez mais de software e hardware modernos para implementar programas e fornecer serviços essenciais ao público, e o sucesso de qualquer iniciativa depende do sucesso da infraestrutura de software subjacente. Todas as entidades governamentais enfrentam desafios semelhantes, enfrentando restrições de orçamento e de pessoal enquanto lutam para modernizar os sistemas de tecnologia legados que estão desatualizados e são inflexíveis, caros e ineficazes. Funcionários e serviços da administração pública muitas vezes contam com os mesmos processos antigos que conduziram aos problemas em primeiro lugar.
 
 O público merece um governo que forneça a mesma tecnologia de topo que consegue obter no mercado comercial. A confiança no governo depende disso.
 
-Este manual foi elaborado para executivos, especialistas em orçamento, legisladores e outros tomadores de decisão "não técnicos" que financiam ou supervisionam projetos de tecnologia do governo e implementam a tecnologia necessária para apoiar a administração pública. Ele pode ajudá-lo a preparar esses projetos para o sucesso, fazendo as perguntas certas, identificando os resultados certos e, igualmente importante, capacitá-lo com o conhecimento básico dos princípios fundamentais do design e construção de software moderno.
+Este manual foi elaborado para executivos, especialistas em orçamento, legisladores e outros tomadores de decisão que financiam ou supervisionam projetos de tecnologia do governo e implementam a tecnologia necessária para apoiar a administração pública. Ele pode ajudá-lo a preparar esses projetos para o sucesso, fazendo as perguntas certas, identificando os resultados certos e, igualmente importante, capacitá-lo com o conhecimento básico dos princípios fundamentais do design e construção de software moderno.
 
-Este manual também fornece as ferramentas de que precisa para começar a lidar com problemas relacionados, como:
+Este manual também fornece as ferramentas de que precisa para começar a lidar com problemas relacionados, tais como:
 
-- A necessidade de simultaneamante usar, manter e modernizar sistemas legados
-- Organizações isoladas e culturas avessas ao risco
-- Longos ciclos de orçamento que nem sempre correspondem às práticas modernas de design de software
-- Ameaças à segurança
-- Contratação, pessoal e outras restrições de recursos
+- A necessidade de simultaneamante usar, manter e modernizar sistemas legados;
+- Organizações isoladas e culturas avessas ao risco;
+- Longos ciclos de orçamento que nem sempre correspondem às práticas modernas de design de software;
+- Ameaças à segurança;
+- Contratação, pessoal e outras restrições.
 
-Este documento foi escrito especificamente para a aquisição de software feito à medida, mas é importante reconhecer que o software comercial genérico é frequentemente customizado e que o Software como Serviço frequentemente requer código customizado. Assim que qualquer personalização for feita, a maioria dos conselhos neste manual aplicam-se a essas ofertas comerciais. (Consulte "Cuidado com a armadilha de software comercial personalizado" para obter detalhes.)
+Este documento foi escrito especificamente para a aquisição de software feito à medida, mas é importante reconhecer que o software comercial genérico (SCG) é frequentemente customizado e que o Software como Serviço (_Software as a Service_ ou _SaaS_) frequentemente requer customização. Assim que qualquer personalização for feita, a maioria dos conselhos neste manual aplicam-se a essas ofertas comerciais. (Consulte "Cuidado com a armadilha de software comercial personalizado" para obter detalhes.)
 
 Como funcionários governamentais, devemos ser bons administradores do dinheiro público, exigindo ferramentas digitais sustentáveis, económicas e fáceis de usar pelo público e funcionários da administração pública. Este manual ajudá-lo-á a fazer exatamente isso.
 
@@ -168,26 +168,26 @@ Historicamente, tem havido pressão para usar apenas contratos de preço fixo, n
 
 ### Cuidado com a armadilha do software comercial personalizado
 
-O software comercial de prateleira (SCP) e o Software as a Service (SaaS) podem ser ótimas maneiras de adquirir rapidamente um novo software ou infraestrutura sem ter que criá-lo do zero. Por exemplo, faz todo o sentido comprar um processador de texto SCP em vez de construir seu próprio processador de texto personalizado.
+O software comercial de genérico (SCG) e o Software as a Service (SaaS) podem ser ótimas maneiras de adquirir rapidamente um novo software ou infraestrutura sem ter que criá-lo do zero. Por exemplo, faz todo o sentido comprar um processador de texto SCG em vez de construir seu próprio processador de texto personalizado.
 
-Mas, para aquisições importantes de tecnologia especializada de missão crítica, seja extremamente cauteloso com as alegações de que SCP ou SaaS funcionarão "fora da caixa". Os fornecedores costumam lançar seus "SCP personalizáveis" e SaaS como uma solução mágica, prometendo que respeitará os seus requisitos regulatórios e de processo específicos. E pode - mas provavelmente somente após extensas modificações.
+Mas, para aquisições importantes de tecnologia especializada de missão crítica, seja extremamente cauteloso com as alegações de que SCG ou SaaS funcionarão "fora da caixa". Os fornecedores costumam lançar seus "SCG personalizáveis" e SaaS como uma solução mágica, prometendo que respeitará os seus requisitos regulatórios e de processo específicos. E pode - mas provavelmente somente após extensas modificações.
 
 Antes de contratar essas ferramentas, fale primeiro com outras ebtidades que usaram esses produtos personalizados. Muito provavelmente, você aprenderá que o que está sendo vendido como uma solução pronta a usar leva muito mais tempo e dinheiro para personalizar do que esperava.
 
-Em vez de exigir qualquer solução na fase de orçamento, dê às agências o espaço para determinar se devem comprar ou construir várias partes do sistema. Se a alocação de orçamento exige SCP, então a instituição provavelmente terminará aprisionada numa versão altamente modificada de um produto SCP, barrada de todas as atualizações futuras por essas modificações. Da mesma forma, a obrigatoriedade de SaaS provavelmente forçará a agência a ajustar os seus requisitos como um sapato apertado, enquanto gasta uma quantia significativa de dinheiro adicional em um "integrador de software" para conectá-lo ao sistema existente, levando ao mesmo tipo de aprisionamento indesejável.
+Em vez de exigir qualquer solução na fase de orçamento, dê às agências o espaço para determinar se devem comprar ou construir várias partes do sistema. Se a alocação de orçamento exige SCG, então a instituição provavelmente terminará aprisionada numa versão altamente modificada de um produto SCG, barrada de todas as atualizações futuras por essas modificações. Da mesma forma, a obrigatoriedade de SaaS provavelmente forçará a agência a ajustar os seus requisitos como um sapato apertado, enquanto gasta uma quantia significativa de dinheiro adicional em um "integrador de software" para conectá-lo ao sistema existente, levando ao mesmo tipo de aprisionamento indesejável.
 
-Pode muito bem fazer sentido usar SCP ou SaaS como o núcleo de um novo sistema importante. Mas a instituição precisa de examinar isso com atenção, reconhecendo que não é provável que consigam uma solução SCP ou SaaS totalmente pronta para a utilização especializada que a instituição necessita.
+Pode muito bem fazer sentido usar SCG ou SaaS como o núcleo de um novo sistema importante. Mas a instituição precisa de examinar isso com atenção, reconhecendo que não é provável que consigam uma solução SCG ou SaaS totalmente pronta para a utilização especializada que a instituição necessita.
 
 
 #### Lista de verificação
 
-- O orçamento não obriga ao uso de SCP, SaaS ou software personalizado, mas permite que a agência proponha uma combinação daqueles conforme achar necessário.
-- As alegações dos fornecedores de que seu produto SCP ou SaaS funcionará imediatamente, sem modificação ou personalização onerosa, são investigadas de forma independente conversando com outros clientes que usaram esses produtos e passaram pelo processo de personalização e implantação.
+- O orçamento não obriga ao uso de SCG, SaaS ou software personalizado, mas permite que a agência proponha uma combinação daqueles conforme achar necessário.
+- As alegações dos fornecedores de que seu produto SCG ou SaaS funcionará imediatamente, sem modificação ou personalização onerosa, são investigadas de forma independente conversando com outros clientes que usaram esses produtos e passaram pelo processo de personalização e implantação.
 
 
 #### Questões-chave
 
-- uma vez que o produto foi personalizado para atender às necessidades da instituição, como serão as atualizações de software SCP feitas? Quanta personalização adicional será necessária para integrar essas modificações e quem vai pagar por essas atualizações?
+- uma vez que o produto foi personalizado para atender às necessidades da instituição, como serão as atualizações de software SCG feitas? Quanta personalização adicional será necessária para integrar essas modificações e quem vai pagar por essas atualizações?
 - O que acontece se o fornecedor de SaaS fechar um dia sem avisar?
 - O estado terá acesso fácil e gratuito aos seus dados, modelos de dados e APIs?
 
@@ -238,7 +238,7 @@ Para projetos maiores, você precisará de contratar uma equipe de desenvolvimen
 #### Lista de verificação
 
 - Há um ou mais funcionários de orçamento (???) com experiência no desenvolvimento de software complexo e personalizado usando metodologias ágeis que ajudará na avaliação de solicitações de orçamento de software personalizado
-- Se não houver funcionários de orçamento (???) com experiência relevante, a legislatura (???) tem um contrato com um fornecedor sem conflito de interesses - um sem outros contratos com o estado e sem vínculos ou parcerias com quaisquer produtos SCP
+- Se não houver funcionários de orçamento (???) com experiência relevante, a legislatura (???) tem um contrato com um fornecedor sem conflito de interesses - um sem outros contratos com o estado e sem vínculos ou parcerias com quaisquer produtos SCG
 - A instituição identificou um funcionário do governo específico que fornecerá liderança técnica para o projeto, juntamente com provas de sua experiência no desenvolvimento de software personalizado utilizando metodologias ágeis
 
 #### Questões-chave
@@ -266,7 +266,7 @@ Portanto, em vez de adquirir uma peça gigante de software proprietário, insist
 - As APIs usarão esquemas abertos
 - Para evitar o aprisionamento do produto, será usado software de código aberto em vez de software comercial sempre que possível
 - O governo será o proprietário de todos os produtos do trabalho do fornecedor
-- Se estiver usando componentes SCP, o fornecedor delineará um caminho de saída para um concorrente - tanto contratual quanto tecnologicamente - com uma maneira económica de exportar todos os dados armazenados
+- Se estiver usando componentes SCG, o fornecedor delineará um caminho de saída para um concorrente - tanto contratual quanto tecnologicamente - com uma maneira económica de exportar todos os dados armazenados
 
 #### Questões-chave
 
@@ -444,7 +444,7 @@ Não é gentileza financiar um projeto que vai fracassar. Se a agência não sab
 #### Questões-chave
 
 - O que é que a agência quer comprar exatamente? Por quê? Quem irá beneficiar?
-- Quais partes do sistema serão personalizadas? Qual será SCP real (não personalizado)? Quanto custarão essas atualizações? O que será feito quando um componente comercial for terminado - por exemplo, se a empresa de base-de-dados sair do mercado?
+- Quais partes do sistema serão personalizadas? Qual será SCG real (não personalizado)? Quanto custarão essas atualizações? O que será feito quando um componente comercial for terminado - por exemplo, se a empresa de base-de-dados sair do mercado?
 - Quem são os utilizadores finais do seu sistema? Você falou com eles? O que é que _eles_ querem?
 - Você está preparado para quando as mudanças precisam ser feitas?
 - Quanto custará para mudar para um novo sistema?
@@ -548,7 +548,7 @@ Resposta certa: "O estado" ou "será entregue ao domínio público".
 
 RFP -> SP
 equipes -> equipas
-COTS -> SCP
+COTS -> SCG
 QASP -> PVGQ
 instituição -> cliente ??
 usuário -> utilizador
