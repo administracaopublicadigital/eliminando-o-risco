@@ -333,52 +333,48 @@ Além de evitar o aprisionamento, há outro benefício em usar contratos menores
 
 ### Financeie sistemas, não monólitos
 
-Não substitua o antigo sistema desatualizado por um novo sistema desatualizado. Insista em sistemas fracamente acoplado (???)s que são construídos de forma incremental. Dessa forma, eles nunca precisarão ser completamente substituídos - será apenas necessário substituir componentes individuais conforme a necessidade.
+Não substitua o antigo sistema desatualizado por um novo sistema desatualizado. Insista em sistemas fracamente acoplados ou independentes que são construídos de forma incremental. Dessa forma, eles nunca precisarão ser completamente substituídos - será apenas necessário substituir componentes individuais conforme a necessidade.
 
 
-#### Lista de vetificação
+#### Lista de verificação
 
-- Cada contrato será escrito para entregar valor aos utilizadores finais - eles não servirão para "manter servidores" ou "configurar uma base de dados", mas para "criar um website de solicitação de autorizações" ou "simplificar o processo de admissão"
-- Não haverá lugar para um "arquiteto do sistema", porque a arquitetura surgirá iterativamente ao longo do processo ágil
-- Se o projeto for grande o suficiente para ter várias equipas scrum (???) a trabalhar simultaneamente, não há a expectativa de que todos os membros de todas as equipas estejam em reuniões juntos
-- O pedido de proposta especificará o uso de arquitetura orientada a serviços para cada componente
+- Cada contrato será escrito para entregar valor aos utilizadores finais - eles não servirão para "manter servidores" ou "configurar uma base de dados", mas para "criar um website de solicitação de autorizações" ou "simplificar o processo de admissão", etc.;
+- Não haverá lugar para um "arquiteto do sistema", porque a arquitetura surgirá iterativamente ao longo do processo ágil;
+- Se o projeto for grande o suficiente para ter várias equipas a trabalhar simultaneamente, não há a expectativa de que todos os membros de todas as equipas estejam em reuniões juntos;
+- O pedido de proposta especificará o uso de arquitetura orientada a serviços para cada componente.
 
 
 #### Questões-chave
 
-- Existe um único ponto de falha que pode derrubar todo o sistema? (Em caso afirmativo, provavelmente é monólito, não um sistema.)
+- Existe um único ponto de falha que pode derrubar todo o sistema? (Em caso afirmativo, provavelmente trata-se de um monólito, não um sistema.)
 - Se o contrato de um fornecedor precisar ser rescindido por fraco desempenho, os outros fornecedores conseguirão continuar a trabalhar sem interrupção?
 
 
-### Expanda seu grupo de fornecedores
+### Expanda o seu grupo de fornecedores
 
-[REFAZER ESTA SECÇÃO TODA]
+É pouco provável que seus atuais fornecedores utilizem as práticas de desenvolvimento de software modernas descritas neste manual - eles foram contratados pelas suas práticas tradicionais. Para encontrar fornecedores que satisfaçam as suas novas necessidades, você provavelmente precisará de identificar e atrair novas empresas que usem práticas modernas de desenvolvimento de software.
 
-É pouco provável que seus atuais fornecedores utilizem as práticas de desenvolvimento de software modernas descritas neste manual - eles foram contratados pelas suas práticas tradicionais. Para encontrar fornecedores que satisfaçam as suas novas necessidades, você provavelmente precisará de identificar e atrair novas empresas que usam práticas modernas de desenvolvimento de software.
+Se for importante obter propostas de fornecedores locais, saiba que há uma alta probabilidade de que haja algumas empresas pequenas qualificadas que podem fornecer programas de desenvolvimento ágil. No entanto, se você deseja reduzir o preço dos serviços, é importante considerar trabalhar com equipas de fornecedores remotos ou distribuídos (em vez de no local).
 
-Se for importante obter propostas de fornecedores locais, saiba que há boas chances de que haja algumas empresas pequenas qualificadas que podem fornecer programas de desenvolvimento ágil. No entanto, se você deseja reduzir o preço dos lances, é importante considerar trabalhar com equipas de fornecedores remotos ou distribuídos (em vez de no local).
-
-Como pode encontrar essas pequenas empresas qualificadas? Há várias cidades e estados que criaram um pool de fornecedores de software ágil. Por exemplo, [o Departamento de Tecnologia da Califórnia tem um pool de fornecedores] (https://github.com/CDTProcurement/adpq) que adiciona novas empresas em uma base contínua. Procure e aproveite esses pools de fornecedores e inclua algumas dessas empresas em futuros processos de RFP. Além disso, pergunte a colegas em outras agências estaduais para ver se eles podem recomendar algum fornecedor a ser incluído. Por fim, tente pensar como um desenvolvedor de software procurando emprego e verifique os sites que são conhecidos por anunciar oportunidades de emprego e networking profissional para identificar fornecedores ágeis em seu estado. Todo esse processo leva apenas algumas horas.
-
-Embora a equipa de compras fique tentada a procurar fornecedores que já construíram um sistema quase idêntico, isso é desnecessário e limita o conjunto de fornecedores a apenas algumas grandes empresas internacionais. Em vez disso, eles devem ampliar seu âmbito e procurar fornecedores que tenham construido algo análogo. Um fornecedor que criou um site para reservar carros de aluguel pode criar um site para solicitar licenças de acampamento em áreas remotas. Um desenvolvedor líder que construiu uma base-de-dados para rastrear as posições dos cometas pode construir uma base-de-dados para rastrear veículos. Ao buscar conhecimento relevante desta forma, a equipa de compras certamente encontrará muitos fornecedores que podem fazer o trabalho.
+Embora a equipa de compras fique tentada a procurar fornecedores que já construíram um sistema quase idêntico, isso é desnecessário e limita o conjunto de fornecedores a apenas algumas grandes empresas. Em vez disso, eles devem ampliar seu âmbito e procurar fornecedores que tenham construido algo análogo. Um fornecedor que criou um site para reservar carros de aluguel pode criar um site para solicitar licenças de acampamento em áreas remotas. Um desenvolvedor líder que construiu uma base-de-dados para rastrear as posições dos cometas pode construir uma base-de-dados para rastrear veículos. Ao procurar conhecimento relevante desta forma, a equipa de compras certamente encontrará muitos fornecedores que podem fazer o trabalho.
 
 
 #### Lista de controle
 
-- O pedido de proposta será simplificada (não mais do que 20 páginas) e compreensível por desenvolvedores de software que normalmente não trabalham com o governo
-- O plano de aquisição inclui chegar a pequenos fornecedores para incentivá-los a licitar
-- O pedido de proposta não ficará oculta por detrás de um website de compras que exige registro, mas será publicada abertamente na web para que a comunidade de fornecedores possa partilhá-la
-- O pedido de proposta exigirá que os fornecedores nomeiem seu pessoal-chave em suas propostas - não mais do que três pessoas - como o desenvolvedor líder ou o designer líder
-- O plano de aquisição inclui entrevistar os finalistas sobre a abordagem proposta, questionar o pessoal-chave nomeado, _não_ a equipa de vendas do fornecedor
-- Os funcionários dos fornecedores não serão obrigados a trabalhar no local em uma instalação do governo
-- As equipas de fornecedores e o dono do produto governamental terão permissão para usar um serviço de videochamada baseado em desktop, uma ferramenta de chat em tempo real e um sistema público de controle de versão baseado em Git e outras ferramentas comumente usadas pelas equipas de desenvolvimento ágil
+- O pedido de proposta será simplificada (não mais do que 20 páginas) e compreensível por desenvolvedores de software que normalmente não trabalham com o governo;
+- O plano de aquisição inclui chegar a pequenos fornecedores para incentivá-los a licitar;
+- O pedido de proposta não ficará oculto por detrás de um website de compras que exige registro, mas será publicada abertamente na web para que a comunidade de fornecedores possa partilhá-la;
+- O pedido de proposta exigirá que os fornecedores nomeiem seu pessoal-chave em suas propostas - não mais do que três pessoas - como o programador líder ou o designer líder;
+- O plano de aquisição inclui entrevistar os finalistas sobre a abordagem proposta, questionar o pessoal-chave nomeado, _não_ a equipa de vendas do fornecedor;
+- Os funcionários dos fornecedores não serão obrigados a trabalhar no local em uma instalação do governo;
+- As equipas de fornecedores e o dono do produto governamental terão permissão para usar um serviço de videochamada, uma ferramenta de chat em tempo real e um sistema público de controle de versões baseado em Git e outras ferramentas comumente usadas pelas equipas de desenvolvimento ágil.
 
 
 #### Questões-chave
 
-- Há algum benefício - político ou outro - em conceder contratos a fornecedores locais, ou mesmo requisitos para fazê-lo? Isso pode limitar o grau em que você pode expandir seu grupo de fornecedores?
-- Economizar muito dinheiro por cada equipa scrum é suficiente para superar quaisquer objeções às equipas remotas?
-- Foi feita uma investigação de mercado leve para saber quais fornecedores serão alvos dO pedido de proposta, em vez de apenas emitir um pedido de informação e esperar que resulte?
+- Há algum benefício - político ou outro - em conceder contratos a fornecedores locais, ou mesmo requisitos para fazê-lo? Isto pode limitar o grau em que você pode expandir seu grupo de fornecedores?
+- Economizar muito dinheiro por cada equipa é razão suficiente para superar quaisquer objeções a ter equipas remotas?
+- Foi feita uma investigação de mercado para saber quais fornecedores serão alvos do pedido de proposta, em vez de apenas emitir um pedido de informação e esperar que resulte?
 
 
 
