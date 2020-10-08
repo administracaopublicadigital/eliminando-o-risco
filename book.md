@@ -16,7 +16,7 @@ Este manual também fornece as ferramentas de que precisa para começar a lidar 
 - Ameaças à segurança;
 - Contratação, pessoal e outras restrições.
 
-Este documento foi escrito especificamente para a aquisição de software feito à medida, mas é importante reconhecer que o software comercial genérico (SCG) é frequentemente customizado e que o Software como Serviço (_Software as a Service_ ou _SaaS_) frequentemente requer customização. Assim que qualquer personalização for feita, a maioria dos conselhos neste manual aplicam-se a essas ofertas comerciais. (Consulte "Cuidado com a armadilha de software comercial personalizado" para obter detalhes.)
+Este documento foi escrito especificamente para a aquisição de software feito à medida, mas é importante reconhecer que o software comercial genérico (SCG) é frequentemente customizado e que o Software como Serviço (_Software as a Service_ ou _SaaS_) frequentemente requer customização. Assim que qualquer personalização for feita, a maioria dos conselhos neste manual aplicam-se também a essas ofertas comerciais. (Consulte "Cuidado com a armadilha de software comercial personalizado" para obter detalhes.)
 
 Como funcionários governamentais, devemos ser bons administradores do dinheiro público, exigindo ferramentas digitais sustentáveis, económicas e fáceis de usar pelo público e funcionários da administração pública. Este manual ajudá-lo-á a fazer exatamente isso.
 
@@ -24,55 +24,54 @@ Como funcionários governamentais, devemos ser bons administradores do dinheiro 
 
 ## Princípios básicos do design moderno de software
 
-As hipóteses de sucesso de um projeto de tecnologia aumentam quando os líderes governamentais "não técnicos" que o financiam e supervisionam entendem seis conceitos básicos do desenvolvimento de software moderno: **design centrado no utilizador**, **desenvolvimento ágil de software**, **DevOps**, **construção com peças fracamente acopladas**, **contratação modular** e **propriedade do produto**. O leitor não precisa ser um tecnólogo para entender esses conceitos gerais. Depois de entendê-los, parecerá que ganhou um novo superpoder, permitindo-lhe distinguir o jargão e os detalhes técnicos e manter o foco no básico para orientar com sucesso qualquer projeto de software.
+As propabilidades de sucesso de um projeto de tecnologia aumentam quando os líderes governamentais "não técnicos" que o financiam e supervisionam entendem seis conceitos básicos do desenvolvimento de software moderno: **design centrado no utilizador**, **desenvolvimento ágil de software**, **DevOps**, **construção com peças independentes**, **contratação modular** e **propriedade do produto**. O leitor não precisa ser um tecnólogo para entender esses conceitos gerais. Depois de entendê-los, parecerá que ganhou um novo superpoder, permitindo-lhe distinguir o jargão e os detalhes técnicos e manter o foco no básico para orientar com sucesso qualquer projeto de software.
 
 
 ### Design centrado no utilizador
 
 Todo o desenvolvimento de software deve ser centrado nas necessidades dos utilizadores finais reais do software, as pessoas específicas que devem usá-lo. Esses "utilizadores finais" podem ser cidadãos-alvo, funcionários de atendimento ao público, funcionários, outros funcionários do estado ou qualquer um de inúmeros outros grupos.
 
-Projetar **com e para** os utilizadores reduz os riscos do projeto, garantindo que o software está resolvendo problemas reais (ao contrário do que algumas partes interessadas pensam que os problemas realmente são). Esses problemas são identificados por meio de uma variedade de táticas de pesquisa que incluem entrevistas e testes de usabilidade.
+Projetar **com e para** os utilizadores reduz os riscos do projeto, garantindo que o software está resolvendo problemas reais (ao contrário do que algumas partes interessadas pensam que os problemas realmente são). Esses problemas são identificados por meio de uma variedade de táticas de investigação que incluem entrevistas e testes de usabilidade.
 
-No design centrado no utilizador, todo o trabalho está a serviço das necessidades dos utilizadores finais. Esse trabalho é identificado e priorizado em colaboração próxima e regular com os utilizadores finais e é informado por, mas não subserviente a, quaisquer restrições técnicas. (Ou seja, o objetivo do trabalho é entregar valor aos utilizadores, o que envolve lidar com as realidades das linguagens de programação ou software de servidor aprovados, mas o trabalho nunca deve ser omitido por causa da percepção de que restrições técnicas o tornariam impossível.) A equipa técnica e os utilizadores finais revêem regularmente o trabalho, conforme ele está sendo executado, e o trabalho de desenvolvimento no novo software não é considerado concluído até que os utilizadores finais concordem que suas necessidades foram atendidas. Projetar com e para os utilizadores reduz os riscos do projeto, garantindo que o software está resolvendo os problemas dos utilizadores.
+No design centrado no utilizador, todo o trabalho está a serviço das necessidades dos utilizadores finais. Esse trabalho é identificado e priorizado em colaboração próxima e regular com os utilizadores finais e é informado por, mas não subserviente a, quaisquer restrições técnicas. (Ou seja, o objetivo do trabalho é entregar valor aos utilizadores, o que envolve lidar com as realidades das linguagens de programação ou software de servidor aprovados, mas o trabalho nunca deve ser omitido por causa da percepção de que restrições técnicas o tornariam impossível.) A equipa técnica e os utilizadores finais revêem regularmente o trabalho, conforme ele vai sendo executado, e o trabalho de desenvolvimento no novo software não é considerado concluído até que os utilizadores finais concordem que suas necessidades foram atendidas. Projetar com e para os utilizadores reduz os riscos do projeto, garantindo que o software está resolvendo os problemas dos utilizadores.
 
 
 ### Desenvolvimento ágil de software
 
-Planos detalhados e de longo prazo para grandes projetos de software feitos à medida sempre foram a norma no governo. Mas, como engenheiros de software e gestores de projeto aprenderam ao longo dos anos, esses planos nunca estão corretos. Eles precisam de muitas modificações caras, levando a pedidos de mais dinheiro para pagar por "pedidos de alteração". Está na altura de os executivos do governo e responsáveis por orçamentos pararem de pedir planos detalhados de longo prazo e, em vez disso, fazerem o orçamento para projetos de software de uma nova forma.
+Planos detalhados e de longo prazo para grandes projetos de software feitos à medida sempre foram a norma no governo. Mas, como os engenheiros de software e gestores de projeto aprenderam ao longo dos anos, esses planos nunca são cumpridos à risca. Eles precisam de muitas modificações caras, levando a pedidos de mais dinheiro para pagar "pedidos de alteração". Está na altura de os executivos do governo e responsáveis por orçamentos pararem de pedir planos detalhados de longo prazo e, em vez disso, fazerem o orçamento para projetos de software de uma nova forma.
 
-O planeamento antecipado de um projeto inteiro é conhecido como desenvolvimento em "cascata". Imagine planejar um mês de férias com a família de carro pela Europa. Sob a cascata, isso envolveria um planeamento antecipado da agenda de cada dia, incluindo percurso exato, a reserva de cada quarto de hotel, o pré-pagamento de todas as refeições, a pré-compra de ingressos para entrada em atrações, etc. Isso nunca funcionaria porque as coisas mudam, surgem opções inesperadas, e nenhuma pessoa racional gostaria de tomar todas as decisões no início da jornada quando não sabe o que a jornada trará. Em vez disso, a maioria das pessoas planearia a rota geral a ser seguida e planearia apenas algumas paragens principais - os detalhes seriam resolvidos à medida que progredissem ao longo do caminho.
+O planeamento antecipado de um projeto inteiro é conhecido como desenvolvimento em "cascata". Imagine planear um mês de férias com a família numa viagem de carro pela Europa. Sob a metodologia de cascata, isso envolveria um planeamento antecipado da agenda de cada dia, incluindo percurso exato, a reserva de cada quarto de hotel, o pré-pagamento de todas as refeições, a pré-compra de ingressos para entrada em atrações, etc. Isso nunca funcionaria porque as coisas mudam, surgem opções inesperadas, e nenhuma pessoa racional gostaria de tomar todas as decisões no início da jornada quando não sabe o que a jornada trará. Em vez disso, a maioria das pessoas planearia a rota geral a ser seguida e planearia apenas algumas paragens principais - os detalhes seriam resolvidos à medida que progredissem ao longo do caminho.
 
-"Desenvolvimento ágil de software" refere-se ao uso dessa metodologia de planeamento de viagem para construir e modernizar sistemas de software. Em vez de depender de anos de planeamento caro e "compilação de requisitos" antes de começar a escrever software real, os projetos de desenvolvimento ágil são planeados apenas em linhas gerais, com uma descrição bem definida do objetivo geral do projeto e uma forte preferência por _apenas começar_. Uma equipa pequena, com poderes e automotivados (geralmente de 5 a 9 pessoas, incluindo desenvolvedores, gerentes de produto, pesquisadores de utilizadores, escritores e / ou especialistas em segurança) se dedica a cumprir esse objetivo, usando design centrado no utilizador, trabalhando em ciclos semanais para entregar algum software que realmente funcione.
+"Desenvolvimento ágil de software" refere-se ao uso dessa metodologia de planeamento de viagem para construir e modernizar sistemas de software. Em vez de depender de anos de planeamento caro e "compilação de requisitos" antes de começar a escrever software real, os projetos de desenvolvimento ágil são planeados apenas em linhas gerais, com uma descrição bem definida do objetivo geral do projeto e uma forte preferência por _apenas começar_. Uma equipa pequena, com poderes e automotivados (geralmente de 5 a 9 pessoas, incluindo desenvolvedores, gestores de produto, investigadores, escritores e / ou especialistas em segurança) se dedica a cumprir esse objetivo, usando design centrado no utilizador, trabalhando em ciclos curtos (uma a quarto semanas) para entregar algum software que realmente funcione.
 
-No primeiro dia, a equipa planeia apenas o que fará nas próximas duas semanas. (A duração dos ciclos de um projeto pode ser tão breve quanto uma semana ou até quatro semanas - duas semanas é o mais comum.) Cada tarefa que eles trabalharão tem a forma de uma "história de utilizador" - uma necessidade específica do utilizador revelada pela pesquisa. A coleção inteira de histórias de utilizador a serem trabalhadas é chamada de "backlog".
+No primeiro dia, a equipa planeia apenas o que fará nas próximas duas semanas. (A duração dos ciclos de um projeto pode ser tão breve quanto uma semana ou até quatro semanas - duas semanas é o mais comum.) Cada tarefa em que eles trabalharão tem a forma de uma "história de utilizador" - uma necessidade específica do utilizador revelada pela investigação. A coleção inteira de histórias de utilizador a serem trabalhadas é chamada de "backlog".
 
 A equipa trabalha num grupo selecionado destas "histórias de utilizador" por duas semanas e, no final, a equipa analisa o trabalho que eles fizeram, testa-o com os utilizadores finais e, em seguida, planeia as próximas duas semanas retirando mais histórias de utilizador do backlog. Repetir. Cada um desses ciclos de duas semanas é denominado "sprint".
 
 No início, o software que produzido pode não parecer muito (e pode até mesmo ser substituído por algo mais tarde), mas irá informar gradual e sistematicamente a abordagem técnica do projeto e ajudar a equipa a integrar o projeto de forma sensata no sistema pré-existente.
 
-O software funcional é entregue no final de cada sprint, sem exceção - totalmente testado, totalmente documentado, pronto para ser usado. Dessa forma, o valor é entregue constantemente, até que o software seja bom o suficiente para ser implementado para uso amplo. A equipa continua a trabalhar até cumprir todas as metas ou ficar sem dinheiro, o que ocorrer primeiro.
+Software funcional é entregue no final de cada sprint, sem exceção - totalmente testado, totalmente documentado, pronto para ser usado. Dessa forma, o valor é entregue constantemente, até que o software seja bom o suficiente para ser implementado para uso amplo. A equipa continua a trabalhar até cumprir todas as metas ou ficar sem dinheiro, o que ocorrer primeiro.
 
-O fornecedor é pago pelo tempo de seus funcionários, não por um sistema de software. Tudo criado pelo fornecedor - software, documentação, pesquisa, projetos, _tudo_ - é propriedade do governo, entregue ao governo no final de cada sprint. Mudanças tecnológicas, mudanças nas políticas governamentais, mudanças nas regulamentações, mudanças nas leis e mudanças nas prioridades da liderança - qualquer projeto planejado em grande detalhe no início não será capaz de se adaptar a essas mudanças e correrá um risco significativo de falha, derrapes de custo e prazo significativos ou "pedidos de mudança" caros.
+O fornecedor é pago pelo tempo de seus funcionários, não por um sistema de software. Tudo criado pelo fornecedor - software, documentação, investigação, projetos, _tudo_ - é propriedade do governo, entregue ao governo no final de cada sprint. Mudanças tecnológicas, mudanças nas políticas governamentais, mudanças nas regulamentações, mudanças nas leis e mudanças nas prioridades da liderança - qualquer projeto planeado em grande detalhe no início não será capaz de se adaptar a essas mudanças e correrá um risco significativo de falha, derrapes de custo e prazo significativos ou "pedidos de mudança" caros.
 
 Ao combinar a agilidade com o design centrado no utilizador, uma equipa de desenvolvimento pode iterar constantemente para resolver as necessidades dos utilizadores finais de maneiras que seriam impossíveis de aprender antecipadamente.
 
 
 ### Propriedade do produto
 
-A reapropriação dos projetos de software pelo governo requer que as equipas do governo se concentrem nos resultados e não nas métricas. Isso significa mudar de algumas das práticas tradicionais do gestão de projetos para uma mentalidade orientada para o produto.
+A reapropriação dos projetos de software pelo governo requer que as equipas do governo se concentrem nos resultados e não nas métricas. Isso significa mudar de algumas das práticas tradicionais do gestão de projetos para uma mentalidade orientada ao produto.
 
-A palavra "produto" pode soar incomum em um contexto governamental, mas é uma parte importante do jargão tecnológico. "Produto" é uma abreviatura para qualquer coisa que está sendo criada: um site, uma aplicação iOS, uma aplicação web, etc. Embora a palavra faça mais sentido para uma empresa que está vendendo um produto tangível, todo o resto sobre este conceito se traduz perfeitamente para o governo.
+A palavra "produto" pode soar incomum em um contexto governamental, mas é uma parte importante do jargão tecnológico. "Produto" é uma abreviatura para qualquer coisa que está sendo criada: um site, uma aplicação iOS, uma aplicação web, etc. Embora a palavra faça mais sentido para uma empresa que está vendendo um produto tangível, todo o resto sobre este conceito traduz-se perfeitamente para o governo.
 
-O proprietário do produto é a pessoa-chave para qualquer projeto de software e _deve_ ser um funcionário do governo. O dono do produto trabalha com utilizadores, partes interessadas, tecnólogos e o fornecedor para prever a direção para o produto, com o objetivo de entregar valor aos utilizadores finais o mais rápido possível. Ele prioriza e define iterativamente o trabalho para a equipa de produto, como parte do processo ágil. Ele mede o progresso em relação a indicadores de desempenho ​​claros e  comunica com as partes interessadas e a equipa multifuncional que está construindo o produto.
+O dono do produto é a pessoa-chave para qualquer projeto de software e _deve_ ser um funcionário do governo. O dono do produto trabalha com utilizadores, partes interessadas, tecnólogos e o fornecedor para prever a direção do produto, com o objetivo de entregar valor aos utilizadores finais o mais rapidamente possível. Ele prioriza e define iterativamente o trabalho para a equipa de desenvolvimento, como parte do processo ágil. Ele mede o progresso em relação a indicadores de desempenho ​​claros e comunica com as partes interessadas e a equipa multifuncional que está construindo o produto.
 
-O proprietário do produto não precisa ser um tecnólogo forte. Em vez disso, ele deve conhecer os utilizadores do sistema, a empresa e as restrições legais e políticas.
+O dono do produto não precisa ser um tecnólogo forte. Em vez disso, ele deve conhecer os utilizadores do sistema, os objetivos e as restrições legais e políticas.
 
-Um proprietário de produto forte garante que a visão seja clara, a estratégia seja clara, que há espaço para que as equipas que criam o software aprendam, assegurando-se de que estão construindo ou comprando a coisa certa para, incrementalmente, mostrar valor aos utilizadores. Eles priorizam implacavelmente para garantir que o produto corresponda às necessidades do utilizador e que a atividade e a atenção sejam focadas nas necessidades de maior prioridade. Eles são habilitados pelo seu departamento para representar as partes interessadas e tomar de decisões rápidas sobre o produto, sem que haja a necessidade de muitas camadas de aprovação. Esse posicionamento garante que o proprietário do produto entenda tudo o que a equipa de desenvolvimento está a fazer e que as necessidades do governo sejam totalmente representadas.
-As chances são boas de que a maior parte do software que você usa todos os dias, seja no telefone ou no computador, foi escrita exatamente assim. No DevOps, testar a qualidade do software é automático, testar a segurança do software é automático, fundir o trabalho de vários desenvolvedores é automático e mover o software completo para os servidores é automático. (A incorporação de testes de segurança no DevOps às vezes é rotulada como "DevSecOps".)no detalhado de 5 anos. Mas ele terá uma visão dos resultados que serão entregues aos utilizadores e terá um caminho para a execução. O seu trabalho mais importante é entender o que a equipa de desenvolvimento está a fazer e garantir que se encontre o equilíbrio certo entre as necessidades do governo e as necessidades dos utilizadores finais.
+Um proprietário de produto forte garante que a visão seja clara, a estratégia seja clara, que há espaço para que as equipas que criam o software aprendam, assegurando-se de que estão construindo a coisa certa para, incrementalmente, mostrar valor aos utilizadores. Eles priorizam implacavelmente para garantir que o produto corresponda às necessidades do utilizador e que a atividade e a atenção sejam focadas nas necessidades de maior prioridade. Eles são habilitados pelas suas chefias para representar as partes interessadas e tomar de decisões rápidas sobre o produto, sem que haja a necessidade de muitas camadas de aprovação. Esse posicionamento garante que o dono do produto entenda tudo o que a equipa de desenvolvimento está a fazer e que as necessidades do governo sejam totalmente representadas.
 
-É possível que um proprietário de produto principiante aprenda durante o decorrer do processo, mas é melhor que seja treinado com antecedência. Existem muitas fontes de treino ágil e scrum, algumas especificamente para proprietários de produtos, entre séries de vídeos do YouTube e aulas presenciais de vários dias para se tornar um "Dono de Produto Certificado Scrum". Quanto mais importante o projeto, mais formal e rigoroso deve ser o treino do proprietário do produto.
+Isso é diferente da gestão de projeto típico em tecnologias de informação (TI) governamental. O dono do produto não terá gráficos de Gantt ou um plano detalhado de 5 anos. Mas eles terão uma visão dos resultados que serão entregues aos utilizadores e terão um caminho para a execução. A sua função principal é entender o que a equipa de desenvolvimento está a fazer e garantir que se encontra o equilíbrio certo entre as necessidades do governo e as necessidades dos utilizadores finais.
 
-[ATENÇÃO: "PROPRIETÁRIO DO PRODUTO" ???]
+É possível que um proprietário de produto principiante aprenda durante o decorrer do processo, mas é melhor que seja treinado com antecedência. Existem muitas fontes de treino ágil e *scrum*, algumas específicas para proprietários de produtos, entre séries de vídeos do YouTube e aulas presenciais de vários dias para se tornar um "Dono de Produto Certificado Scrum". Quanto mais importante o projeto, mais formal e rigoroso deve ser o treino do dono do produto.
 
 
 ### DevOps
@@ -84,7 +83,7 @@ A maneira de resolver isso é com DevOps. DevOps é a prática de coordenar o tr
 Há uma grande probabiliadde de que a maioria do software que você usa todos os dias, seja no telefone ou no computador, tenha sido escrita exatamente assim. Em DevOps, a qualidade e a segurança do software é testada automaticamente, fundindo o trabalho de vários programadores é automático e disponibilizar o software completo nos servidores é automático. (A incorporação de testes de segurança no DevOps às vezes é rotulada como "DevSecOps".)
 
 
-### Construindo com peças fracamente acopladas
+### Construindo com peças independentes
 
 Projetos de software grandes e complexos tendem a entrar em colapso sob o peso da administração. Nenhum programador pode compreender todo o sistema para o qual está contribuindo, e cada novo membro adicionado a uma equipe de projeto aumenta a complexidade das interações da equipa inteira, obrigando a novas funções de supervisão tais como "arquitetos de software", com quem os programadores devem conferir antes de fazer qualquer trabalho. Os colaboradores precisam de coordenar-se entre si cuidadosamente para evitar conflito e sobreposição entre os seus esforços. À medida que uma equipe cresce, eles são forçados a gastar cada vez mais tempo gerindo o projeto e diminuindo o tempo que passam a realizar o trabalho em si.
 
@@ -92,16 +91,16 @@ Para evitar esse destino, é mais inteligente dividir grandes projetos num punha
 
 Quando cada componente usa APIs abstratas (pense nelas como padrões comuns para usar essa tecnologia), isso é conhecido como "[arquitetura orientada a serviços](https://en.wikipedia.org/wiki/Service_oriented_architecture)" (SOA) . Este é o mesmo conceito de "peças intercambiáveis" que tornou possível a revolução industrial. Os acoplamentos padronizados são o conceito subjacente à computação em nuvem, tomadas elétricas, USB, Legos, comboios e inúmeros outros produtos e práticas modernas.
 
-Construir sistemas de TI usando partes fracamente acopladas, conectadas por APIs abertas e disponíveis, é a "solução mágica" que permite construit sistemas flexíveis e sustentáveis ​​que atendem às necessidades do utilizador e custam menos com o tempo.
+Construir sistemas de TI usando partes independentes, conectadas por APIs abertas e disponíveis, é a "solução mágica" que permite construit sistemas flexíveis e sustentáveis ​​que atendem às necessidades do utilizador e custam menos com o tempo.
 
 
 ### Contratação modular
 
-Ao combinar o design centrado no utilizador, a agilidade, a propriedade do produto, DevOps e a construção com peças fracamente acopladas, é possível partir um contrato grande e arriscado num punhado de contratos menores. Um contrato deve ser pequeno o suficiente para que a agência não tenha escrúpulos em não dar mais trabalho a um fornecedor que não cumpre, substituindo-o por um novo fornecedor. Nesse caso os restantes fornecedores poderão continuar a trabalhar, e a perda total de velocidade será mínima. Um novo fornecedor não deveria ter dificuldade em substituir o antigo, já que o antigo estava entregando software completo, documentado e testado a cada duas semanas. Outro benefício é que pequenos contratos podem chegar abaixo do limite de aquisição simplificado da administração pública, o que significa que as organizações podem rapidamente escrever convite, publicá-la e conceder um contrato.
+Ao combinar o design centrado no utilizador, a agilidade, a propriedade do produto, DevOps e a construção com peças independentes, é possível partir um contrato grande e arriscado num punhado de contratos menores. Um contrato deve ser pequeno o suficiente para que a agência não tenha escrúpulos em não dar mais trabalho a um fornecedor que não cumpre, substituindo-o por um novo fornecedor. Nesse caso os restantes fornecedores poderão continuar a trabalhar, e a perda total de velocidade será mínima. Um novo fornecedor não deveria ter dificuldade em substituir o antigo, já que o antigo estava entregando software completo, documentado e testado a cada duas semanas. Outro benefício é que pequenos contratos podem chegar abaixo do limite de aquisição simplificado da administração pública, o que significa que as organizações podem rapidamente escrever convite, publicá-la e conceder um contrato.
 
 Essa abordagem exigirá coordenação e aceitação dos responsáveis pelas aquisições e contratações. Este pessoal costuma estar acostumado com a abordagem tradicional de terceirizar projetos de TI: uma grande aquisição baseada em longos documentos de RFP, solicitando dos fornecedores propostas longas, certificações e qualificações desatualizadas. Geralmente, os fornecedores que usam métodos ágeis e centrados no utilizador não têm ideia do que seja "CMMI" ou "ISO-9000" - tais padrões já não são mais considerados melhores práticas para a criação de sistemas de software flexíveis e económicos. Esta é uma barreira de entrada para muitos dos fornecedores que poderiam ser contratados pelo governo mas que não desejam gastar todos os recursos necessários para se qualificar e escrever uma proposta.
 
-Os processos modernos de desenvolvimento de software são baseados no design centrado no utilizador, desenvolvimento ágil de software, propriedade do produto, DevOps, construção com peças fracamente acopladas e contratação modular. Ao compreender esses conceitos básicos, você está em uma ótima posição para entender como fazer um orçamento para software de forma mais eficaz e para entender o restante deste manual.
+Os processos modernos de desenvolvimento de software são baseados no design centrado no utilizador, desenvolvimento ágil de software, propriedade do produto, DevOps, construção com peças independentes e contratação modular. Ao compreender esses conceitos básicos, você está em uma ótima posição para entender como fazer um orçamento para software de forma mais eficaz e para entender o restante deste manual.
 
 
 
@@ -122,7 +121,7 @@ O conhecimento técnico é acessível e abundante, mas saber como administrar um
 
 #### Lista de verificação
 
-- O projeto tem um proprietário do produto dedicado e autorizado, que é funcionário do departamento - não é um contratado e não é funcionário da agência de TI do estado.
+- O projeto tem um dono do produto dedicado e autorizado, que é funcionário do departamento - não é um contratado e não é funcionário da agência de TI do estado.
 - As partes interessadas reconhecem que a abordagem existente (desenvolvimento em cascata) falha na maioria das vezes e que mudar para o desenvolvimento ágil e aquisição modular é, de fato, significativamente menos arriscado.
 - As partes interessadas consideram os fornecedores externos como peças substituíveis para cumprir uma meta, em vez de como os "proprietários" de um projeto ou seu resultado.
 
@@ -135,9 +134,9 @@ O conhecimento técnico é acessível e abundante, mas saber como administrar um
 
 ### Adquira serviços, não software
 
-Não pense em adquirir software personalizado como comprar uma _coisa._ Em vez disso, pense nisso como comprar um _serviço:_ o serviço de uma equipe de desenvolvedores e designers realizando o trabalho priorizado pelo proprietário do produto. Este reenquadramento leva a uma abordagem completamente diferente - uma abordagem muito mais simples - para o convite e para o contrato, e é uma distinção importante para os oficiais contratantes.
+Não pense em adquirir software personalizado como comprar uma _coisa._ Em vez disso, pense nisso como comprar um _serviço:_ o serviço de uma equipe de desenvolvedores e designers realizando o trabalho priorizado pelo dono do produto. Este reenquadramento leva a uma abordagem completamente diferente - uma abordagem muito mais simples - para o convite e para o contrato, e é uma distinção importante para os oficiais contratantes.
 
-A sua Solicitação de Proposta (SP) deve descrever o objetivo geral do trabalho e deve incluir uma primeira tentativa de backlog do produto - uma lista do trabalho que será feito - reunida pelo proprietário do produto. Deve ser semelhante a uma lista de histórias de utilizadores - tarefas a serem realizadas para atender às necessidades dos utilizadores finais - que o trabalho provavelmente atenderá, claramente rotulada como indicativa dos tipos de trabalho que provavelmente estarão envolvidos, em vez de um âmbito de trabalho fixo. A SP também deve reconhecer que haverá mudanças constantes no trabalho com base na mudança de prioridades e na pesquisa contínua; a mudança é esperada e é fácil mudar o software quando ele é construído utilizando princípios de desenvolvimento de software modernos.
+A sua Solicitação de Proposta (SP) deve descrever o objetivo geral do trabalho e deve incluir uma primeira tentativa de backlog do produto - uma lista do trabalho que será feito - reunida pelo dono do produto. Deve ser semelhante a uma lista de histórias de utilizadores - tarefas a serem realizadas para atender às necessidades dos utilizadores finais - que o trabalho provavelmente atenderá, claramente rotulada como indicativa dos tipos de trabalho que provavelmente estarão envolvidos, em vez de um âmbito de trabalho fixo. A SP também deve reconhecer que haverá mudanças constantes no trabalho com base na mudança de prioridades e na investigação contínua; a mudança é esperada e é fácil mudar o software quando ele é construído utilizando princípios de desenvolvimento de software modernos.
 
 A SP deve apresentar uma Declaração de Objetivos em vez de uma Declaração de Trabalho - ou seja, em vez das especificações de um produto que o fornecedor deve produzir, a SP deve declarar os objetivos do projeto. Usar uma declaração de objetivos (DO) em vez de um declaração de trabalho (DT) elimina "pedidos de alteração" dos fornecedores, porque o âmbito do trabalho é tudo o que a equipe deve fazer. (Se um fornecedor ostensivamente "ágil" menciona "pedidos de alteração", isso deve ser considerado como um sinal de alerta.)
 
@@ -148,10 +147,10 @@ Historicamente, tem havido pressão para usar apenas contratos de preço fixo, n
 
 #### Lista de verificação
 
-- O projeto tem um proprietário do produto dedicado e autorizado que é um funcionário da instituição - não um contratado e não um funcionário da agência de TI do estado - cujo trabalho é prioritizar o trabalho para a equipe de desenvolvimento
+- O projeto tem um dono do produto dedicado e autorizado que é um funcionário da instituição - não um contratado e não um funcionário da agência de TI do estado - cujo trabalho é priorizar o trabalho para a equipe de desenvolvimento
 - Um oficial de contratação de agência abraçou este projeto e está entusiasmado com novas formas de aquisição de software
 - A SP será exclusivamente sobre a aquisição de serviços de desenvolvimento, não sobre a aquisição de algo tangível
-- A SP exigirá uma equipe multifuncional de designers, pesquisadores e programadores
+- A SP exigirá uma equipe multifuncional de designers, investigadores e programadores
 - A SP não terá mais de 20 páginas de texto
 - Foi criado e adicionado ao SP um backlog de pelo menos uma dúzia de histórias de utilizador
 - Será usado im contrato de tempo e materiais (com um limite máximo)
@@ -205,10 +204,10 @@ O PVGC não exige a produção de nenhum artefato explicitamente com o propósit
 
 #### Lista de verificação
 
-- Um funcionário público autorizado e dedicado servirá como o proprietário do produto
+- Um funcionário público autorizado e dedicado servirá como o dono do produto
 - Não haverá requisitos de planeamento ou relatório que vão contra a metodologia ágil (ou seja, não há datas para as tarefas específicas serem concluídas e nenhuma especificação de funcionalidade exata que será exigida - seja na SP, no plano de aquisição ou legislação)
 - Haverá um desenvolvedor de software empregado pelo governo que garantirá a conformidade com o PVGQ no final de cada sprint
-- As pessoas que supervisionam, acima do nível do proprietário do produto governamental, estão dispostas a receber principalmente "relatórios" na forma de demonstrações de software em funcionamento, combinados com uma revisão das histórias de utilziadores que foram concluídas e aquelas que permanecem por completar
+- As pessoas que supervisionam, acima do nível do dono do produto governamental, estão dispostas a receber principalmente "relatórios" na forma de demonstrações de software em funcionamento, combinados com uma revisão das histórias de utilziadores que foram concluídas e aquelas que permanecem por completar
 - Há uma pessoa identificada dentro da instituição que está preparada para fornecer explicações de progresso para cada nível de chefia, porque, geralmente, artefatos de medição de progresso num projeto ágil não são familiares para pessoas que estão acostumadas a projetos em cascata.
 
 #### Questões-chave
@@ -232,7 +231,7 @@ Da mesma forma, as instituições devem empregar diretamente programadores sufic
 
 Embora o software nunca esteja "pronto" - você sempre precisará se adaptar às mudanças de tecnologia, política, regulamentos, leis e necessidades do utilizador - chegará um ponto em que você precisará de muito menos programadires para continuar esse trabalho. Nesse ponto, torna-se especialmente importante ter vários funcionários da agência que entendam totalmente o software e que sejam capazes de mantê-lo.
 
-Para projetos maiores, você precisará de contratar uma equipe de desenvolvimento indefinidamente, sob a supervisão de um proprietário de produto do governo. Nos projectos em cascata, isso chama-se "Operações e Manutenção", mas sob a metodologia ágil, O&M é simplesmente uma pesquisa de utilizadores (???), design, desenvolvimento de software contínuos, etc.
+Para projetos maiores, você precisará de contratar uma equipe de desenvolvimento indefinidamente, sob a supervisão de um proprietário de produto do governo. Nos projectos em cascata, isso chama-se "Operações e Manutenção", mas sob a metodologia ágil, O&M é simplesmente uma investigação de utilizadores (???), design, desenvolvimento de software contínuos, etc.
 
 
 #### Lista de verificação
@@ -254,7 +253,7 @@ O governo existirá por mais tempo do que qualquer software. E isso significa qu
 
 Por melhor que seja o software hoje, eventualmente você precisará de mudar para um novo sistema - seja no todo ou em parte. E adquirir software como um monólito completo garante que ele gradualmente se tornará incapaz de atender às necessidades de uma instituição.
 
-Mudanças tecnológicas, mudanças nas políticas governamentais, mudanças nos regulamentos, mudanças nas leis, mudanças nos requisitos de subsídios comunitários e mudanças nas prioridades da liderança - qualquer projeto que seja planejado em grande detalhe no início não será capaz de se adaptar a essas mudanças e correrá um risco significativo de falha, ultrapassagens significativas nos custos e prazos ou "pedidos de alteração" caros.
+Mudanças tecnológicas, mudanças nas políticas governamentais, mudanças nos regulamentos, mudanças nas leis, mudanças nos requisitos de subsídios comunitários e mudanças nas prioridades da liderança - qualquer projeto que seja planeado em grande detalhe no início não será capaz de se adaptar a essas mudanças e correrá um risco significativo de falha, ultrapassagens significativas nos custos e prazos ou "pedidos de alteração" caros.
 
 Portanto, em vez de adquirir uma peça gigante de software proprietário, insista em que os seus fornecedores adotem práticas como o uso de software de código aberto e arquitetura orientada a serviços. Dessa forma, você pode otimizar para reduzir o custo de atualização e alteração do sistema desde o início.
 
@@ -281,7 +280,7 @@ Portanto, em vez de adquirir uma peça gigante de software proprietário, insist
 
 O valor não deve vir no final de um projeto - deve ser fornecido aos utilizadores finais no prazo máximo de seis meses após a adjudicação do contrato, e constantemente a partir daí. No final do _primeiro_ sprint, o código funcional deve ser entregue à agência para sua revisão, e isso deve repetir-se com cada sprint subsequente. Os utilizadores finais devem avaliar o trabalho no final de cada sprint, independentemente de o trabalho já ter sido implementado para uso diário.
 
-Não meça o progresso em "pontos da história", linhas de código escritas, horas de trabalho por pessoa, etc. A única medida de sucesso que importa é o valor entregue aos utilizadores finais. Isso é melhor avaliado participando nas revisões de sprint bi-semanais e conversando com o o proprietário do produto.
+Não meça o progresso em "pontos da história", linhas de código escritas, horas de trabalho por pessoa, etc. A única medida de sucesso que importa é o valor entregue aos utilizadores finais. Isso é melhor avaliado participando nas revisões de sprint bi-semanais e conversando com o o dono do produto.
 
 
 #### Lista de verificação
@@ -317,7 +316,7 @@ Deverá exigir que não sejam gastos mais de X euros (???) num único contrato a
 
 Além de evitar o aprisionamento, há outro benefício em usar contratos menores: eles têm menos probabilidade de serem contestados, porque o valor em dólares não justifica o problema e os custos legais. Se você é respeitoso e transparente com os fornecedores e não exige centenas de páginas de propostas, eles provavelmente vão querer fazer negócios com suas agências no futuro.
 
-À medida que o número de pessoas que trabalham num projeto aumenta, também aumenta a quantidade de tempo que todas essas pessoas gastam coordenando umas com as outras. A solução para isso é fazer com que trabalhem em paralelo, o que é possível ao construir com peças fracamente acopladas. Ter mais de uma equipe de fornecedores trabalhando no seu projeto também fornece opções mais competitivas se você precisar de mudar de fornecedor.
+À medida que o número de pessoas que trabalham num projeto aumenta, também aumenta a quantidade de tempo que todas essas pessoas gastam coordenando umas com as outras. A solução para isso é fazer com que trabalhem em paralelo, o que é possível ao construir com peças independentes. Ter mais de uma equipe de fornecedores trabalhando no seu projeto também fornece opções mais competitivas se você precisar de mudar de fornecedor.
 
 
 #### Lista de controle
@@ -373,14 +372,14 @@ Embora a equipe de compras fique tentada a procurar fornecedores que já constru
 - A SP exigirá que os fornecedores nomeiem seu pessoal-chave em suas propostas - não mais do que três pessoas - como o desenvolvedor líder ou o designer líder
 - O plano de aquisição inclui entrevistar os finalistas sobre a abordagem proposta, questionar o pessoal-chave nomeado, _não_ a equipe de vendas do fornecedor
 - Os funcionários dos fornecedores não serão obrigados a trabalhar no local em uma instalação do governo
-- As equipes de fornecedores e o proprietário do produto governamental terão permissão para usar um serviço de videochamada baseado em desktop, uma ferramenta de chat em tempo real e um sistema público de controle de versão baseado em Git e outras ferramentas comumente usadas pelas equipes de desenvolvimento ágil
+- As equipes de fornecedores e o dono do produto governamental terão permissão para usar um serviço de videochamada baseado em desktop, uma ferramenta de chat em tempo real e um sistema público de controle de versão baseado em Git e outras ferramentas comumente usadas pelas equipes de desenvolvimento ágil
 
 
 #### Questões-chave
 
 - Há algum benefício - político ou outro - em conceder contratos a fornecedores locais, ou mesmo requisitos para fazê-lo? Isso pode limitar o grau em que você pode expandir seu grupo de fornecedores?
 - Economizar muito dinheiro por cada equipe scrum é suficiente para superar quaisquer objeções às equipes remotas?
-- Foi feita uma pesquisa de mercado leve para saber quais fornecedores serão alvos da SP, em vez de apenas emitir um pedido de informação e esperar que resulte?
+- Foi feita uma investigação de mercado leve para saber quais fornecedores serão alvos da SP, em vez de apenas emitir um pedido de informação e esperar que resulte?
 
 
 
@@ -463,7 +462,7 @@ Resposta certa: uma ou mais necessidades específicas do utilizador são nomeada
 
 ### Qual é a necessidade do utilizador que este projeto irá satisfazer?
 
-Resposta errada: qualquer coisa que não identifique as necessidades claras dos utilizadores finais identificadas por meio da pesquisa junto a utilizadores.
+Resposta errada: qualquer coisa que não identifique as necessidades claras dos utilizadores finais identificadas por meio da investigação junto a utilizadores.
 
 Resposta certa: a agência determinou necessidades específicas com base em entrevistas com utilizadores finais e pode citar várias dessas necessidades especificamente.
 
