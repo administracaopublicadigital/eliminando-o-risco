@@ -69,7 +69,7 @@ O dono do produto não precisa ser um tecnólogo forte. Em vez disso, ele deve c
 
 Um proprietário de produto forte garante que a visão seja clara, a estratégia seja clara, que há espaço para que as equipas que criam o software aprendam, assegurando-se de que estão construindo a coisa certa para, incrementalmente, mostrar valor aos utilizadores. Eles priorizam implacavelmente para garantir que o produto corresponda às necessidades do utilizador e que a atividade e a atenção sejam focadas nas necessidades de maior prioridade. Eles são habilitados pelas suas chefias para representar as partes interessadas e tomar de decisões rápidas sobre o produto, sem que haja a necessidade de muitas camadas de aprovação. Esse posicionamento garante que o dono do produto entenda tudo o que a equipa de desenvolvimento está a fazer e que as necessidades do governo sejam totalmente representadas.
 
-Isso é diferente da gestão de projeto típico em tecnologias de informação (TI) governamental. O dono do produto não terá gráficos de Gantt ou um plano detalhado de 5 anos. Mas eles terão uma visão dos resultados que serão entregues aos utilizadores e terão um caminho para a execução. A sua função principal é entender o que a equipa de desenvolvimento está a fazer e garantir que se encontra o equilíbrio certo entre as necessidades do governo e as necessidades dos utilizadores finais.
+Isso é diferente da gestão de projeto típico em tecnologias de informação (TI) governamental. O dono do produto não terá cronogramas ou um plano detalhado de 5 anos. Mas eles terão uma visão dos resultados que serão entregues aos utilizadores e terão um caminho para a execução. A sua função principal é entender o que a equipa de desenvolvimento está a fazer e garantir que se encontra o equilíbrio certo entre as necessidades do governo e as necessidades dos utilizadores finais.
 
 É possível que um proprietário de produto principiante aprenda durante o decorrer do processo, mas é melhor que seja treinado com antecedência. Existem muitas fontes de treino ágil e *scrum*, algumas específicas para proprietários de produtos, entre séries de vídeos do YouTube e aulas presenciais de vários dias para se tornar um "Dono de Produto Certificado Scrum". Quanto mais importante o projeto, mais formal e rigoroso deve ser o treino do dono do produto.
 
@@ -192,7 +192,7 @@ Pode muito bem fazer sentido usar SCG ou SaaS como o núcleo de um novo sistema 
 
 ### Requira demonstrações, não memorandos
 
-Historicamente, o progresso em projetos de desenvolvimento de software era medido comparando o trabalho que foi feito com o cronograma de trabalho que foi estabelecido no início. Isso é feito produzindo artefatos como gráficos de Gantt e listas de tarefas concluídas. Mas isso não funciona - o desenvolvimento ágil de software tem como premissa a ideia de que isso não funciona. As equipas de desenvolvimento de software modernas nunca ouviram falar de "CMMI" ou "ISO-9000" e não licitarão trabalhos que incluam esses requisitos.
+Historicamente, o progresso em projetos de desenvolvimento de software era medido comparando o trabalho que foi feito com o cronograma de trabalho que foi estabelecido no início. Isso é feito produzindo artefatos como cronogramas e listas de tarefas concluídas. Mas isso não funciona - o desenvolvimento ágil de software tem como premissa a ideia de que isso não funciona. As equipas de desenvolvimento de software modernas nunca ouviram falar de "CMMI" ou "ISO-9000" e não licitarão trabalhos que incluam esses requisitos.
 
 Uma filosofia melhor é _demos, não memorandos._ Em vez de medir o progresso olhando para artefatos feitos para o propósito, olhe para o trabalho real que está sendo feito. Junte-se às revisões que são realizadas no final de cada pedido de proposta, onde o trabalho realizado naquele sprint é demonstrado para a equipa do projeto e os utilizadores finais convidados. Experimente o site. Instale a aplicação.
 
@@ -203,15 +203,15 @@ O PVGC não exige a produção de nenhum artefato explicitamente com o propósit
 
 #### Lista de verificação
 
-- Um funcionário público autorizado e dedicado servirá como o dono do produto
-- Não haverá requisitos de planeamento ou relatório que vão contra a metodologia ágil (ou seja, não há datas para as tarefas específicas serem concluídas e nenhuma especificação de funcionalidade exata que será exigida - seja nO pedido de proposta, no plano de aquisição ou legislação)
-- Haverá um desenvolvedor de software empregado pelo governo que garantirá a conformidade com o PVGQ no final de cadO pedido de proposta
-- As pessoas que supervisionam, acima do nível do dono do produto governamental, estão dispostas a receber principalmente "relatórios" na forma de demonstrações de software em funcionamento, combinados com uma revisão das histórias de utilziadores que foram concluídas e aquelas que permanecem por completar
+- Um funcionário público autorizado e dedicado servirá como o dono do produto;
+- Não haverá requisitos de planeamento ou relatório que vão contra a metodologia ágil (ou seja, não há datas para as tarefas específicas serem concluídas e nenhuma especificação de funcionalidade exata que será exigida - seja no pedido de proposta, no plano de aquisição ou legislação);
+- Haverá um desenvolvedor de software empregado pelo governo que garantirá a conformidade com o PVGQ no final de cada pedido de proposta;
+- As pessoas que supervisionam, acima do nível do dono do produto governamental, estão dispostas a receber principalmente "relatórios" na forma de demonstrações de software em funcionamento, combinados com uma revisão das histórias de utilziadores que foram concluídas e aquelas que permanecem por completar;
 - Há uma pessoa identificada dentro da instituição que está preparada para fornecer explicações de progresso para cada nível de chefia, porque, geralmente, artefatos de medição de progresso num projeto ágil não são familiares para pessoas que estão acostumadas a projetos em cascata.
 
 #### Questões-chave
 
-- É viável que a instituição viável forneça um apoio integral para uma abordagem tão radicalmente diferente de medir o progresso? Existe alguém com o poder de fincar os pés e exigir um gráfico de Gantt, inviabilizando assim a metodologia ágil?
+- É viável que a instituição forneça um apoio integral para uma abordagem tão radicalmente diferente de medir o progresso? Existe alguém com o poder de fincar os pés e exigir um cronograma, inviabilizando assim a metodologia ágil?
 
 
 ### Contrate talento interno
@@ -287,7 +287,7 @@ Não meça o progresso em "pontos da história", linhas de código escritas, hor
 - A equipa do fornecedor usará metodologias ágeis
 - O fornecedor será obrigado a colocar software funcional num ambiente da propriedade do governo no final de cadO pedido de proposta
 - Rotineiramente, a equipa do projeto irá entrevistar e testar seu trabalho com utilizadores finais, tanto para informar o trabalho planeado como para determinar se o trabalho já realizado está correto
-- O pedido de proposta não fará menção a um cronograma detalhado do projeto, e não haverá menção a gráficos de Gantt ou contratos de validação e verificação independente
+- O pedido de proposta não fará menção a um cronograma detalhado do projeto, e não haverá menção a cronogramas ou contratos de validação e verificação independente
 - Um membro da equipa legislativa será designado para fornecer supervisão do projeto e coordenará com a liderança do projeto para monitorizar o progresso, comparecendo periodicamente às revisões de cadO pedido de proposta
 
 
