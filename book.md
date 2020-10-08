@@ -384,10 +384,10 @@ Embora a equipa de compras fique tentada a procurar fornecedores que já constru
 
 - O pedido de proposta será simplificada (não mais do que 20 páginas) e compreensível por desenvolvedores de software que normalmente não trabalham com o governo;
 - O plano de aquisição inclui chegar a pequenos fornecedores para incentivá-los a licitar;
-- O pedido de proposta não ficará oculto por detrás de um website de compras que exige registro, mas será publicada abertamente na web para que a comunidade de fornecedores possa partilhá-la;
-- O pedido de proposta exigirá que os fornecedores nomeiem seu pessoal-chave em suas propostas - não mais do que três pessoas - como o programador líder ou o designer líder;
-- O plano de aquisição inclui entrevistar os finalistas sobre a abordagem proposta, questionar o pessoal-chave nomeado, _não_ a equipa de vendas do fornecedor;
-- Os funcionários dos fornecedores não serão obrigados a trabalhar no local em uma instalação do governo;
+- O pedido de proposta não ficará oculto por detrás de um website de compras que exige registo, mas será publicada abertamente na web para que a comunidade de fornecedores possa partilhá-la;
+- O pedido de proposta exigirá que os fornecedores identifiquem o seu pessoal-chave nas suas propostas - não mais do que três pessoas - como o programador líder ou o designer líder;
+- O plano de aquisição inclui entrevistar os finalistas sobre a abordagem proposta, questionar o pessoal-chave identificado, _não_ a equipa de vendas do fornecedor;
+- Os funcionários dos fornecedores não serão obrigados a trabalhar no local numa instalação do governo;
 - As equipas de fornecedores e o dono do produto governamental terão permissão para usar um serviço de videochamada, uma ferramenta de chat em tempo real e um sistema público de controle de versões baseado em Git e outras ferramentas comumente usadas pelas equipas de desenvolvimento ágil.
 
 
@@ -401,9 +401,9 @@ Embora a equipa de compras fique tentada a procurar fornecedores que já constru
 
 ### Partilhe o seu software
 
-O software de uma instituição provavelmente será útil, no todo ou em parte, para outras instituições do país.
+O software de uma instituição provavelmente será útil, no todo ou em parte, para outras instituições do país ou comunidade.
 
-Se o software for publicado abertamente, os funcionários dos fornecedores ficarão ansiosos para trabalhar nele - torna-se um caso raro de trabalho que eles podem adicionar ao seu currículo para empregos futuros ou partilhar com amigos, o que ajuda a garantir que você receba os seus melhores esforços. Além disso, futuros pedidos de proposta adicionais emitidos para o projeto podem apontar os fornecedores para o código que já foi escrito, permitindo-lhes ver exatamente no que trabalharão ou com o qual interagirão. O departamento do governo que financia o trabalho pode estar ansioso para encontrar maneiras de partilhar o seu software com outras instituições que eles também estejam a financiar.
+Se o software for publicado abertamente, os funcionários dos fornecedores ficarão ansiosos para trabalhar nele - torna-se um caso interessante de trabalho que eles podem adicionar ao seu currículo para empregos futuros ou partilhar com amigos, o que ajuda a garantir que você receba os seus melhores esforços. Além disso, os futuros pedidos de proposta adicionais emitidos para o projeto podem apontar os fornecedores para o código que já foi escrito, permitindo-lhes ver exatamente no que trabalharão ou com o que interagirão. O departamento do governo que financia o trabalho pode estar interessado em encontrar maneiras de partilhar o seu software com outras instituições que eles também estejam a financiar.
 
 
 #### Lista de verificação
@@ -435,7 +435,7 @@ Em última análise, isso pode fornecer às agências uma fonte previsível de f
 
 #### Lista de verificação
 
-- A agência reconhece que o software deve ser melhorado continuamente enquanto estiver em uso, porque "manutenção" é funcionalmente o mesmo que construir software em primeiro lugar;
+- A agência reconhece que o software deve ser melhorado continuamente enquanto estiver em uso, porque "manutenção" é funcionalmente o mesmo que construir software desde o início;
 - A agência planeia adquirir serviços de desenvolvimento ágil;
 - Você conversou com a agência solicitante para determinar se ela prefere receber financiamento ao longo dos anos, como um fluxo previsível de financiamento operacional, em vez de um montante fixo;
 - Esta abordagem foi coordenada com todos os departamentos e agências envolvidos - esta é provavelmente uma mudança radical que exigirá confiança e cooperação entre todas as partes;
@@ -468,7 +468,7 @@ Não é gentileza financiar um projeto que vai fracassar. Se a agência não sab
 
 ## Apêndice A: Perguntas a serem feitas
 
-Quando estiver a considerar uma solicitação de orçamento para um projeto de software personalizado, será difícil consultar este manual para encontrar as perguntas certas a serem feitas. Aqui estão algumas das perguntas abertas básicas que você pode fazer para determinar se um projeto está configurado para o sucesso.
+Quando estiver a considerar uma solicitação de orçamento para um projeto de software personalizado, poderá ser difícil consultar este manual para encontrar as perguntas certas a serem feitas. Aqui estão algumas das perguntas abertas básicas que você pode fazer para determinar se um projeto está configurado para o sucesso.
 
 ### Quais são os objetivos do projeto? Quais resultados são priorizados?
 
