@@ -235,14 +235,14 @@ Para projetos maiores, você precisará de contratar uma equipa de desenvolvimen
 
 #### Lista de verificação
 
-- Há um ou mais funcionários de orçamento (???) com experiência no desenvolvimento de software complexo e personalizado usando metodologias ágeis que ajudará na avaliação de solicitações de orçamento de software personalizado
-- Se não houver funcionários de orçamento (???) com experiência relevante, a legislatura (???) tem um contrato com um fornecedor sem conflito de interesses - um sem outros contratos com o estado e sem vínculos ou parcerias com quaisquer produtos SCG
-- A instituição identificou um funcionário do governo específico que fornecerá liderança técnica para o projeto, juntamente com provas de sua experiência no desenvolvimento de software personalizado utilizando metodologias ágeis
+- Há um ou mais funcionários de orçamento (???) com experiência no desenvolvimento de software complexo e personalizado usando metodologias ágeis que ajudará na avaliação de solicitações de orçamento de software personalizado;
+- Se não houver funcionários de orçamento (???) com experiência relevante, a legislatura (???) tem um contrato com um fornecedor sem conflito de interesses - um sem outros contratos com o estado e sem vínculos ou parcerias com quaisquer produtos SCG;
+- A instituição identificou um funcionário do governo específico que fornecerá liderança técnica para o projeto, juntamente com provas de sua experiência no desenvolvimento de software personalizado utilizando metodologias ágeis.
 
 #### Questões-chave
 
-- Quando um fornecedor entrega o código no final de cadO pedido de proposta, que funcionário _específico_ do governo inspeciona o código para garantir a qualidade?
-- Se uma agência apresenta um custo para concluir um projeto de software específico, que funcionário de orçamento (???) está equipado para saber se esse é um preço adequado? Qual funcionário do comitê de orçamento legislativo _específico_ está equipado para saber se esse é um preço adequado?
+- Quando um fornecedor entrega o código no final de cada pedido de proposta, que funcionário _específico_ do governo inspeciona o código para garantir a qualidade?
+- Se uma agência apresenta um custo para concluir um projeto de software específico, que funcionário de orçamento (???) está equipado para saber se esse é um preço adequado? Qual funcionário do comité de orçamento legislativo (???) _específico_ está equipado para saber se esse é um preço adequado?
 - Quando a aquisição for concluída, quem fará a manutenção do software? A instituição emprega pessoas que sabem como mantê-la? Eles serão incluídos no processo de desenvolvimento para que possam aprender sobre como ele é construído e ajudar a garantir que seja algo que eles sejam capazes de suportar?
 
 
@@ -259,16 +259,16 @@ Portanto, em vez de adquirir uma peça gigante de software proprietário, insist
 
 #### Lista de verificação
 
-- Os sistemas, sejam nativos da __cloud__ ou movidos para a __cloud__, usarão arquitetura orientada a serviços (SOA) que é independente de fornecedor e produto
-- Para garantir a portabilidade dos dados, os arquivos serão armazenados em formatos abertos não proprietários, suportados por vários fornecedores
-- As APIs usarão esquemas abertos
-- Para evitar o aprisionamento do produto, será usado software de código aberto em vez de software comercial sempre que possível
-- O governo será o proprietário de todos os produtos do trabalho do fornecedor
-- Se estiver usando componentes SCG, o fornecedor delineará um caminho de saída para um concorrente - tanto contratual quanto tecnologicamente - com uma maneira económica de exportar todos os dados armazenados
+- Os sistemas, sejam nativos da __cloud__ ou movidos para a __cloud__, usarão arquitetura orientada a serviços (SOA) que é independente de fornecedor e produto;
+- Para garantir a portabilidade dos dados, os arquivos serão armazenados em formatos abertos não proprietários, suportados por vários fornecedores;
+- As APIs usarão esquemas abertos;
+- Para evitar o aprisionamento do produto, será usado software de código aberto em vez de software comercial sempre que possível;
+- O governo será o proprietário de todos os produtos do trabalho do fornecedor;
+- Se estiver usando componentes SCG, o fornecedor delineará um caminho de saída para um concorrente - tanto contratual quanto tecnologicamente - com uma maneira económica de exportar todos os dados armazenados.
 
 #### Questões-chave
 
-- Qual é o plano para reduzir o tempo e o custo de futuras atualizações do sistema devido a mudanças de tecnologia, política ou fornecedor?
+- Qual é o plano para reduzir o tempo e o custo de futuras atualizações do sistema devido a mudanças de tecnologia, lei, política ou fornecedor?
 - Quanto custará para mudar o sistema para refletir a tecnologia necessária ou as mudanças de política?
 - As APIs estão abertas e podem ser usadas por outros fornecedores?
 - Os formatos de dados são padronizados, abertos e utilizáveis por outros fornecedores?
