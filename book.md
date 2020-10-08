@@ -1,6 +1,6 @@
 # Introdução
 
-Apenas uma pequena percentagem dos grandes projetos de software do governo são bem-sucedidos. De uma forma geral, os projetos estaduais de tecnologias de informação costumam correr mal porque o estado não possui conhecimentos básicos sobre o desenvolvimento de software moderno e dependende de processos de aquisição desatualizados. Todos os anos, o governo gasta muito dinheiro em projetos para manter e modernizar os sistemas de informação usados, mas os esforços para modernizar esses sistemas antiquados fracassam a uma taxa alarmante e com grande custo para o nosso orçamento.
+Apenas uma pequena percentagem dos grandes projetos de software do governo são bem-sucedidos. De uma forma geral, os projetos estatais de tecnologias de informação costumam correr mal porque o estado não possui conhecimentos básicos sobre o desenvolvimento de software moderno e dependende de processos de aquisição desatualizados. Todos os anos, o governo gasta muito dinheiro em projetos para manter e modernizar os sistemas de informação usados, mas os esforços para modernizar esses sistemas antiquados fracassam a uma taxa alarmante e com grande custo para o nosso orçamento.
 
 A nossa administração pública depende cada vez mais de software e hardware modernos para implementar programas e fornecer serviços essenciais ao público, e o sucesso de qualquer iniciativa depende do sucesso da infraestrutura de software subjacente. Todas as entidades governamentais enfrentam desafios semelhantes, enfrentando restrições de orçamento e de pessoal enquanto lutam para modernizar os sistemas de tecnologia antiquados que estão desatualizados e são inflexíveis, caros e ineficazes. Funcionários e serviços da administração pública muitas vezes contam com os mesmos processos antigos que conduziram aos problemas em primeiro lugar.
 
@@ -31,9 +31,9 @@ nós três temos muitos anos de experiência em compras para o governo, desenvol
 
 No trabalho financiado pelo [GSA 10x](https://10x.gsa.gov), passamos um ano explorando como reduzir o custo das concessões federais de tecnologia aos estados, enquanto
 melhorando simultaneamente os resultados. Subvenções federais fornecem 31%
-dos orçamentos estaduais, e como um grande investidor em grandes projetos de sistemas de software estadual, o governo federal está profundamente interessado em garantir
+dos orçamentos estatais, e como um grande investidor em grandes projetos de sistemas de software estadual, o governo federal está profundamente interessado em garantir
 um bom retorno sobre esse investimento. Para conseguir isso, reunimos
-com legisladores estaduais, equipas fiscais legislativas, funcionários do orçamento estadual, contratantes e consultores de política governamental. Este manual
+com legisladores estatais, equipas fiscais legislativas, funcionários do orçamento estadual, contratantes e consultores de política governamental. Este manual
 foi originado do processo de aprender e ensinar centenas de pessoas em dezenas
 dos estados. Estamos gratos às muitas pessoas que contribuíram com seus
 tempo e conhecimento ao longo desse processo.
