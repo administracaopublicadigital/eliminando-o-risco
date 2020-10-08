@@ -447,7 +447,7 @@ Não é gentileza financiar um projeto que vai fracassar. Se a agência não sab
 
 ## Apêndice A: Perguntas a serem feitas
 
-Quando estiver considerando uma solicitação de orçamento para um projeto de software personalizado, será difícil consultar todo o manual para encontrar as perguntas certas a serem feitas. Aqui estão algumas das perguntas abertas básicas que você pode fazer para determinar se um projeto está configurado para o sucesso.
+Quando estiver a considerar uma solicitação de orçamento para um projeto de software personalizado, será difícil consultar este manual para encontrar as perguntas certas a serem feitas. Aqui estão algumas das perguntas abertas básicas que você pode fazer para determinar se um projeto está configurado para o sucesso.
 
 ### Quais são os objetivos do projeto? Quais resultados são priorizados?
 
@@ -469,11 +469,11 @@ Resposta certa: "Será um contrato de tempo e materiais, então podemos parar de
 
 ### O pedido de proposta incluirá requisitos de como o sistema irá operar? Em caso afirmativo, quantos requisitos estão incluídos?
 
-Resposta errada: "Passamos o ano passado revendo os nossos requisitos de negócios e escrevemos centenas de requisitos para incluir nO pedido de proposta, para garantir que obteremos exatamente o que precisamos."
+Resposta errada: "Passamos o ano passado revendo os nossos requisitos de negócios e escrevemos centenas de requisitos para incluir no pedido de proposta, para garantir que obteremos exatamente o que precisamos."
 
 Resposta certa: "Estamos mais focados nos resultados que desejamos do novo sistema. Desenvolvemos uma acumulação de histórias de utilizadores para ajudar a orientar o trabalho da equipa, em vez de produzir uma lista detalhada de requisitos técnicos."
 
-### Quanto tempo você espera que O pedido de proposta demore?
+### Quanto tempo você espera que o pedido de proposta demore?
 
 Resposta errada: "Desenvolvemos várias centenas de páginas de requisitos de sistema junto com mais 50 páginas de termos e condições padrão."
 
@@ -484,7 +484,7 @@ Resposta certa: "Menos de 20 páginas, e esperamos manter isso abaixo do limite 
 
 Resposta errada: "Preço fixo, porque é a melhor maneira de controlar os custos do fornecedor."
 
-Resposta certa: "Tempo e materiais, porque é a melhor maneira de manter a flexibilidade de que precisamos para responder às necessidades do utilizador, lidar com desafios técnicos imprevistos e garantir que se os fornecedores que não estiverem a entregar o que precisamos, possam ser alterados sem colocar o projeto em risco."
+Resposta certa: "Tempo e materiais, porque é a melhor maneira de manter a flexibilidade de que precisamos para responder às necessidades do utilizador, lidar com desafios técnicos imprevistos e garantir que, se os fornecedores que não estiverem a entregar o que precisamos, possam ser alterados sem colocar o projeto em risco."
 
 ### Qual valor será entregue aos utilizadores em seis meses?
 
@@ -502,7 +502,7 @@ Resposta certa: uma pessoa específica é nomeada ou ela está treinando uma equ
 
 Resposta errada: "Queda-de-água (Waterfall)" ou qualquer resposta que indique falta de compreensão.
 
-Resposta certa: "Agile", "Extreme Programming" (XP) ou "Scrum" são todas respostas aceitáveis.
+Resposta certa: "Agile", "Extreme Programming" (XP) ou "Scrum" são respostas aceitáveis.
 
 ### Na equipa que preparou esta solicitação, quem tem experiência no desenvolvimento de software?
 
@@ -514,7 +514,7 @@ Resposta certa: uma pessoa específica é nomeada.
 
 Resposta errada: "Quando estiver pronto."
 
-Resposta certa: "No final de cadO pedido de proposta."
+Resposta certa: "No final de cada pedido de proposta."
 
 ### O projeto irá automatizar os testes? Integração? Entrega? Testes de segurança?
 
@@ -527,23 +527,15 @@ Resposta certa: "Sim, desde o primeiro dia."
 
 Resposta errada: Qualquer resposta que preveja pedidos de alteração de qualquer tipo.
 
-Resposta certa: "Esperamos que o sistema mude constantemente em resposta às novas necessidades dos utilizadores, novas tecnologias e novas políticas. É por isso que estamos usando um contrato de tempo e materiais e uma abordagem de desenvolvimento ágil para reduzir o custo de resposta a essas mudanças. "
+Resposta certa: "Esperamos que o sistema mude constantemente em resposta às novas necessidades dos utilizadores, novas tecnologias e novas políticas. É por isso que estamos a propôr um contrato de tempo e materiais e uma abordagem de desenvolvimento ágil para reduzir o custo de resposta a essas mudanças. "
 
 ### Como você saberá se o projeto está no caminho certo e se os empreiteiros estão cumprindo o prometido?
 
 Resposta errada: "Estamos contratando um especialista independente de verificação e validação para nos fornecer relatórios mensais sobre o estado do projeto."
 
-Resposta certa: "Os fornecedores fornecerão demonstrações frequentes de software funcional que refletem nossas prioridades, atendem aos padrões técnicos do QASP e fornecem valor aos utilizadores finais. Se esses padrões não forem atendidos, o valor para os utilizadores finais não será mostrado em seis meses, eles serão encerrados. "
+Resposta certa: "Os fornecedores fornecerão demonstrações frequentes de software funcional que refletem nossas prioridades, atendem aos padrões técnicos do QASP e fornecem valor aos utilizadores finais. Se esses padrões não forem atendidos, o valor para os utilizadores finais não será mostrado em seis meses, o contrato com eles será cancelado. "
 
 ### Quem será o proprietário do software?
 Resposta errada: "O vendedor".
 
 Resposta certa: "O estado" ou "será entregue ao domínio público".
-
-RFP -> SP
-equipas -> equipas
-COTS -> SCG
-QASP -> PVGQ
-instituição -> cliente ??
-usuário -> utilizador
-agência
