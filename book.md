@@ -438,7 +438,7 @@ Não é gentileza financiar um projeto que vai fracassar. Se a agência não sab
 #### Questões-chave
 
 - O que é que a agência quer comprar exatamente? Por quê? Quem irá beneficiar?
-- Quais partes do sistema serão personalizadas? Qual será SCG real (não personalizado)? Quanto custarão essas atualizações? O que será feito quando um componente comercial for terminado - por exemplo, se a empresa de base-de-dados sair do mercado?
+- Quais partes do sistema serão personalizadas? Qual será o SCG real (não personalizado)? Quanto custarão essas atualizações? O que será feito quando um componente comercial for terminado - por exemplo, se a empresa de base-de-dados sair do mercado?
 - Quem são os utilizadores finais do seu sistema? Você falou com eles? O que é que _eles_ querem?
 - Você está preparado para quando as mudanças precisam ser feitas?
 - Quanto custará para mudar para um novo sistema?
