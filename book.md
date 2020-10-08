@@ -98,38 +98,37 @@ Construir sistemas de TI usando partes independentes, conectadas por APIs aberta
 
 Ao combinar o design centrado no utilizador, a agilidade, a propriedade do produto, DevOps e a construção com peças independentes, é possível partir um contrato grande e arriscado num punhado de contratos menores. Um contrato deve ser pequeno o suficiente para que a agência não tenha escrúpulos em não dar mais trabalho a um fornecedor com baixo desempenho, substituindo-o por um novo fornecedor. Nesse caso os restantes fornecedores poderão continuar a trabalhar, e a perda total de velocidade será mínima. Um novo fornecedor não deveria ter dificuldade em substituir o antigo, já que o antigo estava entregando software completo, documentado e testado a cada duas semanas. Outro benefício é que pequenos contratos podem chegar abaixo do limite de aquisição simplificado da administração pública, o que significa que as organizações podem rapidamente escrever um convite, publicá-la e conceder um contrato.
 
-Essa abordagem exigirá coordenação e aceitação dos responsáveis pelas aquisições e contratações. Este pessoal costuma estar acostumado com a abordagem tradicional de terceirizar projetos de TI: uma grande aquisição baseada em longos documentos de RFP, solicitando dos fornecedores propostas longas, certificações e qualificações desatualizadas. Geralmente, os fornecedores que usam métodos ágeis e centrados no utilizador não têm ideia do que seja "CMMI" ou "ISO-9000" - tais padrões já não são mais considerados melhores práticas para a criação de sistemas de software flexíveis e económicos. Esta é uma barreira de entrada para muitos dos fornecedores que poderiam ser contratados pelo governo mas que não desejam gastar todos os recursos necessários para se qualificar e escrever uma proposta.
+Esta abordagem exigirá coordenação e aceitação dos responsáveis pelas aquisições e contratações. Este pessoal costuma estar acostumado com a abordagem tradicional de terceirizar projetos de TI: uma grande aquisição baseada em longos documentos de pedidos de proposta, solicitando dos fornecedores propostas longas, certificações e qualificações desatualizadas. Geralmente, os fornecedores que usam métodos ágeis e centrados no utilizador não têm ideia do que seja "CMMI" ou "ISO-9000" - tais padrões já não são considerados melhores práticas para a criação de sistemas de software flexíveis e económicos. Esta é uma barreira de entrada para muitos dos fornecedores que poderiam ser contratados pelo governo mas que não desejam gastar todos os recursos necessários para se qualificar e escrever uma proposta.
 
-Os processos modernos de desenvolvimento de software são baseados no design centrado no utilizador, desenvolvimento ágil de software, propriedade do produto, DevOps, construção com peças independentes e contratação modular. Ao compreender esses conceitos básicos, você está em uma ótima posição para entender como fazer um orçamento para software de forma mais eficaz e para entender o restante deste manual.
-
+Os processos modernos de desenvolvimento de software são baseados no design centrado no utilizador, desenvolvimento ágil de software, propriedade do produto, DevOps, construção com peças independentes e contratação modular. Ao compreender esses conceitos básicos, você está em uma ótima posição para entender como fazer orçamentar um projeto de desenvolvimento de software da forma mais eficaz e para entender o restante deste manual.
 
 
 ## Orçamentar e supervisionar projetos de tecnologia
 
 ### Pense sobre o risco de uma nova maneira
 
-Nas últimas décadas, as agências governamentais deixaram de usar funcionários internos, contando com fornecedores externos para construir sua ferramentas de tecnologia digital. As decisões para fazer isso foram baseadas em trocas compensatórias que pareciam opções de menor risco - muitas vezes impulsionadas por capacidade limitada e promessas de ferramentas mais baratas "disponíveis no mercado" oferecidas por contratantes do governo.
+Nas últimas décadas, as agências governamentais deixaram de usar funcionários internos, contando com fornecedores externos para construir as suas ferramentas de tecnologia digital. As decisões para fazer isso foram baseadas em trocas compensatórias que pareciam opções de menor risco - muitas vezes impulsionadas por uma capacidade limitada no governo e promessas de ferramentas mais baratas "disponíveis no mercado" oferecidas por contratantes.
 
-No entanto, aprendemos com exemplos de vários projetos que, embora o governo possa facilmente terceirizar o trabalho de criação de novos sistemas digitais, ele não pode terceirizar o risco de falha. Projetos que correm mal refletem-se também nos departamentos do governo, não só em empreiteiros ou fornecedores de software.
+No entanto, aprendemos com exemplos de vários projetos que, embora o governo possa facilmente terceirizar o trabalho de criação de novos sistemas digitais, ele não pode terceirizar o risco de falha. Projetos que correm mal refletem-se também no governo, não só em empreiteiros ou fornecedores de software.
 
-O governo é, em última análise, responsável pela sua missão, e por consequência, as entidades governamentais precisam de ter controle e responsabilidade pelos projetos que suportam essa missão. O problema que uma convite a orçamento de TI visa resolver não é um problema técnico; é um problema relacionado ao cumprimento da missão do governo, e a tecnologia é simplesmente um meio para esse fim.
+O governo é, em última análise, responsável pela sua missão, e por consequência, as entidades governamentais precisam de ter controle e responsabilidade pelos projetos que suportam essa missão. O problema que um convite a orçamento de TI visa resolver não é um problema técnico; é um problema relacionado com o cumprimento da missão do governo, e a tecnologia é simplesmente um meio para esse fim.
 
 Isso não significa que os departamentos precisem de realizar todo o trabalho internamente; significa que os departamentos precisam de definir expectativas claras sobre os resultados humanos e padrões técnicos relacionados com a segurança de dados, uso, interoperabilidade, monitorização e avaliação.
 
-O conhecimento técnico é acessível e abundante, mas saber como administrar uma agência estatal é uma habilidade rara e valiosa. O governo deve abraçar e assumir a sua responsabilidade e risco de falha, reconhecendo que os fornecedores de tecnologia são contratados apenas para ajudar e devem poder ser facilmente substituíveis se não cumprirem.
+O conhecimento técnico é acessível e abundante, mas saber como administrar uma serviço ou agência estatal é uma habilidade rara e valiosa. O governo deve abraçar e assumir a sua responsabilidade e risco de falha, reconhecendo que os fornecedores de tecnologia são contratados apenas para ajudar e devem poder ser facilmente substituíveis se não tiverem um bom desempenho.
 
 
 #### Lista de verificação
 
-- O projeto tem um dono do produto dedicado e autorizado, que é funcionário do departamento - não é um contratado e não é funcionário da agência de TI do estado.
-- As partes interessadas reconhecem que a abordagem existente (desenvolvimento em cascata) falha na maioria das vezes e que mudar para o desenvolvimento ágil e aquisição modular é, de fato, significativamente menos arriscado.
-- As partes interessadas consideram os fornecedores externos como peças substituíveis para cumprir uma meta, em vez de como os "proprietários" de um projeto ou seu resultado.
+- O projeto tem um dono do produto dedicado e autorizado, que é funcionário do departamento / serviço - não é um contratado e não é funcionário da agência de TI do estado;
+- As partes interessadas reconhecem que a abordagem existente (desenvolvimento em cascata) falha na maioria das vezes e que mudar para o desenvolvimento ágil e aquisição modular é, de fato, significativamente menos arriscado;
+- As partes interessadas consideram os fornecedores externos como peças substituíveis para cumprir um objetivo, em vez de como os "donos" de um projeto ou do seu resultado.
 
 #### Questões-chave
 
 - Existem funcionários do governo identificados e treinados (não contratados) que servirão como donos de produtos dedicados e com poderes para definir a direção, priorizar e supervisionar o trabalho da equipa de desenvolvimento?
 - Há uma cadeia de apoio para esta nova abordagem dentro do departamento e das suas chefias superiores, TI central, escritórios jurídicos e de compras, bem como o legislativo? Alguma dessas partes interessadas é capaz de bloquear a adoção desta nova abordagem? Em caso afirmativo, qual é o caminho para escalar os problemas, garantindo o alinhamento e evitando que esses bloqueadores internos coloquem o projeto em risco?
-- Como o departamento está a assumir a responsabilidade por liderar o projeto e assumir os resultados, em vez de tentar terceirizar o risco para um fornecedor através de um processo de contratação?
+- Como é que o departamento / serviço está a assumir a responsabilidade por liderar o projeto e assumir os seus resultados, em vez de tentar terceirizar o risco para um fornecedor através de um processo de contratação?
 
 
 ### Adquira serviços, não software
