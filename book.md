@@ -180,8 +180,8 @@ Historicamente, tem havido pressão para usar apenas contratos de preço fixo, n
 
 - O dono do produto está autorizado a tomar decisões autorizadas rapidamente em nome da instituição?
 - O dono do produto está preparado para passar a maioria das suas horas de trabalho cumprindo os requisitos dessa nova função?
-- A liderança da instituição está preparada para que as decisões de produto sejam conduzidas pelas necessidades dos utilizadores identificadas, com base em conversas diretas com estes utilizadores, em vez das preferências pessoais da liderança?
-- O pedido de proposta estabelece requisitos claros sobre a entrega regular de código que funcione, documentação, teste e entrega a propriedade de todos os produtos de trabalho ao estado?
+- A liderança da instituição está preparada para que as decisões de produto sejam conduzidas pelas necessidades dos utilizadores identificadas, com base em conversas diretas com estes, em vez das preferências pessoais da liderança?
+- O pedido de proposta estabelece requisitos claros sobre a entrega regular de código que funcione, documentação, teste e entrega da propriedade de todos os produtos de trabalho ao estado?
 
 
 ### Cuidado com a armadilha do software comercial personalizado
