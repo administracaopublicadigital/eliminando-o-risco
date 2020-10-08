@@ -212,13 +212,13 @@ Pode muito bem fazer sentido usar SCG ou SaaS como o núcleo de um novo sistema 
 
 ### Requira demonstrações, não memorandos
 
-Historicamente, o progresso em projetos de desenvolvimento de software era medido comparando o trabalho que foi feito com o cronograma de trabalho que foi estabelecido no início. Isso é feito produzindo artefatos como cronogramas e listas de tarefas concluídas. Mas isso não funciona - o desenvolvimento ágil de software tem como premissa a ideia de que isso não funciona. As equipas de desenvolvimento de software modernas nunca ouviram falar de "CMMI" ou "ISO-9000" e não licitarão trabalhos que incluam esses requisitos.
+Historicamente, o progresso em projetos de desenvolvimento de software era medido comparando o trabalho que foi feito com o cronograma de trabalho que foi estabelecido no início. Isso é feito produzindo artefatos como cronogramas e listas de tarefas concluídas. Mas isso não funciona - o desenvolvimento ágil de software tem isso como premissa. As equipas de desenvolvimento de software modernas nunca ouviram falar de "CMMI" ou "ISO-9000" e não licitarão trabalhos que incluam esses requisitos.
 
 Uma filosofia melhor é _demos, não memorandos._ Em vez de medir o progresso olhando para artefatos feitos para o propósito, olhe para o trabalho real que está sendo feito. Junte-se às revisões que são realizadas no final de cada pedido de proposta, onde o trabalho realizado naquele sprint é demonstrado para a equipa do projeto e os utilizadores finais convidados. Experimente o site. Instale a aplicação.
 
 Uma parte importante para garantir que o progresso não seja ilusório é que o contrato inclua um Plano de Vigilância de Garantia de Qualidade (PVGQ) que exige, no final de cada pedido de proposta, que todo o trabalho respeite padrões específicos. O PVGQ descreve o método pelo qual o governo determinará se o trabalho do fornecedor é de qualidade suficiente para ser aceite no final de cada pedido de proposta, permitindo que o fornecedor execute os mesmos testes para garantir que não haverá surpresas.
 
-O PVGC não exige a produção de nenhum artefato explicitamente com o propósito de monitorar o trabalho - a maneira de monitorar o trabalho é _ver se ele realmente funciona._ Esta é uma maneira muito diferente de acompanhar o progresso de um projeto de tecnologia. Ele tem a vantagem adicional de ser um teste funcional mais objetivo, observável do que exigir interpretações subjetivas ou legais sobre se o trabalho satisfaz uma longa série de requisitos de sistema.
+O PVGC não exige a produção de nenhum artefato explicitamente com o propósito de monitorar o trabalho - a maneira de monitorar o trabalho é _ver se ele realmente funciona._ Esta é uma maneira muito diferente de acompanhar o progresso de um projeto de tecnologia. Ela tem a vantagem adicional de ser um teste funcional mais objetivo, observável do que exigir interpretações subjetivas ou legais sobre se o trabalho satisfaz uma longa lista de requisitos.
 
 
 #### Lista de verificação
@@ -226,19 +226,20 @@ O PVGC não exige a produção de nenhum artefato explicitamente com o propósit
 - Um funcionário público autorizado e dedicado servirá como o dono do produto;
 - Não haverá requisitos de planeamento ou relatório que vão contra a metodologia ágil (ou seja, não há datas para as tarefas específicas serem concluídas e nenhuma especificação de funcionalidade exata que será exigida - seja no pedido de proposta, no plano de aquisição ou legislação);
 - Haverá um desenvolvedor de software empregado pelo governo que garantirá a conformidade com o PVGQ no final de cada pedido de proposta;
-- As pessoas que supervisionam, acima do nível do dono do produto governamental, estão dispostas a receber principalmente "relatórios" na forma de demonstrações de software em funcionamento, combinados com uma revisão das histórias de utilziadores que foram concluídas e aquelas que permanecem por completar;
+- As pessoas que supervisionam, acima do nível do dono do produto governamental, estão dispostas a receber principalmente "relatórios" na forma de demonstrações de software em funcionamento, combinados com uma revisão das histórias de utilizadores que foram concluídas e aquelas que permanecem por completar;
 - Há uma pessoa identificada dentro da instituição que está preparada para fornecer explicações de progresso para cada nível de chefia, porque, geralmente, artefatos de medição de progresso num projeto ágil não são familiares para pessoas que estão acostumadas a projetos em cascata.
 
 #### Questões-chave
 
-- É viável que a instituição forneça um apoio integral para uma abordagem tão radicalmente diferente de medir o progresso? Existe alguém com o poder de fincar os pés e exigir um cronograma, inviabilizando assim a metodologia ágil?
+- É viável que a instituição forneça um apoio integral para uma abordagem tão radicalmente diferente de medir o progresso?
+- Existe alguém com o poder de fincar os pés e exigir um cronograma, inviabilizando assim a metodologia ágil?
 
 
 ### Contrate talento interno
 
-Se ninguém na comissão de orçamentação (???) tiver experiência com desenvolvimento de software, então não estão bem equipados para considerar uma solicitação de financiamento de desenvolvimento de software. O mesmo é verdade para instituições - se ninguém na liderança de projetos tiver experiência com desenvolvimento de software, então a instituição não está bem equipada para liderar um projeto de desenvolvimento de software com sucesso. A responsabilidade recai sobre o governo, legisladores e chefes de serviço para garantir que suas respectivas organizações priorizem a contratação de pessoas com essa experiência.
+Se ninguém na comissão de orçamentação (???) tiver experiência com desenvolvimento de software, então não estão bem equipados para considerar uma solicitação de financiamento de desenvolvimento de software. O mesmo é verdade para instituições - se ninguém na liderança de projetos tiver experiência com desenvolvimento de software, então a instituição não está bem equipada para liderar um projeto de desenvolvimento de software com sucesso. A responsabilidade recai sobre o governo, legisladores e chefias para garantir que suas respectivas organizações priorizem a contratação de pessoas com essa experiência.
 
-Embora possa ser tentador resolver essa lacuna de conhecimento contando com alguém do departamento de TI central do estado ou com um fornecedor, em última análise, as insttuições devem ter o conhecimento interno suficiente para compreender o que precisam, o que deveriam exigir dos fornecedores e para conseguir avaliar o trabalho realizado.
+Embora possa ser tentador resolver essa lacuna de conhecimento contando com alguém do departamento de TI central do estado ou com um fornecedor, em última análise, as instituições devem ter o conhecimento interno suficiente para compreender o que precisam, o que deveriam exigir dos fornecedores e conseguir avaliar o trabalho realizado.
 
 Para determinar se a sua comissão de orçamentação ou a sua liderança tem experiência para considerar solicitações de software ou liderar projetos de software, faça perguntas. Todas as instituições, exceto as menores, terão equipas técnica que pode se juntar à liderança do projeto, embora poucos departamentos empreguem atualmente profissionais com experiência em desenvolvimento de software.
 
@@ -248,9 +249,9 @@ O custo de contratar um programador ou aprimorar as habilidades dos seus funcion
 
 Da mesma forma, as instituições devem empregar diretamente programadores suficientes para que possam supervisionar o trabalho que está sendo feito pelos fornecedores. Eles representarão a instituição, garantindo que o trabalho dos fornecedores seja de alta qualidade e que os fornecedores estejam trabalhando nas coisas certas.
 
-Embora o software nunca esteja "pronto" - você sempre precisará se adaptar às mudanças de tecnologia, política, regulamentos, leis e necessidades do utilizador - chegará um ponto em que você precisará de muito menos programadores para continuar esse trabalho. Nessa altura torna-se especialmente importante ter vários funcionários da agência que entendam totalmente o software e que sejam capazes de mantê-lo.
+Embora o software nunca esteja "pronto" - você sempre precisará se adaptar às mudanças de tecnologia, política, regulamentos, leis e necessidades do utilizador - chegará um ponto em que você precisará de uma equopa muito menor para continuar esse trabalho. Nessa altura torna-se especialmente importante ter vários funcionários da agência que entendam totalmente o software e que sejam capazes de mantê-lo.
 
-Para projetos maiores, você precisará de contratar uma equipa de desenvolvimento a termo indefinido, sob a supervisão de um proprietário de produto do governo. Nos projectos em cascata, isso chama-se "Operações e Manutenção", mas sob a metodologia ágil, O&M é simplesmente o processo de investigação de utilizadores, design, desenvolvimento de software contínuos, etc.
+Para projetos maiores, você precisará de contratar uma equipa de desenvolvimento a termo indefinido, sob a supervisão de um dono de produto do governo. Nos projectos em cascata, isso chama-se "Operações e Manutenção", mas sob a metodologia ágil, O&M é simplesmente o processo comum de investigação de utilizadores, design, desenvolvimento de software contínuos, etc.
 
 
 #### Lista de verificação
@@ -266,15 +267,15 @@ Para projetos maiores, você precisará de contratar uma equipa de desenvolvimen
 - Quando a aquisição for concluída, quem fará a manutenção do software? A instituição emprega pessoas que sabem como mantê-la? Eles serão incluídos no processo de desenvolvimento para que possam aprender sobre como ele é construído e ajudar a garantir que seja algo que eles sejam capazes de suportar?
 
 
-### Minimize o custo da mudança
+### Minimize o custo de mudança
 
-O governo existirá por mais tempo do que qualquer software. E isso significa que, um dia, o seu novo e empolgante sistema de informação poderá, algum dia, tornar-se no seu antigo sistema de informação difícil de usar.
+O governo existirá por muito mais tempo do que qualquer software. E isso significa que, um dia, o seu novo e empolgante sistema de informação poderá tornar-se no seu antigo sistema de informação difícil de usar.
 
 Por melhor que seja o software hoje, eventualmente você precisará de mudar para um novo sistema - seja no todo ou em parte. E adquirir software como um monólito completo garante que ele gradualmente se tornará incapaz de atender às necessidades de uma instituição.
 
 Mudanças tecnológicas, mudanças nas políticas governamentais, mudanças nos regulamentos, mudanças nas leis, mudanças nos requisitos de subsídios comunitários e mudanças nas prioridades da liderança - qualquer projeto que seja planeado em grande detalhe no início não será capaz de se adaptar a essas mudanças e correrá um risco significativo de falha, ultrapassagens significativas nos custos e prazos ou "pedidos de alteração" caros.
 
-Portanto, em vez de adquirir uma peça gigante de software proprietário, insista em que os seus fornecedores adotem práticas como o uso de software de código aberto e arquitetura orientada a serviços. Dessa forma, você pode otimizar para reduzir o custo de atualização e alteração do sistema desde o início.
+Portanto, em vez de adquirir uma peça gigante de software proprietário, insista em que os seus fornecedores adotem práticas como o uso de software de código aberto e arquitetura orientada a serviços (SOA). Dessa forma, você pode otimizar para reduzir o custo de atualização e alteração do sistema desde o início.
 
 
 #### Lista de verificação
@@ -299,7 +300,7 @@ Portanto, em vez de adquirir uma peça gigante de software proprietário, insist
 
 O valor não deve vir no final de um projeto - deve ser fornecido aos utilizadores finais no prazo máximo de seis meses após a adjudicação do contrato, e constantemente a partir daí. No final do _primeiro_ sprint, o código funcional deve ser entregue à agência para sua revisão, e isso deve repetir-se com cada pedido de proposta subsequente. Os utilizadores finais devem avaliar o trabalho no final de cada pedido de proposta, independentemente de o trabalho já ter sido implementado para uso diário.
 
-Não meça o progresso em "pontos da histórias", linhas de código escritas, horas de trabalho por pessoa, etc. A única medida de sucesso que importa é o valor entregue aos utilizadores finais. Isso é melhor avaliado participando nas revisões de sprint bi-semanais e conversando com o o dono do produto.
+Não meça o progresso em "pontos da histórias", linhas de código escritas, horas de trabalho por pessoa, etc. A única medida de sucesso que importa é o valor entregue aos utilizadores finais. Isso é melhor avaliado participando nas revisões de sprint bi-semanais e conversando com o dono do produto.
 
 
 #### Lista de verificação
