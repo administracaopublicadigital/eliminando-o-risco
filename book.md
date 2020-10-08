@@ -180,7 +180,7 @@ Pode muito bem fazer sentido usar SCG ou SaaS como o núcleo de um novo sistema 
 #### Lista de verificação
 
 - O orçamento não obriga ao uso de SCG, SaaS ou software personalizado, mas permite que a agência proponha uma combinação daqueles conforme achar necessário.
-- As alegações dos fornecedores de que seu produto SCG ou SaaS funcionará imediatamente, sem modificação ou personalização onerosa, são investigadas de forma independente conversando com outros clientes que usaram esses produtos e passaram pelo processo de personalização e implantação.
+- As alegações dos fornecedores de que seu produto SCG ou SaaS funcionará imediatamente, sem modificação ou personalização onerosa, são investigadas de forma independente conversando com outros clientes que usaram esses produtos e passaram pelo processo de personalização e implementação.
 
 
 #### Questões-chave
@@ -194,9 +194,9 @@ Pode muito bem fazer sentido usar SCG ou SaaS como o núcleo de um novo sistema 
 
 Historicamente, o progresso em projetos de desenvolvimento de software era medido comparando o trabalho que foi feito com o cronograma de trabalho que foi estabelecido no início. Isso é feito produzindo artefatos como gráficos de Gantt e listas de tarefas concluídas. Mas isso não funciona - o desenvolvimento ágil de software tem como premissa a ideia de que isso não funciona. As equipas de desenvolvimento de software modernas nunca ouviram falar de "CMMI" ou "ISO-9000" e não licitarão trabalhos que incluam esses requisitos.
 
-Uma filosofia melhor é _demos, não memorandos._ Em vez de medir o progresso olhando para artefatos feitos para o propósito, olhe para o trabalho real que está sendo feito. Junte-se às revisões que são realizadas no final de cadO pedido de proposta, onde o trabalho realizado naquele sprint é demonstrado para a equipa do projeto e os utilizadores finais convidados. Experimente o site. Instale a aplicação.
+Uma filosofia melhor é _demos, não memorandos._ Em vez de medir o progresso olhando para artefatos feitos para o propósito, olhe para o trabalho real que está sendo feito. Junte-se às revisões que são realizadas no final de cada pedido de proposta, onde o trabalho realizado naquele sprint é demonstrado para a equipa do projeto e os utilizadores finais convidados. Experimente o site. Instale a aplicação.
 
-Uma parte importante para garantir que o progresso não seja ilusório é que o contrato inclua um Plano de Vigilância de Garantia de Qualidade (PVGQ) que exige, no final de cadO pedido de proposta, que todo o trabalho atenda a padrões específicos. O PVGQ descreve o método pelo qual o governo determinará se o trabalho do fornecedor é de qualidade suficiente para ser aceite no final de cadO pedido de proposta, permitindo que o fornecedor execute os mesmos testes para garantir que não haverá surpresas.
+Uma parte importante para garantir que o progresso não seja ilusório é que o contrato inclua um Plano de Vigilância de Garantia de Qualidade (PVGQ) que exige, no final de cada pedido de proposta, que todo o trabalho respeite padrões específicos. O PVGQ descreve o método pelo qual o governo determinará se o trabalho do fornecedor é de qualidade suficiente para ser aceite no final de cada pedido de proposta, permitindo que o fornecedor execute os mesmos testes para garantir que não haverá surpresas.
 
 O PVGC não exige a produção de nenhum artefato explicitamente com o propósito de monitorar o trabalho - a maneira de monitorar o trabalho é _ver se ele realmente funciona._ Esta é uma maneira muito diferente de acompanhar o progresso de um projeto de tecnologia. Ele tem a vantagem adicional de ser um teste funcional mais objetivo, observável do que exigir interpretações subjetivas ou legais sobre se o trabalho satisfaz uma longa série de requisitos de sistema.
 
