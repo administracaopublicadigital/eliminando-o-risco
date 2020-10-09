@@ -445,7 +445,7 @@ Em última análise, isso pode fornecer às agências uma fonte previsível de f
 #### Questões-chave
 
 - O financiamento solicitado será gasto dentro de um único período do orçamento?
-- Que valor poderá ser entregue aos utilizadores finais por uma fracçaõ do valor solicitado?
+- Que valor poderá ser entregue aos utilizadores finais por uma fracção do valor solicitado?
 - Os responsáveis pelo financiamento do trabalho estão abertos a uma abordagem operacional para o financiamento?
 
 
