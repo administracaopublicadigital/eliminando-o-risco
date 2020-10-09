@@ -1018,12 +1018,13 @@ samp {
 
   .toc a {
     color: hsla(0, 0%, 0%, 0.9);
-    font-size: 18px;
+    font-size: 16px;
+    line-height 1;
     text-decoration: underline;
   }
 
   .toc:before {
-    content: "Table of Contents";
+    content: "Índice";
     margin-bottom: 1.75rem;
     display: block;
     color: inherit;

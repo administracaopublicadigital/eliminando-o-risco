@@ -1,8 +1,8 @@
 const footerTemplate =
-  '<div style="margin: 0 auto 10px auto;"><h1 style="color: #ddd; font-family: Helvetica; font-size: 8px; text-align: center;">Page <span class="pageNumber"></span> of <span class="totalPages"></span></h1></div>';
+  '<div style="margin: 0 auto 10px auto;"><h1 style="color: #ddd; font-family: Helvetica; font-size: 8px; text-align: center;">Página <span class="pageNumber"></span> de <span class="totalPages"></span></h1></div>';
 
 const footerDark =
-  '<style>* {-webkit-print-color-adjust: exact; color: #3B5C77; background: rgb(32, 40, 51);}</style><div style="margin: 0 auto;"><h1 style="font-family: Helvetica, serif; font-size: 8px; text-align: center;">Page <span class="pageNumber"></span> of <span class="totalPages"></span></h1></div>';
+  '<style>* {-webkit-print-color-adjust: exact; color: #3B5C77; background: rgb(32, 40, 51);}</style><div style="margin: 0 auto;"><h1 style="font-family: Helvetica, serif; font-size: 8px; text-align: center;">Página <span class="pageNumber"></span> de <span class="totalPages"></span></h1></div>';
 
 const epubCSS = `
   @font-face {
@@ -77,59 +77,59 @@ const epubCSS = `
   }
   .token.variable {
     color: #464646;
-    
+
   }
   .token.operator {
     color: #464646;
-    
+
   }
   .token.keyword {
     color: #999999;
-    
+
   }
   .token.number {
     color: #999999;
-    
+
   }
   .token.constant {
     color: #999999;
-    
+
   }
   .token.attr-name {
     color: #999999;
-    
+
   }
   .token.builtin {
     color: #868686;
-    
+
   }
   .token.string {
     color: #868686;
-    
+
   }
   .token.char {
     color: #868686;
-    
+
   }
   .token.tag {
     color: #7C7C7C;
-    
+
   }
   .token.deleted {
     color: #7C7C7C;
-    
+
   }
   .token.selector {
     color: #747474;
-    
+
   }
   .token.changed {
     color: #747474;
-    
+
   }
   .token.inserted {
     color: #8E8E8E;
-    
+
   }
   .token.important,
   .token.bold {

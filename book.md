@@ -91,7 +91,7 @@ Um dono de produto forte garante que a visão é clara, a estratégia é clara e
 
 Isto é diferente da gestão de projeto típico em tecnologias de informação (TI) governamental. O dono do produto não terá cronogramas ou um plano detalhado de 5 anos. Mas ele terá uma visão dos resultados que serão entregues aos utilizadores e terá um caminho para a sua execução. A sua função principal é entender o que a equipa de desenvolvimento está a fazer e garantir que se encontra o equilíbrio certo entre as necessidades do governo e as necessidades dos utilizadores finais.
 
-É possível que um proprietário de produto principiante aprenda durante o decorrer do processo, mas é melhor que seja treinado com antecedência. Existem muitas fontes de treino ágil e *scrum*, algumas específicas para proprietários de produtos, entre séries de vídeos do YouTube e aulas presenciais de vários dias para se tornar um "Dono de Produto Certificado Scrum". Quanto mais importante o projeto, mais formal e rigoroso deverá ser a formação do dono do produto.
+É possível que um proprietário de produto principiante aprenda durante o decorrer do processo, mas é melhor que seja treinado com antecedência. Existem muitas fontes de treino ágil, algumas específicas para proprietários de produtos, entre séries de vídeos do YouTube e aulas presenciais de vários dias para se tornar um "Dono de Produto Certificado Scrum". Quanto mais importante o projeto, mais formal e rigoroso deverá ser a formação do dono do produto.
 
 
 ### DevOps
