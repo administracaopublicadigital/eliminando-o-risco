@@ -1,24 +1,24 @@
 # Introdução
 
-Apenas uma pequena percentagem dos grandes projetos de software do governo são bem-sucedidos. De uma forma geral, os projetos estatais de tecnologias de informação costumam correr mal porque o estado não possui conhecimentos básicos sobre o desenvolvimento de software moderno e dependende de processos de aquisição desatualizados. Todos os anos, o governo gasta muito dinheiro em projetos para manter e modernizar os sistemas de informação usados, mas os esforços para modernizar esses sistemas antiquados fracassam a uma taxa alarmante e com grande custo para o nosso orçamento.
+Apenas uma pequena percentagem dos grandes projetos de software do estado são bem sucedidos. De uma forma geral, os projetos estatais de tecnologias de informação costumam correr mal porque o estado não possui conhecimentos básicos sobre o desenvolvimento de software moderno, e dependende de processos de aquisição desatualizados. Todos os anos, o estado gasta muito dinheiro em projetos para manter e modernizar os sistemas de informação usados, mas os esforços para modernizar esses sistemas antiquados fracassam a uma taxa alarmante e com grande custo para os contribuintes. 
 
-A nossa administração pública depende cada vez mais de software e hardware modernos para implementar programas e fornecer serviços essenciais ao público, e o sucesso de qualquer iniciativa depende do sucesso da infraestrutura de software subjacente. Todas as entidades governamentais enfrentam desafios semelhantes, enfrentando restrições de orçamento e de pessoal enquanto lutam para modernizar os sistemas de tecnologia antiquados que estão desatualizados e são inflexíveis, caros e ineficazes. Funcionários e serviços da administração pública muitas vezes contam com os mesmos processos antigos que conduziram aos problemas em primeiro lugar.
+A nossa administração pública depende cada vez mais de software e hardware moderno para implementar programas, e fornecer serviços essenciais ao público, e o sucesso de qualquer iniciativa depende do sucesso da infraestrutura de software subjacente. Todas as entidades governamentais enfrentam desafios semelhantes, enfrentando restrições de orçamento, e de recursos humanos,  enquanto lutam para modernizar os sistemas de tecnologia que estão desatualizados e são inflexíveis, caros e ineficazes. Funcionários e serviços da administração pública muitas vezes dependem dos mesmos processos antiquados que conduziram aos problemas em primeiro lugar
 
-O público merece um governo que forneça a mesma tecnologia de topo que consegue obter no mercado comercial. A confiança no governo depende disso.
+O público merece um estado que forneça a mesma tecnologia de topo que consegue obter no mercado comercial. A confiança no estado depende disso.
 
-Este manual foi elaborado para executivos, especialistas em orçamento, legisladores e outros tomadores de decisão que financiam ou supervisionam projetos de tecnologia do governo e implementam a tecnologia necessária para apoiar a administração pública. Ele pode ajudá-lo a preparar esses projetos para o sucesso, fazendo as perguntas certas, identificando os resultados certos e, igualmente importante, capacitá-lo com o conhecimento básico dos princípios fundamentais do design e construção de software moderno.
+Este manual foi elaborado para executivos, especialistas em planeamento, legisladores e outros decisores que decidem ou supervisionam projetos de tecnologia do estado, e implementam a tecnologia necessária para apoiar a administração pública. Este manual pode ajudá-lo a preparar esses projetos a serem bem sucedidos, fazendo as perguntas certas, identificando os resultados certos e, igualmente importante, capacitá-lo com o conhecimento básico dos princípios fundamentais do design e construção de software moderno.
 
-Este manual também fornece as ferramentas de que precisa para começar a lidar com problemas relacionados, tais como:
+Este manual também fornece as ferramentas necessárias  para começar a lidar com problemas relacionados, tais como:
 
 - A necessidade de simultaneamante usar, manter e modernizar sistemas antiquados;
-- Organizações isoladas e culturas avessas ao risco;
-- Longos ciclos de orçamento que nem sempre correspondem às práticas modernas de design de software;
-- Ameaças à segurança;
-- Contratação, pessoal e outras restrições.
+- As organizações isoladas e culturas avessas ao risco;
+- Os longos ciclos de planeamento de custos,  que nem sempre correspondem às práticas modernas de design de software;
+- As ameaças à segurança e integridade dos sistemas:
+- A contratação de recursos humanos outras restrições orçamentais
 
 Este documento foi escrito especificamente para a aquisição de software feito à medida, mas é importante reconhecer que o software comercial genérico (SCG) é frequentemente personalizado e que o Software como Serviço (_Software as a Service_ ou _SaaS_) frequentemente requer personalização. Assim que qualquer personalização for feita, a maioria dos conselhos neste manual aplicam-se também a essas ofertas comerciais. (Consulte "Cuidado com a armadilha de software comercial personalizado" para obter detalhes.)
 
-Como funcionários governamentais, devemos ser bons administradores do dinheiro público, exigindo ferramentas digitais sustentáveis, económicas e fáceis de usar pelo público e funcionários da administração pública. Este manual ajudá-lo-á a fazer exatamente isso.
+Como funcionários públicos, devemos ser bons administradores do dinheiro público, exigindo ferramentas digitais sustentáveis, económicas e fáceis de usar pelo público e pelos funcionários da administração pública. Este manual ajudá-lo-á a fazer exatamente isso.
 
 ## Sobre os autores
 
