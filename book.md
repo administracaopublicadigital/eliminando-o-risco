@@ -96,7 +96,7 @@ Isto é diferente da gestão de projeto típico em tecnologias de informação (
 
 ### DevOps
 
-Historicamente, as equipas de desenvolvimento de software são separadas das equipas de TI responsáveis ​​por operar o software. Um fornecedor podia passar anos a criar um novo software e, em seguida, uma equipa de TI do governo (ou um fornecedor que desempenhe essa função) podia exigir muitos meses de trabalho para fazer com que o software funcionasse corretamente nos seus servidores. Este processo geralmente é acompanhado por frustração e acusações, e pode levar a falhas e atrasos no projeto. Para resolver isso, as agências governamentais costumam insistir que o fornecedor que constrói o software também o aloje indefinidamente na sua própria infraestrutura, o que tem o efeito de descartar a maioria dos fornecedores de software (que não estão no negócio de alojamento) e criar uma dependência do fornecedor, com os altos preços e riscos associados. Contar com essas abordagens antigas vai render-lhe menos e custar mais do que se adotasse as metodologias de software modernas que são padrão no setor privado.
+Historicamente, as equipas de desenvolvimento de software são separadas das equipas de TI responsáveis ​​por operar o software. Um fornecedor podia passar anos a criar um novo software e, em seguida, uma equipa de TI do governo (ou um fornecedor que desempenhe essa função) podia exigir muitos meses de trabalho para fazer com que o software funcionasse corretamente nos seus servidores. Este processo geralmente é acompanhado por frustração e acusações, e pode levar a falhas e atrasos no projeto. Para resolver isso, os organismos públicos costumam insistir que o fornecedor que constrói o software também o aloje indefinidamente na sua própria infraestrutura, o que tem o efeito de descartar a maioria dos fornecedores de software (que não estão no negócio de alojamento) e criar uma dependência do fornecedor, com os altos preços e riscos associados. Contar com essas abordagens antigas vai render-lhe menos e custar mais do que se adotasse as metodologias de software modernas que são padrão no setor privado.
 
 A maneira de resolver isso é com DevOps. DevOps é a prática de coordenar o trabalho desses dois grupos para automatizar os testes ao software e disponibilizá-lo num servidor ativo onde as pessoas possam usá-lo - misturando **desenvolvimento** de software e **operações** de sistema. Os programadores escrevem uma série de processos automatizados para garantir que o software funciona corretamente em produção, durante a criação do próprio software. Os programadores não podem simplesmente dar o seu trabalho por concluído e entregá-lo à equipa de operações do sistema e declarar que "funciona para nós" - eles são responsáveis, tanto prática quanto contratualmente, por que o seu código funcione corretamente no ambiente designado.
 
@@ -116,7 +116,7 @@ Construir sistemas de TI usando partes desacpoladas, conectadas por APIs abertas
 
 ### Contratação modular
 
-Ao combinar o design centrado no utilizador, a agilidade, a propriedade do produto, DevOps e a construção com peças desacopladas, é possível partir um contrato grande e arriscado num punhado de contratos menores. Um contrato deve ser pequeno o suficiente para que a agência não tenha escrúpulos em não continuar a dar mais trabalho a um fornecedor com baixo desempenho, substituindo-o por um novo fornecedor. Nesse caso os restantes fornecedores poderão continuar a trabalhar, e a perda total de velocidade será mínima. Um novo fornecedor não deveria ter dificuldade em substituir o antigo, já que o antigo estava entregando software completo, documentado e testado a cada duas semanas. Outro benefício é que pequenos contratos podem chegar abaixo do limite de aquisição simplificado da administração pública, o que significa que as organizações podem rapidamente escrever um convite, publicá-la e conceder um contrato.
+Ao combinar o design centrado no utilizador, a agilidade, a propriedade do produto, DevOps e a construção com peças desacopladas, é possível partir um contrato grande e arriscado num punhado de contratos menores. Um contrato deve ser pequeno o suficiente para que o organismo público não tenha escrúpulos em não continuar a dar mais trabalho a um fornecedor com baixo desempenho, substituindo-o por um novo fornecedor. Nesse caso os restantes fornecedores poderão continuar a trabalhar, e a perda total de velocidade será mínima. Um novo fornecedor não deveria ter dificuldade em substituir o antigo, já que o antigo estava entregando software completo, documentado e testado a cada duas semanas. Outro benefício é que pequenos contratos podem chegar abaixo do limite de aquisição simplificado da administração pública, o que significa que as organizações podem rapidamente escrever um convite, publicá-la e conceder um contrato.
 
 Esta abordagem exigirá coordenação e aceitação dos responsáveis pelas aquisições e contratações. Estes funcionários geralmente estão acostumados à abordagem tradicional de terceirizar projetos de TI: uma grande aquisição baseada em longos documentos de pedidos de proposta, solicitando dos fornecedores propostas longas, certificações e qualificações desatualizadas. Geralmente, os fornecedores que usam métodos ágeis e centrados no utilizador não têm ideia do que seja "CMMI" ou "ISO-9000" - tais padrões já não são considerados melhores práticas para a criação de sistemas de software flexíveis e económicos. Esta é uma barreira de entrada para muitos dos fornecedores que poderiam ser contratados pelo governo mas que não desejam gastar todos os recursos necessários para se qualificar e escrever uma proposta.
 
@@ -127,7 +127,7 @@ Os processos modernos de desenvolvimento de software são baseados no design cen
 
 ### Pense sobre o risco de uma nova maneira
 
-Nas últimas décadas, as agências governamentais deixaram de usar funcionários internos, contando com fornecedores externos para construir as suas ferramentas de tecnologia digital. As decisões para fazer isso foram baseadas em trocas compensatórias que pareciam opções de menor risco - muitas vezes impulsionadas por uma capacidade limitada no governo e promessas de ferramentas mais baratas "disponíveis no mercado" oferecidas por contratantes.
+Nas últimas décadas, os organismos públicos deixaram de usar funcionários internos, contando com fornecedores externos para construir as suas ferramentas de tecnologia digital. As decisões para fazer isso foram baseadas em trocas compensatórias que pareciam opções de menor risco - muitas vezes impulsionadas por uma capacidade limitada no governo e promessas de ferramentas mais baratas "disponíveis no mercado" oferecidas por contratantes.
 
 No entanto, aprendemos com exemplos de vários projetos que, embora o governo possa facilmente externalizar o trabalho de criação de novos sistemas digitais, ele não pode externalizar o risco de falha. Projetos que correm mal refletem-se também no governo, não só em empreiteiros ou fornecedores de software.
 
@@ -135,12 +135,12 @@ O governo é, em última análise, responsável pela sua missão, e por consequ�
 
 Isso não significa que os departamentos precisem de realizar todo o trabalho internamente; significa que os departamentos precisam de definir expectativas claras sobre os resultados humanos e padrões técnicos relacionados com a segurança de dados, uso, interoperabilidade, monitorização e avaliação.
 
-O conhecimento técnico é acessível e abundante, mas saber como administrar um serviço ou agência estatal é uma habilidade rara e valiosa. O governo deve abraçar e assumir a sua responsabilidade e o risco de falha, reconhecendo que os fornecedores de tecnologia são contratados apenas para ajudar e devem poder ser facilmente substituíveis se não tiverem o desempenho esperado.
+O conhecimento técnico é acessível e abundante, mas saber como administrar um serviço ou organismo público é uma habilidade rara e valiosa. O governo deve abraçar e assumir a sua responsabilidade e o risco de falha, reconhecendo que os fornecedores de tecnologia são contratados apenas para ajudar e devem poder ser facilmente substituíveis se não tiverem o desempenho esperado.
 
 
 #### Lista de verificação
 
-- O projeto tem um dono do produto dedicado e autorizado, que é funcionário do departamento / serviço - não é um contratado e não é funcionário da agência de TI do estado;
+- O projeto tem um dono do produto dedicado e autorizado, que é funcionário do departamento / serviço - não é um contratado e não é funcionário do departamento de TI do organismo público;
 - As partes interessadas reconhecem que a abordagem existente (desenvolvimento em cascata) falha na maioria das vezes e que mudar para o desenvolvimento ágil e aquisição modular é, de fato, significativamente menos arriscado;
 - As partes interessadas consideram os fornecedores externos como peças substituíveis para cumprir um objetivo, em vez de como os "donos" de um projeto ou do seu resultado.
 
@@ -166,7 +166,7 @@ Historicamente, tem havido pressão para usar apenas contratos de preço fixo, n
 
 #### Lista de verificação
 
-- O projeto tem um dono do produto dedicado e autorizado que é um funcionário da instituição - não um contratado e não um funcionário da agência de TI do estado - cujo trabalho é priorizar o trabalho para a equipa de desenvolvimento;
+- O projeto tem um dono do produto dedicado e autorizado que é um funcionário da instituição - não é um contratado e não é funcionário do departamento de TI do organismo público - cujo trabalho é priorizar o trabalho para a equipa de desenvolvimento;
 - Um oficial de contratação do governo abraçou este projeto e está entusiasmado com novas formas de aquisição de software;
 - O pedido de proposta será exclusivamente sobre a aquisição de serviços de desenvolvimento, não sobre a aquisição de algo tangível;
 - O pedido de proposta exigirá uma equipa multifuncional de designers, investigadores e programadores;
@@ -192,14 +192,14 @@ Mas, para aquisições importantes de tecnologia especializada crítica, seja ex
 
 Antes de contratar essas ferramentas, fale primeiro com outras entidades que usaram esses produtos personalizados. Muito provavelmente, você aprenderá que o que está sendo vendido como uma solução pronta a usar leva muito mais tempo e dinheiro para personalizar do que esperava.
 
-Em vez de exigir qualquer solução na fase de orçamento, dê às agências o espaço para determinar se devem comprar ou construir várias partes do sistema. Se a alocação de orçamento exige SCG, então a instituição provavelmente terminará aprisionada numa versão altamente modificada de um produto SCG, barrada de todas as atualizações futuras por causa dessas modificações. Da mesma forma, a obrigatoriedade em usar software-como-serviço (SaaS) provavelmente forçará a agência a ajustar os seus requisitos como um sapato apertado, enquanto gasta uma quantia significativa de dinheiro adicional num "integrador de software" para ligá-lo ao sistema existente, levando ao mesmo tipo de aprisionamento indesejável.
+Em vez de exigir qualquer solução na fase de orçamento, dê aos organismos públicos, o espaço para determinar se devem comprar ou construir várias partes do sistema. Se a alocação de orçamento exige SCG, então a instituição provavelmente terminará aprisionada numa versão altamente modificada de um produto SCG, barrada de todas as atualizações futuras por causa dessas modificações. Da mesma forma, a obrigatoriedade em usar software-como-serviço (SaaS) provavelmente forçará o organismo a ajustar os seus requisitos como um sapato apertado, enquanto gasta uma quantia significativa de dinheiro adicional num "integrador de software" para ligá-lo ao sistema existente, levando ao mesmo tipo de aprisionamento indesejável.
 
 Pode muito bem fazer sentido usar SCG ou SaaS como o núcleo de um novo sistema importante. Mas a instituição precisa de examinar isso com atenção, reconhecendo que não é provável que consigam uma solução SCG ou SaaS totalmente pronta para a utilização especializada que a instituição necessita.
 
 
 #### Lista de verificação
 
-- O orçamento não obriga ao uso de SCG, SaaS ou software personalizado, mas permite que a agência proponha uma combinação daqueles conforme achar necessário.
+- O orçamento não obriga ao uso de SCG, SaaS ou software personalizado, mas permite que o organismo público proponha uma combinação daqueles conforme achar necessário.
 - As alegações dos fornecedores de que seu produto SCG ou SaaS funcionará imediatamente, sem modificação ou personalização onerosa, são investigadas de forma independente conversando com outros clientes que usaram esses produtos e passaram pelo processo de personalização e implementação.
 
 
@@ -237,7 +237,7 @@ O PVGC não exige a produção de nenhum artefato explicitamente com o propósit
 
 ### Contrate talento interno
 
-Se ninguém na comissão de orçamentação (???) tiver experiência com desenvolvimento de software, então não estão bem equipados para considerar uma solicitação de financiamento de desenvolvimento de software. O mesmo é verdade para instituições - se ninguém na liderança de projetos tiver experiência com desenvolvimento de software, então a instituição não está bem equipada para liderar um projeto de desenvolvimento de software com sucesso. A responsabilidade recai sobre o governo, legisladores e chefias para garantir que suas respectivas organizações priorizem a contratação de pessoas com essa experiência.
+Se ninguém na comissão de orçamentação (???) tiver experiência com desenvolvimento de software, então não estão bem equipados para considerar uma solicitação de financiamento de desenvolvimento de software. O mesmo é verdade para instituições - se ninguém na liderança de projetos tiver experiência com desenvolvimento de software, então a instituição não está bem equipada para liderar um projeto de desenvolvimento de software com sucesso. A responsabilidade recai sobre o governo, legisladores e chefias para garantir que suas respectivas organizações privilegiem a contratação de pessoas com essa experiência.
 
 Embora possa ser tentador resolver essa lacuna de conhecimento contando com alguém do departamento de TI central do estado ou com um fornecedor, em última análise, as instituições devem ter o conhecimento interno suficiente para compreender o que precisam, o que deveriam exigir dos fornecedores e conseguir avaliar o trabalho realizado.
 
@@ -249,7 +249,7 @@ O custo de contratar um programador ou aprimorar as habilidades dos seus funcion
 
 Da mesma forma, as instituições devem empregar diretamente programadores suficientes para que possam supervisionar o trabalho que está sendo feito pelos fornecedores. Eles representarão a instituição, garantindo que o trabalho dos fornecedores seja de alta qualidade e que os fornecedores estejam trabalhando nas coisas certas.
 
-Embora o software nunca esteja "pronto" - você sempre precisará se adaptar às mudanças de tecnologia, política, regulamentos, leis e necessidades do utilizador - chegará um ponto em que você precisará de uma equipa muito menor para continuar esse trabalho. Nessa altura torna-se especialmente importante ter vários funcionários da agência que entendam totalmente o software e que sejam capazes de mantê-lo.
+Embora o software nunca esteja "pronto" - você sempre precisará se adaptar às mudanças de tecnologia, política, regulamentos, leis e necessidades do utilizador - chegará um ponto em que você precisará de uma equipa muito menor para continuar esse trabalho. Nessa altura torna-se especialmente importante ter vários funcionários do organismo público que entendam totalmente o software e que sejam capazes de mantê-lo.
 
 Para projetos maiores, você precisará de contratar uma equipa de desenvolvimento a termo indefinido, sob a supervisão de um dono de produto do governo. Nos projectos em cascata, isso chama-se "Operações e Manutenção", mas sob a metodologia ágil, O&M é simplesmente o processo comum de investigação de utilizadores, design, desenvolvimento de software contínuos, etc.
 
@@ -263,7 +263,7 @@ Para projetos maiores, você precisará de contratar uma equipa de desenvolvimen
 #### Questões-chave
 
 - Quando um fornecedor entrega o código no final de cada pedido de proposta, que funcionário _específico_ do governo inspeciona o código para garantir a qualidade?
-- Se uma agência apresenta um custo para concluir um projeto de software específico, que funcionário de orçamento (???) está equipado para saber se esse é um preço adequado? Qual funcionário do comité de orçamento legislativo (???) _específico_ está equipado para saber se esse é um preço adequado?
+- Se o organismo público apresenta um custo para concluir um projeto de software específico, que funcionário de orçamento (???) está equipado para saber se esse é um preço adequado? Qual funcionário do comité de orçamento legislativo (???) _específico_ está equipado para saber se esse é um preço adequado?
 - Quando a aquisição for concluída, quem fará a manutenção do software? A instituição emprega pessoas que sabem como mantê-la? Eles serão incluídos no processo de desenvolvimento para que possam aprender sobre como ele é construído e ajudar a garantir que seja algo que eles sejam capazes de suportar?
 
 
@@ -298,7 +298,7 @@ Portanto, em vez de adquirir uma peça gigante de software proprietário, insist
 
 ### Avalie o sucesso com base em resultados iterativos, não em marcos do projeto
 
-O valor não deve vir no final de um projeto - deve ser fornecido aos utilizadores finais no prazo máximo de seis meses após a adjudicação do contrato, e constantemente a partir daí. No final do _primeiro_ sprint, o código funcional deve ser entregue à agência para sua revisão, e isso deve repetir-se com cada pedido de proposta subsequente. Os utilizadores finais devem avaliar o trabalho no final de cada pedido de proposta, independentemente de o trabalho já ter sido implementado para uso diário.
+O valor não deve vir no final de um projeto - deve ser fornecido aos utilizadores finais no prazo máximo de seis meses após a adjudicação do contrato, e constantemente a partir daí. No final do primeiro _sprint_, o código funcional deve ser entregue ao organismo público para sua revisão, e isso deve repetir-se com cada pedido de proposta subsequente. Os utilizadores finais devem avaliar o trabalho no final de cada pedido de proposta, independentemente de o trabalho já ter sido implementado para uso diário.
 
 Não meça o progresso em "pontos da histórias", linhas de código escritas, horas de trabalho por pessoa, etc. A única medida de sucesso que importa é o valor entregue aos utilizadores finais. Isso é melhor avaliado participando nas revisões de sprint bi-semanais e conversando com o dono do produto.
 
@@ -314,8 +314,8 @@ Não meça o progresso em "pontos da histórias", linhas de código escritas, ho
 
 #### Questões-chave
 
-- A agência solicitante pode providenciar valor aos utilizadores finais em seis meses? Qual é, especificamente, esse valor?
-- A agência está preparada para o fornecedor entrevistar e testar continuamente o seu trabalho com utilizadores finais reais - talvez incluindo funcionários da agência?
+- O organismo público solicitante pode providenciar valor aos utilizadores finais em seis meses? Qual é, especificamente, esse valor?
+- O organismo público está preparado para o fornecedor entrevistar e testar continuamente o seu trabalho com utilizadores finais reais - talvez incluindo funcionários da organização?
 
 
 ### Limitar gastos totais
@@ -325,8 +325,7 @@ Quanto maior a quantia de dinheiro gasta em um projeto de software, maiores as p
 
 #### Lista de controle
 
-- A agência solicitante entende que não está recebendo uma pequena percentagem dos recursos de que acredita precisar - em vez disso, está recebendo um processo inteiramente novo para adquirir software, bem como financiamento adequado sob esse modelo.
-
+- O organismo público solicitante entende que não está recebendo uma pequena percentagem dos recursos de que acredita precisar - em vez disso, está recebendo um processo inteiramente novo para adquirir software, bem como financiamento adequado sob esse modelo.
 
 ### Limitar tamanhos de contrato
 
@@ -417,30 +416,27 @@ Se o software for publicado abertamente, os funcionários dos fornecedores ficar
 #### Questões-chave
 
 - Os responsáveis pela ciber-segurança do estado ou da instituição ficarão preocupados com a perspectiva de publicar software de código aberto e assim bloquear a implantação do software?
-- Existem outras agências no estado que possam beneficiar deste software? Eles podem ser consultados antes e durante o processo de desenvolvimento?
-- O escritório de consultoria jurídica da agência (ou seu equivalente) fará objeções à publicação de software no domínio público ou sob uma [licença de código aberto aprovada pela OSI](https://opensource.org/licenses)?
-
-
+- Existem outros organismos do estado que possam beneficiar deste software? Eles podem ser consultados antes e durante o processo de desenvolvimento?
+- O escritório de consultoria jurídica do organismo público (ou seu equivalente) fará objeções à publicação de software no domínio público ou sob uma [licença de código aberto aprovada pela OSI](https://opensource.org/licenses)?
 
 ### Orçamento para software como despesa operacional
 
 Ao contrário de pontes ou outros projetos de infraestrutura física, o software personalizado nunca está "pronto", por isso é importante planear para que ele seja modificado continuamente. Dessa forma, ele pode atender às necessidades de hoje, não de ontem.
 
-Para sistemas pequenos, isso pode exigir a adição de um ou menos colaboradores a tempo inteiro à equipa de programadores da agência. Para sistemas grandes e importantes, isso pode exigir a aquisição de uma equipa para desenvolver e manter o software continuamente.
+Para sistemas pequenos, isso pode exigir a adição de um ou menos colaboradores a tempo inteiro à equipa de programadores do organismo público. Para sistemas grandes e importantes, isso pode exigir a aquisição de uma equipa para desenvolver e manter o software continuamente.
 
 A manutenção de software às vezes é orçamentada como se fosse uma atividade diferente da construção inicial de software, mas isso é um erro. Manter o software deve significar simplesmente continuar a modificá-lo em resposta às necessidades do utilizador identificadas, que mudam continuamente junto com as leis, regulamentos, políticas, melhores práticas e tecnologia. Isso requer os mesmos conjuntos de habilidades, metodologia e tarefas como construir um sistema de raíz. Uma proposta para a transição do desenvolvimento de software para uma fase de "operações e manutenção" ("O&M") deve ser vista como um mau sinal.
 
-Em última análise, isso pode fornecer às agências uma fonte previsível de financiamento para projetos de software - substituindo despesas de capital imprevisíveis - ao mesmo tempo que fornece ao poder legislativo um custo anual previsível para todos os projetos de software da agência.
+Em última análise, isso pode fornecer aos organismos públicos uma fonte previsível de financiamento para projetos de software - substituindo despesas de capital imprevisíveis - ao mesmo tempo que fornece ao poder legislativo um custo anual previsível para todos os projetos de software do organismo.
 
 
 #### Lista de verificação
 
-- A agência reconhece que o software deve ser melhorado continuamente enquanto estiver em uso, porque "manutenção" é funcionalmente o mesmo que construir software desde o início;
-- A agência planeia adquirir serviços de desenvolvimento ágil;
-- Você conversou com a agência solicitante para determinar se ela prefere receber financiamento ao longo dos anos, como um fluxo previsível de financiamento operacional, em vez de um montante fixo;
-- Esta abordagem foi coordenada com todos os departamentos e agências envolvidos - esta é provavelmente uma mudança radical que exigirá confiança e cooperação entre todas as partes;
-- Se a solicitação de uma agência apresentar um alto risco de falha, você alocará uma fracção do valor no primeiro ano, aumentando o financiamento conforme o projeto apresenta valor.
-
+- O organismo público reconhece que o software deve ser melhorado continuamente enquanto estiver em uso, porque "manutenção" é funcionalmente o mesmo que construir software desde o início;
+- O organismo público planeia adquirir serviços de desenvolvimento ágil;
+- Você conversou com o organismo público solicitante para determinar se ela prefere receber financiamento ao longo dos anos, como um fluxo previsível de financiamento operacional, em vez de um montante fixo;
+- Esta abordagem foi coordenada com todos os departamentos e organismos públicos envolvidos - esta é provavelmente uma mudança radical que exigirá confiança e cooperação entre todas as partes;
+- Se a solicitação de um organismo público apresentar um alto risco de falha, você alocará uma fracção do valor no primeiro ano, aumentando o financiamento conforme o projeto apresenta valor.
 
 #### Questões-chave
 
@@ -448,17 +444,18 @@ Em última análise, isso pode fornecer às agências uma fonte previsível de f
 - Que valor poderá ser entregue aos utilizadores finais por uma fracção do valor solicitado?
 - Os responsáveis pelo financiamento do trabalho estão abertos a uma abordagem operacional para o financiamento?
 
+### Faça perguntas técnicas aos organismos públicos
 
 ### Faça perguntas técnicas às agências
 
 As solicitações de orçamento para software personalizado geralmente apresentam pessoas não técnicas fazendo propostas técnicas para outras pessoas não técnicas. Este processo não se presta a fazer perguntas-chave, como muitas das encontradas ao longo deste manual. É importante fazer todas essas perguntas técnicas difíceis e insistir em obter as respostas certas ([consulte o Apêndice A para exemplos de perguntas e respostas](#apêndice-a-perguntas-a-fazer)).
 
-Não é gentileza financiar um projeto que vai fracassar. Se a agência não sabe exatamente o que quer comprar, não vai conseguir obtê-lo.
+Não é gentileza financiar um projeto que vai fracassar. Se o organismo público não sabe exatamente o que quer comprar, não vai conseguir obtê-lo.
 
 
 #### Questões-chave
 
-- O que é que a agência quer comprar exatamente? Por quê? Quem irá beneficiar?
+- O que é que o organismo público quer comprar exatamente? Por quê? Quem irá beneficiar?
 - Quais partes do sistema serão personalizadas? Qual será o SCG real (não personalizado)? Quanto custarão essas atualizações? O que será feito quando um componente comercial for terminado - por exemplo, se a empresa de base-de-dados sair do mercado?
 - Quem são os utilizadores finais do seu sistema? Você falou com eles? O que é que _eles_ querem?
 - Você está preparado para quando as mudanças precisam ser feitas?
@@ -480,7 +477,7 @@ Resposta certa: uma ou mais necessidades específicas do utilizador são nomeada
 
 Resposta errada: qualquer coisa que não identifique as necessidades claras dos utilizadores finais identificadas por meio da investigação junto a utilizadores.
 
-Resposta certa: a agência determinou necessidades específicas com base em entrevistas com utilizadores finais e pode citar várias dessas necessidades especificamente.
+Resposta certa: o organismo público determinou necessidades específicas com base em entrevistas com utilizadores finais e pode citar várias dessas necessidades especificamente.
 
 ### Se o fornecedor selecionado não tiver um desempenho adequado, quão difícil será rescindir o contrato? Quanto tempo vai demorar para substituí-los por outro fornecedor? Quanto você acha que vai custar?
 
