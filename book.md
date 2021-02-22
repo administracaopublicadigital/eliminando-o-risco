@@ -560,3 +560,7 @@ Resposta certa: "Os fornecedores fornecerão demonstrações frequentes de softw
 Resposta errada: "O vendedor".
 
 Resposta certa: "O estado" ou "será entregue ao domínio público".
+
+Notas:
+1) o preço não pode ficar dependente do tempo que vier a ser gasto. Tem de ficar cabimentado um valor. Poder-se-a orçamentar o limite superior, fica cabimentado, e pode não ser gasto, já o contrário, cabimentar um valor inferior ao que na realidade será gasto é bem mais complicado. Isto, falando ano-a-ano. No entanto, e para uma maior flexibilidade, poderá ser contratado um pacote de horas plurianuais.
+2) o proprietário não pode ser uma pessoa, mas sim uma entidade, com um gestor de contrato ou então um representante legal (que tenha até autonomia para delegar funções, seria o ideal para ser mais ágil)
