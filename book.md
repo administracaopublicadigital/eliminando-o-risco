@@ -220,7 +220,7 @@ O PVGC não exige a produção de nenhum artefato explicitamente com o propósit
 
 ### Contrate talento interno
 
-Se ninguém nos serviços de contratação públvia tiver experiência com desenvolvimento de software, então não estão bem equipados para considerar uma concurso público de desenvolvimento de software. O mesmo é verdade para instituições - se ninguém na liderança de projetos tiver experiência com desenvolvimento de software, então a instituição não está bem equipada para liderar um projeto de desenvolvimento de software com sucesso. A responsabilidade recai sobre o governo, legisladores e chefias para garantir que suas respectivas organizações priorizem a contratação de pessoas com essa experiência.
+Se ninguém nos serviços de contratação pública tiver experiência com desenvolvimento de software, então não estão bem equipados para considerar uma concurso público de desenvolvimento de software. O mesmo é verdade para instituições - se ninguém na liderança de projetos tiver experiência com desenvolvimento de software, então a instituição não está bem equipada para liderar um projeto de desenvolvimento de software com sucesso. A responsabilidade recai sobre o governo, legisladores e chefias para garantir que suas respectivas organizações priorizem a contratação de pessoas com essa experiência.
 
 Embora possa ser tentador resolver essa lacuna de conhecimento contando com alguém do departamento de TI central do estado ou com um fornecedor, em última análise, as instituições devem ter o conhecimento interno suficiente para compreender o que precisam, o que deveriam exigir dos fornecedores e conseguir avaliar o trabalho realizado.
 
@@ -415,7 +415,7 @@ Não é gentileza financiar um projeto que vai fracassar. Se a entidade não sab
 
 #### Questões-chave
 
-- O que é que a agência quer comprar exatamente? Por quê? Quem irá beneficiar?
+- O que é que o organismo público quer comprar exatamente? Por quê? Quem irá beneficiar?
 - Quais partes do sistema serão personalizadas? Qual será o SCG real (não personalizado)? Quanto custarão essas atualizações? O que será feito quando um componente comercial for terminado - por exemplo, se a empresa de base-de-dados sair do mercado?
 - Quem são os utilizadores finais do seu sistema? Você falou com eles? O que é que _eles_ querem?
 - Você está preparado para quando as mudanças precisam ser feitas?
